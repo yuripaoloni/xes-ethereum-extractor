@@ -1,0 +1,3 @@
+etherscan==0.3.0
+etherscan_python==2.1.0
+python-dotenv==0.20.0
