@@ -1,4 +1,6 @@
 etherscan==0.3.0
 etherscan_python==2.1.0
+pandas==1.4.2
+pm4py==2.2.20.1
 python-dotenv==0.20.0
 web3==5.26.0
