@@ -1,10 +1,15 @@
+import os
+import sys
 import pandas as pd
 from pm4py.objects.log.util import dataframe_utils
 from pm4py.objects.conversion.log import converter as log_converter
 from pm4py.objects.log.exporter.xes import exporter as xes_exporter
 
+# transactions JSON file
+file_path = sys.argv[1]
+
 # import json file and sort by 'timeStamp' value
-transactions_df = pd.read_json("data/land_proxy_transactions.json")
+transactions_df = pd.read_json(file_path)
 transactions_df = dataframe_utils.convert_timestamp_columns_in_df(
     transactions_df)
 transactions_df = transactions_df.sort_values("timeStamp")
@@ -29,4 +34,5 @@ log = log_converter.apply(transactions_df, parameters=parameters,
                           variant=log_converter.Variants.TO_EVENT_LOG)
 
 # export generated events log in xes
-xes_exporter.apply(log, "data/log.xes")
+xes_exporter.apply(
+    log, f"data/{os.path.splitext(os.path.basename(file_path))[0]}.xes")
