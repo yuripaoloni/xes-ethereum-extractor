@@ -5,6 +5,8 @@ from pm4py.objects.log.util import dataframe_utils
 from pm4py.objects.conversion.log import converter as log_converter
 from pm4py.objects.log.exporter.xes import exporter as xes_exporter
 
+# ? params: input file
+
 # transactions JSON file
 file_path = sys.argv[1]
 

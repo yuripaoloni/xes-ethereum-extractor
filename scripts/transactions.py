@@ -1,11 +1,14 @@
 import os
+import sys
 
 from contextlib import suppress
 from dotenv import load_dotenv
 from etherscan import Etherscan
 from numpy import block
 from web3 import Web3
-from utils import get_contract_address, export_transactions
+from utils import get_contract_address, export_dictionary
+
+# ? params: output file name
 
 load_dotenv()
 
@@ -29,7 +32,8 @@ land_registry_contract = w3.eth.contract(
 # will contain all the retrieved transactions
 land_proxy_transactions = []
 
-blockNumber = 0
+# ? one year block: 12322265
+blockNumber = 12322265
 
 # the Etherscan APIs returns max 10000 results. The "while true" loop allows to get all the transactions from an address
 # Retrieve 10000 a time and append them on 'land_proxy_transactions'. Stop when the length of the retrieved transactions is 1
@@ -80,4 +84,4 @@ while True:
     land_proxy_transactions.extend(transactions)
 
 # export JSON file
-export_transactions(land_proxy_transactions, "land_proxy_transactions")
+export_dictionary(land_proxy_transactions, sys.argv[1])
