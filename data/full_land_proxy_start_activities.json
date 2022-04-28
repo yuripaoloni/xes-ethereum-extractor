@@ -1,0 +1,19 @@
+{
+  "setApprovalForAll": 6081,
+  "updateLandData": 1264,
+  "transferFrom": 682,
+  "setUpdateOperator": 367,
+  "createEstateWithMetadata": 298,
+  "transferLand": 220,
+  "safeTransferFrom": 85,
+  "setUpdateManager": 57,
+  "transferManyLandToEstate": 42,
+  "approve": 31,
+  "assignMultipleParcels": 21,
+  "registerBalance": 19,
+  "updateManyLandData": 8,
+  "transferManyLand": 5,
+  "initialize": 2,
+  "authorizeDeploy": 1,
+  "createEstate": 1
+}
