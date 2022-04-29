@@ -1,0 +1,2374 @@
+[
+  {
+    "variant": "setApprovalForAll",
+    "count": 1655
+  },
+  {
+    "variant": "transferFrom",
+    "count": 509
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll",
+    "count": 311
+  },
+  {
+    "variant": "updateLandData",
+    "count": 183
+  },
+  {
+    "variant": "setUpdateOperator",
+    "count": 111
+  },
+  {
+    "variant": "updateLandData,setApprovalForAll",
+    "count": 106
+  },
+  {
+    "variant": "setApprovalForAll,transferFrom",
+    "count": 102
+  },
+  {
+    "variant": "transferFrom,transferFrom",
+    "count": 80
+  },
+  {
+    "variant": "createEstateWithMetadata",
+    "count": 72
+  },
+  {
+    "variant": "safeTransferFrom",
+    "count": 67
+  },
+  {
+    "variant": "setApprovalForAll,updateLandData",
+    "count": 48
+  },
+  {
+    "variant": "updateLandData,updateLandData",
+    "count": 40
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator",
+    "count": 37
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll,setApprovalForAll",
+    "count": 37
+  },
+  {
+    "variant": "updateLandData,transferFrom",
+    "count": 33
+  },
+  {
+    "variant": "transferFrom,transferFrom,transferFrom",
+    "count": 30
+  },
+  {
+    "variant": "updateLandData,setUpdateOperator",
+    "count": 25
+  },
+  {
+    "variant": "setUpdateOperator,setApprovalForAll",
+    "count": 20
+  },
+  {
+    "variant": "setApprovalForAll,setUpdateOperator",
+    "count": 19
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,setUpdateOperator",
+    "count": 18
+  },
+  {
+    "variant": "setUpdateManager",
+    "count": 17
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll,transferFrom",
+    "count": 17
+  },
+  {
+    "variant": "setApprovalForAll,safeTransferFrom",
+    "count": 17
+  },
+  {
+    "variant": "setApprovalForAll,updateLandData,updateLandData",
+    "count": 16
+  },
+  {
+    "variant": "createEstateWithMetadata,setApprovalForAll",
+    "count": 16
+  },
+  {
+    "variant": "transferFrom,setApprovalForAll",
+    "count": 15
+  },
+  {
+    "variant": "updateLandData,updateLandData,setApprovalForAll",
+    "count": 14
+  },
+  {
+    "variant": "updateLandData,setApprovalForAll,setApprovalForAll",
+    "count": 14
+  },
+  {
+    "variant": "transferManyLandToEstate",
+    "count": 14
+  },
+  {
+    "variant": "setApprovalForAll,updateLandData,setApprovalForAll",
+    "count": 14
+  },
+  {
+    "variant": "setApprovalForAll,transferFrom,transferFrom",
+    "count": 14
+  },
+  {
+    "variant": "setUpdateOperator,updateLandData",
+    "count": 12
+  },
+  {
+    "variant": "setApprovalForAll,createEstateWithMetadata",
+    "count": 12
+  },
+  {
+    "variant": "safeTransferFrom,safeTransferFrom",
+    "count": 12
+  },
+  {
+    "variant": "updateLandData,updateLandData,updateLandData",
+    "count": 11
+  },
+  {
+    "variant": "setUpdateOperator,transferFrom",
+    "count": 11
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll,setApprovalForAll,setApprovalForAll",
+    "count": 11
+  },
+  {
+    "variant": "approve",
+    "count": 11
+  },
+  {
+    "variant": "updateLandData,setApprovalForAll,updateLandData",
+    "count": 10
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll,setApprovalForAll,transferFrom",
+    "count": 10
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,setApprovalForAll",
+    "count": 9
+  },
+  {
+    "variant": "updateLandData,setApprovalForAll,transferFrom",
+    "count": 8
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator",
+    "count": 8
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll,updateLandData",
+    "count": 8
+  },
+  {
+    "variant": "createEstateWithMetadata,createEstateWithMetadata",
+    "count": 8
+  },
+  {
+    "variant": "updateLandData,setUpdateOperator,setApprovalForAll",
+    "count": 7
+  },
+  {
+    "variant": "setUpdateOperator,setApprovalForAll,setApprovalForAll",
+    "count": 7
+  },
+  {
+    "variant": "setApprovalForAll,updateLandData,transferFrom",
+    "count": 7
+  },
+  {
+    "variant": "setApprovalForAll,transferFrom,setApprovalForAll",
+    "count": 7
+  },
+  {
+    "variant": "updateLandData,updateLandData,updateLandData,setApprovalForAll",
+    "count": 6
+  },
+  {
+    "variant": "transferFrom,transferFrom,transferFrom,transferFrom,transferFrom",
+    "count": 6
+  },
+  {
+    "variant": "setUpdateOperator,createEstateWithMetadata",
+    "count": 6
+  },
+  {
+    "variant": "setUpdateManager,setUpdateManager",
+    "count": 6
+  },
+  {
+    "variant": "updateLandData,updateLandData,transferFrom",
+    "count": 5
+  },
+  {
+    "variant": "updateLandData,safeTransferFrom",
+    "count": 5
+  },
+  {
+    "variant": "transferFrom,transferFrom,transferFrom,transferFrom",
+    "count": 5
+  },
+  {
+    "variant": "setApprovalForAll,transferFrom,transferFrom,transferFrom",
+    "count": 5
+  },
+  {
+    "variant": "createEstateWithMetadata,transferManyLandToEstate",
+    "count": 5
+  },
+  {
+    "variant": "approve,setApprovalForAll",
+    "count": 5
+  },
+  {
+    "variant": "updateLandData,updateLandData,setUpdateOperator",
+    "count": 4
+  },
+  {
+    "variant": "updateLandData,transferFrom,transferFrom",
+    "count": 4
+  },
+  {
+    "variant": "updateLandData,createEstateWithMetadata",
+    "count": 4
+  },
+  {
+    "variant": "transferManyLandToEstate,transferManyLandToEstate",
+    "count": 4
+  },
+  {
+    "variant": "transferFrom,setApprovalForAll,setApprovalForAll",
+    "count": 4
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,transferFrom",
+    "count": 4
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,setApprovalForAll,setApprovalForAll",
+    "count": 4
+  },
+  {
+    "variant": "setApprovalForAll,updateLandData,updateLandData,updateLandData",
+    "count": 4
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll,updateLandData,updateLandData",
+    "count": 4
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll,createEstateWithMetadata",
+    "count": 4
+  },
+  {
+    "variant": "setApprovalForAll,createEstateWithMetadata,createEstateWithMetadata",
+    "count": 4
+  },
+  {
+    "variant": "setApprovalForAll,approve",
+    "count": 4
+  },
+  {
+    "variant": "updateLandData,updateLandData,updateLandData,transferFrom,transferFrom",
+    "count": 3
+  },
+  {
+    "variant": "updateLandData,updateLandData,updateLandData,setApprovalForAll,updateLandData",
+    "count": 3
+  },
+  {
+    "variant": "updateLandData,updateLandData,setApprovalForAll,updateLandData",
+    "count": 3
+  },
+  {
+    "variant": "updateLandData,updateLandData,setApprovalForAll,setApprovalForAll",
+    "count": 3
+  },
+  {
+    "variant": "updateLandData,updateLandData,createEstateWithMetadata",
+    "count": 3
+  },
+  {
+    "variant": "updateLandData,setUpdateOperator,setUpdateOperator,setUpdateOperator",
+    "count": 3
+  },
+  {
+    "variant": "updateLandData,setUpdateOperator,setUpdateOperator",
+    "count": 3
+  },
+  {
+    "variant": "updateLandData,setUpdateOperator,setApprovalForAll,updateLandData",
+    "count": 3
+  },
+  {
+    "variant": "transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom",
+    "count": 3
+  },
+  {
+    "variant": "transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom",
+    "count": 3
+  },
+  {
+    "variant": "transferFrom,transferFrom,setApprovalForAll",
+    "count": 3
+  },
+  {
+    "variant": "transferFrom,setUpdateOperator",
+    "count": 3
+  },
+  {
+    "variant": "setUpdateOperator,updateLandData,transferFrom",
+    "count": 3
+  },
+  {
+    "variant": "setUpdateOperator,updateLandData,setApprovalForAll",
+    "count": 3
+  },
+  {
+    "variant": "setUpdateOperator,transferFrom,transferFrom",
+    "count": 3
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator",
+    "count": 3
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateManager",
+    "count": 3
+  },
+  {
+    "variant": "setUpdateOperator,safeTransferFrom",
+    "count": 3
+  },
+  {
+    "variant": "setUpdateManager,updateLandData",
+    "count": 3
+  },
+  {
+    "variant": "setUpdateManager,setApprovalForAll",
+    "count": 3
+  },
+  {
+    "variant": "setApprovalForAll,updateLandData,setUpdateOperator",
+    "count": 3
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll,transferFrom,transferFrom",
+    "count": 3
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll,setApprovalForAll,safeTransferFrom",
+    "count": 3
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll,approve",
+    "count": 3
+  },
+  {
+    "variant": "safeTransferFrom,createEstateWithMetadata",
+    "count": 3
+  },
+  {
+    "variant": "createEstateWithMetadata,updateLandData",
+    "count": 3
+  },
+  {
+    "variant": "approve,approve",
+    "count": 3
+  },
+  {
+    "variant": "updateLandData,updateLandData,updateLandData,updateLandData",
+    "count": 2
+  },
+  {
+    "variant": "updateLandData,updateLandData,transferFrom,transferFrom",
+    "count": 2
+  },
+  {
+    "variant": "updateLandData,updateLandData,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator",
+    "count": 2
+  },
+  {
+    "variant": "updateLandData,updateLandData,setUpdateOperator,setUpdateOperator,setUpdateOperator",
+    "count": 2
+  },
+  {
+    "variant": "updateLandData,updateLandData,setApprovalForAll,transferFrom",
+    "count": 2
+  },
+  {
+    "variant": "updateLandData,updateLandData,safeTransferFrom",
+    "count": 2
+  },
+  {
+    "variant": "updateLandData,setApprovalForAll,updateLandData,updateLandData",
+    "count": 2
+  },
+  {
+    "variant": "updateLandData,setApprovalForAll,updateLandData,transferFrom",
+    "count": 2
+  },
+  {
+    "variant": "updateLandData,setApprovalForAll,updateLandData,setApprovalForAll,setApprovalForAll",
+    "count": 2
+  },
+  {
+    "variant": "updateLandData,setApprovalForAll,setApprovalForAll,updateLandData",
+    "count": 2
+  },
+  {
+    "variant": "updateLandData,setApprovalForAll,setApprovalForAll,safeTransferFrom",
+    "count": 2
+  },
+  {
+    "variant": "updateLandData,safeTransferFrom,safeTransferFrom",
+    "count": 2
+  },
+  {
+    "variant": "transferManyLand",
+    "count": 2
+  },
+  {
+    "variant": "transferFrom,transferLand",
+    "count": 2
+  },
+  {
+    "variant": "transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom",
+    "count": 2
+  },
+  {
+    "variant": "transferFrom,transferFrom,setApprovalForAll,setApprovalForAll",
+    "count": 2
+  },
+  {
+    "variant": "transferFrom,setApprovalForAll,transferFrom",
+    "count": 2
+  },
+  {
+    "variant": "transferFrom,safeTransferFrom",
+    "count": 2
+  },
+  {
+    "variant": "transferFrom,createEstateWithMetadata",
+    "count": 2
+  },
+  {
+    "variant": "setUpdateOperator,updateLandData,updateLandData",
+    "count": 2
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator",
+    "count": 2
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,createEstateWithMetadata",
+    "count": 2
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,setUpdateOperator,setApprovalForAll",
+    "count": 2
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,setApprovalForAll,transferFrom",
+    "count": 2
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,createEstateWithMetadata",
+    "count": 2
+  },
+  {
+    "variant": "setUpdateOperator,setApprovalForAll,transferFrom",
+    "count": 2
+  },
+  {
+    "variant": "setUpdateManager,setUpdateManager,setUpdateManager",
+    "count": 2
+  },
+  {
+    "variant": "setApprovalForAll,transferManyLandToEstate",
+    "count": 2
+  },
+  {
+    "variant": "setApprovalForAll,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom",
+    "count": 2
+  },
+  {
+    "variant": "setApprovalForAll,transferFrom,safeTransferFrom",
+    "count": 2
+  },
+  {
+    "variant": "setApprovalForAll,setUpdateOperator,transferFrom,setUpdateOperator,setUpdateOperator,setUpdateOperator",
+    "count": 2
+  },
+  {
+    "variant": "setApprovalForAll,setUpdateOperator,setApprovalForAll",
+    "count": 2
+  },
+  {
+    "variant": "setApprovalForAll,setUpdateManager",
+    "count": 2
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll,updateLandData,updateLandData,updateLandData",
+    "count": 2
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll,updateLandData,updateLandData,setApprovalForAll",
+    "count": 2
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll,setUpdateOperator,setUpdateOperator",
+    "count": 2
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll,setApprovalForAll,setApprovalForAll,setApprovalForAll",
+    "count": 2
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll,setApprovalForAll,setApprovalForAll,safeTransferFrom",
+    "count": 2
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll,setApprovalForAll,createEstateWithMetadata,setApprovalForAll",
+    "count": 2
+  },
+  {
+    "variant": "setApprovalForAll,safeTransferFrom,setApprovalForAll",
+    "count": 2
+  },
+  {
+    "variant": "setApprovalForAll,safeTransferFrom,safeTransferFrom",
+    "count": 2
+  },
+  {
+    "variant": "setApprovalForAll,createEstateWithMetadata,createEstateWithMetadata,transferFrom",
+    "count": 2
+  },
+  {
+    "variant": "setApprovalForAll,approve,approve",
+    "count": 2
+  },
+  {
+    "variant": "safeTransferFrom,transferManyLandToEstate,transferManyLandToEstate",
+    "count": 2
+  },
+  {
+    "variant": "safeTransferFrom,setApprovalForAll",
+    "count": 2
+  },
+  {
+    "variant": "safeTransferFrom,safeTransferFrom,safeTransferFrom,safeTransferFrom",
+    "count": 2
+  },
+  {
+    "variant": "safeTransferFrom,safeTransferFrom,safeTransferFrom",
+    "count": 2
+  },
+  {
+    "variant": "registerBalance",
+    "count": 2
+  },
+  {
+    "variant": "createEstateWithMetadata,transferFrom",
+    "count": 2
+  },
+  {
+    "variant": "createEstateWithMetadata,setApprovalForAll,setApprovalForAll",
+    "count": 2
+  },
+  {
+    "variant": "createEstateWithMetadata,createEstateWithMetadata,setApprovalForAll",
+    "count": 2
+  },
+  {
+    "variant": "createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata",
+    "count": 2
+  },
+  {
+    "variant": "approve,approve,approve,approve",
+    "count": 2
+  },
+  {
+    "variant": "updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,createEstateWithMetadata,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,createEstateWithMetadata,createEstateWithMetadata,updateLandData,updateLandData,createEstateWithMetadata,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,createEstateWithMetadata,createEstateWithMetadata,setApprovalForAll,updateLandData,transferFrom,updateLandData,updateLandData,updateLandData,updateLandData,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,safeTransferFrom,updateLandData,createEstateWithMetadata,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,safeTransferFrom,updateLandData,updateLandData,updateLandData,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,updateLandData,updateLandData,safeTransferFrom,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,safeTransferFrom,safeTransferFrom,updateLandData,safeTransferFrom,updateLandData,updateLandData,safeTransferFrom,createEstateWithMetadata,safeTransferFrom,updateLandData,updateLandData,createEstateWithMetadata,updateLandData,updateLandData,setUpdateOperator,setUpdateOperator,createEstateWithMetadata,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,createEstateWithMetadata,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,createEstateWithMetadata,transferFrom,transferFrom,createEstateWithMetadata,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,createEstateWithMetadata,updateLandData,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,createEstateWithMetadata,updateLandData,updateLandData,updateLandData,updateLandData,transferFrom,createEstateWithMetadata,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,createEstateWithMetadata,updateLandData,updateLandData,updateLandData,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,createEstateWithMetadata,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,updateLandData,updateLandData,updateLandData,createEstateWithMetadata,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,createEstateWithMetadata,updateLandData,updateLandData,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,updateLandData,safeTransferFrom,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,createEstateWithMetadata,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,updateLandData,createEstateWithMetadata,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,transferFrom,updateLandData,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,updateLandData,updateLandData,updateLandData,updateLandData,createEstateWithMetadata,updateLandData,updateLandData,updateLandData,createEstateWithMetadata,updateLandData,updateLandData,updateLandData,transferFrom,createEstateWithMetadata,createEstateWithMetadata,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,transferFrom,createEstateWithMetadata,createEstateWithMetadata,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,createEstateWithMetadata,updateLandData,createEstateWithMetadata,updateLandData,safeTransferFrom,safeTransferFrom,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,safeTransferFrom,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,safeTransferFrom,updateLandData,updateLandData,createEstateWithMetadata,updateLandData,updateLandData,safeTransferFrom,safeTransferFrom,safeTransferFrom,safeTransferFrom,updateLandData,safeTransferFrom,safeTransferFrom,createEstateWithMetadata,updateLandData,transferFrom,safeTransferFrom,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,setUpdateOperator,updateLandData,updateLandData,updateLandData,transferFrom,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,safeTransferFrom,safeTransferFrom,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,updateLandData,transferFrom,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,createEstateWithMetadata,transferFrom,createEstateWithMetadata,createEstateWithMetadata,safeTransferFrom,updateLandData,updateLandData,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,safeTransferFrom,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,createEstateWithMetadata,safeTransferFrom,updateLandData,updateLandData,updateLandData,safeTransferFrom,safeTransferFrom,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,updateLandData,updateLandData,updateLandData,createEstateWithMetadata,updateLandData,updateLandData,updateLandData,transferFrom,setUpdateOperator,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,setUpdateOperator,updateLandData,setUpdateOperator,createEstateWithMetadata,updateLandData,safeTransferFrom,safeTransferFrom",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,setApprovalForAll,setUpdateOperator,setUpdateOperator,createEstateWithMetadata,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,safeTransferFrom,safeTransferFrom,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,createEstateWithMetadata,updateLandData,updateLandData,safeTransferFrom,updateLandData,updateLandData,updateLandData,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,safeTransferFrom,safeTransferFrom,updateLandData,updateLandData,updateLandData,updateLandData,safeTransferFrom,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,setApprovalForAll,updateLandData,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,safeTransferFrom,updateLandData,createEstateWithMetadata,setApprovalForAll,createEstateWithMetadata,createEstateWithMetadata,transferFrom,updateLandData,updateLandData,transferFrom,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,setUpdateOperator,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,updateLandData,updateLandData,updateLandData,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,updateLandData,updateLandData,updateLandData,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,updateLandData,updateLandData,updateLandData,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateManager,setUpdateManager,setUpdateOperator,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,updateLandData,updateLandData,updateLandData,setApprovalForAll,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,updateLandData,updateLandData,updateLandData,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,updateLandData,updateLandData,updateLandData,safeTransferFrom,safeTransferFrom,createEstateWithMetadata",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,updateLandData,updateLandData,transferFrom,transferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,updateLandData,updateLandData,transferFrom,setApprovalForAll,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,updateLandData,updateLandData,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,updateLandData,updateLandData,setUpdateOperator,updateLandData,updateLandData,setApprovalForAll,updateLandData,updateLandData,setApprovalForAll,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,updateLandData,updateLandData,setUpdateOperator,setUpdateOperator,updateLandData,setUpdateOperator,updateLandData,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,updateLandData,updateLandData,setUpdateOperator,setApprovalForAll,setApprovalForAll,updateLandData,updateLandData,transferManyLandToEstate,approve,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,updateLandData,updateLandData,setApprovalForAll,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,updateLandData,updateLandData,setApprovalForAll,updateLandData,updateLandData,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,updateLandData,updateLandData,setApprovalForAll,updateLandData,setApprovalForAll,transferFrom,transferFrom,transferFrom,setApprovalForAll,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,updateLandData,updateLandData,setApprovalForAll,transferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,updateLandData,updateLandData,setApprovalForAll,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,updateLandData,updateLandData,setApprovalForAll,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,updateLandData,updateLandData,createEstateWithMetadata,setUpdateOperator,setApprovalForAll,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,createEstateWithMetadata",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,updateLandData,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,updateLandData,transferFrom,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,updateLandData,setUpdateOperator,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,updateLandData,setUpdateOperator,setUpdateOperator,updateLandData,updateLandData,setUpdateOperator,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,updateLandData,setUpdateOperator,setUpdateOperator,transferFrom,setApprovalForAll,createEstateWithMetadata",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,updateLandData,setUpdateOperator,setUpdateOperator,setUpdateOperator,updateLandData,setApprovalForAll,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,updateLandData,setUpdateOperator,setApprovalForAll,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,updateLandData,setUpdateOperator,setApprovalForAll,setApprovalForAll,transferFrom,setUpdateOperator,setUpdateOperator,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,updateLandData,setApprovalForAll,updateLandData,updateLandData,updateLandData,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,updateLandData,setApprovalForAll,updateLandData,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,updateLandData,setApprovalForAll,updateLandData,setUpdateOperator,updateLandData,setApprovalForAll,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,updateLandData,setApprovalForAll,updateLandData,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,updateLandData,setApprovalForAll,setUpdateOperator,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,updateLandData,setApprovalForAll,setUpdateOperator,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,updateLandData,setApprovalForAll,setUpdateOperator,setUpdateOperator,transferFrom,setApprovalForAll,setUpdateOperator,setApprovalForAll,setApprovalForAll,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,updateLandData,setApprovalForAll,setUpdateOperator,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,updateLandData,setApprovalForAll,safeTransferFrom,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,updateLandData,setApprovalForAll,safeTransferFrom",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,updateLandData,createEstateWithMetadata,updateLandData,updateLandData,approve",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,updateLandData,approve,updateLandData,approve",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,transferFrom,setUpdateOperator,setUpdateOperator,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,transferFrom,setApprovalForAll,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,transferFrom,setApprovalForAll,setApprovalForAll,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setUpdateOperator,updateLandData,updateLandData,setUpdateOperator,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setUpdateOperator,updateLandData,updateLandData,setApprovalForAll,setApprovalForAll,setApprovalForAll,setApprovalForAll,setApprovalForAll,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setUpdateOperator,updateLandData,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setUpdateOperator,updateLandData,setUpdateOperator,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setUpdateOperator,updateLandData,setUpdateOperator,safeTransferFrom,setUpdateOperator,setUpdateOperator,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setUpdateOperator,updateLandData,setApprovalForAll,updateLandData,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setUpdateOperator,setUpdateOperator,updateLandData,updateLandData,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setUpdateOperator,setUpdateOperator,updateLandData,setUpdateOperator,setUpdateOperator,updateLandData,setUpdateOperator,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setUpdateOperator,setUpdateOperator,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setUpdateOperator,setUpdateOperator,transferFrom,setUpdateOperator,setUpdateOperator,updateLandData,updateLandData,updateLandData,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,updateLandData,updateLandData,setUpdateOperator,createEstateWithMetadata,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,createEstateWithMetadata,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setUpdateOperator,setUpdateOperator,setUpdateOperator,updateLandData,updateLandData,updateLandData,createEstateWithMetadata,updateLandData,setUpdateOperator,updateLandData,setUpdateOperator,updateLandData,transferManyLandToEstate",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setUpdateOperator,setUpdateOperator,setUpdateOperator,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,updateLandData,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setUpdateOperator,setUpdateOperator,setApprovalForAll,setUpdateOperator,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setUpdateOperator,setUpdateOperator,setApprovalForAll,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setUpdateOperator,setUpdateOperator,setApprovalForAll,registerBalance,createEstateWithMetadata,setUpdateOperator,updateLandData,createEstateWithMetadata",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setUpdateOperator,setUpdateOperator,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setUpdateOperator,setUpdateOperator,safeTransferFrom,setUpdateOperator,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setUpdateOperator,setUpdateOperator,createEstateWithMetadata,setApprovalForAll,approve,updateLandData,updateLandData,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setUpdateOperator,setUpdateManager",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setUpdateOperator,setApprovalForAll,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setUpdateOperator,setApprovalForAll,setApprovalForAll,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setUpdateOperator,createEstateWithMetadata,transferManyLandToEstate",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setUpdateOperator,createEstateWithMetadata,setUpdateOperator,setUpdateOperator,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setUpdateOperator,createEstateWithMetadata",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setUpdateManager,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setUpdateManager,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setUpdateManager,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setUpdateManager",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setApprovalForAll,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setApprovalForAll,updateLandData,updateLandData,updateLandData,updateLandData,setApprovalForAll,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setApprovalForAll,updateLandData,updateLandData,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setApprovalForAll,updateLandData,updateLandData,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setApprovalForAll,updateLandData,setUpdateOperator,updateLandData,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setApprovalForAll,updateLandData,setUpdateOperator,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setApprovalForAll,updateLandData,setApprovalForAll,updateLandData,setApprovalForAll,setApprovalForAll,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setApprovalForAll,updateLandData,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setApprovalForAll,updateLandData,createEstateWithMetadata",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setApprovalForAll,updateLandData,approve,setApprovalForAll,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setApprovalForAll,transferFrom,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setApprovalForAll,transferFrom,transferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setApprovalForAll,transferFrom,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setApprovalForAll,transferFrom,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setApprovalForAll,transferFrom,safeTransferFrom,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setApprovalForAll,setUpdateOperator,updateLandData,updateLandData,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setApprovalForAll,setUpdateOperator,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setApprovalForAll,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,transferManyLandToEstate",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setApprovalForAll,setUpdateOperator,safeTransferFrom",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setApprovalForAll,setApprovalForAll,updateLandData,updateLandData,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setApprovalForAll,setApprovalForAll,updateLandData,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setApprovalForAll,setApprovalForAll,updateLandData,setApprovalForAll,updateLandData,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setApprovalForAll,setApprovalForAll,updateLandData,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setApprovalForAll,setApprovalForAll,updateLandData,approve",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setApprovalForAll,setApprovalForAll,transferFrom,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setApprovalForAll,setApprovalForAll,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setApprovalForAll,setApprovalForAll,setUpdateOperator,updateLandData,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setApprovalForAll,setApprovalForAll,setApprovalForAll,setApprovalForAll,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setApprovalForAll,setApprovalForAll,setApprovalForAll,setApprovalForAll,safeTransferFrom",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setApprovalForAll,setApprovalForAll,setApprovalForAll,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setApprovalForAll,setApprovalForAll,setApprovalForAll,createEstateWithMetadata,transferFrom,safeTransferFrom,safeTransferFrom,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setApprovalForAll,setApprovalForAll,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setApprovalForAll,safeTransferFrom",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,setApprovalForAll,createEstateWithMetadata",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,safeTransferFrom,createEstateWithMetadata",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,registerBalance,updateLandData,setUpdateOperator,updateLandData,updateLandData,setUpdateOperator,updateLandData,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,createEstateWithMetadata,updateLandData,updateLandData,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,createEstateWithMetadata,updateLandData,setUpdateOperator,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,createEstateWithMetadata,updateLandData,createEstateWithMetadata,createEstateWithMetadata,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "updateLandData,approve",
+    "count": 1
+  },
+  {
+    "variant": "transferManyLandToEstate,updateLandData,createEstateWithMetadata,createEstateWithMetadata",
+    "count": 1
+  },
+  {
+    "variant": "transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,createEstateWithMetadata,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,setApprovalForAll,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "transferManyLandToEstate,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "transferManyLandToEstate,setUpdateManager,setUpdateManager",
+    "count": 1
+  },
+  {
+    "variant": "transferManyLandToEstate,setApprovalForAll,setUpdateOperator,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "transferManyLandToEstate,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "transferManyLandToEstate,createEstateWithMetadata,updateLandData,updateLandData,createEstateWithMetadata",
+    "count": 1
+  },
+  {
+    "variant": "transferManyLandToEstate,createEstateWithMetadata,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "transferManyLandToEstate,createEstateWithMetadata,transferManyLandToEstate,createEstateWithMetadata,transferManyLandToEstate,transferManyLandToEstate,createEstateWithMetadata,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,createEstateWithMetadata,transferManyLandToEstate,transferManyLandToEstate,createEstateWithMetadata,createEstateWithMetadata,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,transferManyLandToEstate,transferManyLandToEstate,createEstateWithMetadata,transferManyLandToEstate,createEstateWithMetadata,transferManyLandToEstate,createEstateWithMetadata,createEstateWithMetadata,transferManyLandToEstate,createEstateWithMetadata,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,createEstateWithMetadata,transferManyLandToEstate,createEstateWithMetadata,createEstateWithMetadata,transferManyLandToEstate,createEstateWithMetadata,createEstateWithMetadata,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,createEstateWithMetadata,transferManyLandToEstate,createEstateWithMetadata,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,createEstateWithMetadata,transferManyLandToEstate,transferManyLandToEstate,createEstateWithMetadata,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,createEstateWithMetadata,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,createEstateWithMetadata,createEstateWithMetadata,transferManyLandToEstate,createEstateWithMetadata,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,createEstateWithMetadata,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,createEstateWithMetadata,transferManyLandToEstate,createEstateWithMetadata,createEstateWithMetadata,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,createEstateWithMetadata,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,createEstateWithMetadata,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,createEstateWithMetadata,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferLandToEstate,transferLandToEstate,transferLandToEstate,transferLandToEstate,transferLandToEstate,transferLandToEstate,transferLandToEstate,transferLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferLandToEstate,createEstateWithMetadata,createEstateWithMetadata,transferManyLandToEstate,transferManyLandToEstate,createEstateWithMetadata,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,setUpdateOperator,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,transferManyLandToEstate,transferManyLandToEstate,createEstateWithMetadata,createEstateWithMetadata,transferManyLandToEstate,transferManyLandToEstate,createEstateWithMetadata,transferManyLandToEstate,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,transferManyLandToEstate,transferManyLandToEstate,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,transferFrom,createEstateWithMetadata,transferManyLandToEstate,setUpdateOperator,setUpdateOperator,createEstateWithMetadata,createEstateWithMetadata",
+    "count": 1
+  },
+  {
+    "variant": "transferManyLandToEstate,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,transferFrom,transferFrom,transferFrom,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "transferLand,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "transferLand",
+    "count": 1
+  },
+  {
+    "variant": "transferFrom,updateLandData,transferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "transferFrom,transferManyLandToEstate,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferManyLandToEstate,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "transferFrom,transferManyLandToEstate",
+    "count": 1
+  },
+  {
+    "variant": "transferFrom,transferFrom,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,setManyUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,approve,transferFrom,updateLandData,transferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,createEstateWithMetadata,createEstateWithMetadata,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,setUpdateOperator,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "transferFrom,transferFrom,transferFrom,transferFrom,safeTransferFrom",
+    "count": 1
+  },
+  {
+    "variant": "transferFrom,transferFrom,transferFrom,transferFrom,createEstateWithMetadata",
+    "count": 1
+  },
+  {
+    "variant": "transferFrom,transferFrom,transferFrom,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "transferFrom,transferFrom,transferFrom,setApprovalForAll,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "transferFrom,transferFrom,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "transferFrom,transferFrom,setApprovalForAll,updateLandData,setApprovalForAll,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "transferFrom,transferFrom,setApprovalForAll,setApprovalForAll,updateLandData,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "transferFrom,transferFrom,setApprovalForAll,setApprovalForAll,updateLandData,createEstateWithMetadata,setApprovalForAll,updateLandData,createEstateWithMetadata,updateLandData,updateLandData,updateLandData,createEstateWithMetadata",
+    "count": 1
+  },
+  {
+    "variant": "transferFrom,setUpdateOperator,transferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "transferFrom,setUpdateOperator,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "transferFrom,setUpdateOperator,setUpdateOperator,transferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "transferFrom,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "transferFrom,setUpdateOperator,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "transferFrom,setUpdateOperator,setUpdateManager,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "transferFrom,setApprovalForAll,updateLandData,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "transferFrom,setApprovalForAll,updateLandData,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "transferFrom,setApprovalForAll,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "transferFrom,setApprovalForAll,transferFrom,transferFrom,transferFrom,transferFrom,createEstateWithMetadata,setApprovalForAll,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "transferFrom,setApprovalForAll,transferFrom,setApprovalForAll,safeTransferFrom",
+    "count": 1
+  },
+  {
+    "variant": "transferFrom,setApprovalForAll,setApprovalForAll,transferFrom,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "transferFrom,setApprovalForAll,setApprovalForAll,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "transferFrom,setApprovalForAll,safeTransferFrom,safeTransferFrom,safeTransferFrom,safeTransferFrom",
+    "count": 1
+  },
+  {
+    "variant": "transferFrom,setApprovalForAll,safeTransferFrom",
+    "count": 1
+  },
+  {
+    "variant": "transferFrom,safeTransferFrom,safeTransferFrom",
+    "count": 1
+  },
+  {
+    "variant": "transferFrom,createEstateWithMetadata,transferFrom,transferFrom,createEstateWithMetadata,setApprovalForAll,transferFrom,transferFrom,setApprovalForAll,createEstateWithMetadata",
+    "count": 1
+  },
+  {
+    "variant": "transferFrom,createEstateWithMetadata,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "transferFrom,createEstateWithMetadata,createEstateWithMetadata,transferManyLand,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "transferFrom,createEstateWithMetadata,createEstateWithMetadata,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,updateLandData,updateLandData,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,updateLandData,updateLandData,setUpdateOperator,setUpdateOperator,setApprovalForAll,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,updateLandData,setUpdateOperator,updateLandData,updateLandData,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,createEstateWithMetadata",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,updateLandData,setUpdateOperator,updateLandData,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,updateLandData,setUpdateOperator,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,updateLandData,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,updateLandData,setUpdateOperator,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,updateLandData,setApprovalForAll,setApprovalForAll,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,updateLandData,setApprovalForAll,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,updateLandData,createEstateWithMetadata,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferFrom,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,createEstateWithMetadata,createEstateWithMetadata,transferManyLandToEstate,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,updateLandData,createEstateWithMetadata",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,transferManyLandToEstate,setUpdateOperator,setUpdateOperator,setApprovalForAll,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,transferManyLandToEstate,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,transferFrom,transferFrom,transferFrom,transferFrom,setUpdateOperator,transferFrom,setApprovalForAll,createEstateWithMetadata,transferFrom,transferManyLandToEstate,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,transferFrom,transferFrom,setUpdateOperator,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,transferFrom,transferFrom,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,updateLandData,updateLandData,setUpdateOperator,transferFrom,transferFrom,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,updateLandData,updateLandData,createEstateWithMetadata",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,updateLandData,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,updateLandData,setUpdateOperator,setUpdateOperator,updateLandData,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,updateLandData,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,createEstateWithMetadata,createEstateWithMetadata,transferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,updateLandData,setUpdateOperator,setUpdateOperator,setUpdateOperator,createEstateWithMetadata,setApprovalForAll,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,updateLandData,setApprovalForAll,setUpdateOperator,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,updateLandData,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,transferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,setUpdateOperator,transferFrom,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,updateLandData,updateLandData,setUpdateOperator,setUpdateOperator,setUpdateOperator,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,updateLandData,updateLandData,createEstateWithMetadata",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,updateLandData,setUpdateOperator,setApprovalForAll,updateLandData,safeTransferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,transferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setApprovalForAll,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setApprovalForAll,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,createEstateWithMetadata",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,createEstateWithMetadata,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setApprovalForAll,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setApprovalForAll,setApprovalForAll,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setApprovalForAll,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,setUpdateOperator,setUpdateOperator,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,setUpdateOperator,setApprovalForAll,setUpdateOperator,setUpdateOperator,setUpdateOperator,updateLandData,setUpdateOperator,updateLandData,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,updateLandData,setUpdateOperator,updateLandData,setApprovalForAll,transferFrom,updateLandData,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,setUpdateOperator,setApprovalForAll,createEstateWithMetadata,createEstateWithMetadata,transferManyLandToEstate",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,setApprovalForAll,transferFrom,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,setApprovalForAll,setUpdateOperator,setUpdateOperator,setUpdateOperator,createEstateWithMetadata,setUpdateOperator,setApprovalForAll,setUpdateOperator,setUpdateOperator,setUpdateOperator,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,setApprovalForAll,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,safeTransferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,createEstateWithMetadata,setApprovalForAll,setUpdateOperator,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,setApprovalForAll,setApprovalForAll,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,approve,approve,approve,approve,approve",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateOperator,approve",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateManager,setUpdateOperator,setUpdateManager,transferManyLandToEstate,createEstateWithMetadata",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateManager,setUpdateOperator,setApprovalForAll,createEstateWithMetadata",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateManager,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setUpdateManager,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setApprovalForAll,updateLandData,transferFrom,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setApprovalForAll,updateLandData,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setApprovalForAll,transferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setApprovalForAll,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setApprovalForAll,setUpdateOperator,setUpdateOperator,setUpdateOperator,setApprovalForAll,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setApprovalForAll,setUpdateOperator,setUpdateOperator,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setApprovalForAll,createEstateWithMetadata,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setApprovalForAll,createEstateWithMetadata,createEstateWithMetadata,setApprovalForAll,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,setApprovalForAll,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,transferManyLandToEstate",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,safeTransferFrom,safeTransferFrom,safeTransferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,createEstateWithMetadata,setUpdateOperator,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,createEstateWithMetadata,setUpdateOperator,setUpdateOperator,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,createEstateWithMetadata,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateOperator,approve,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateManager,updateLandData,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateManager,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateManager,setUpdateOperator,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateManager,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateManager,setUpdateManager,setUpdateManager,setUpdateManager,updateLandData,updateLandData,updateLandData,setUpdateManager,setUpdateManager,setUpdateManager",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateManager,setApprovalForAll,updateLandData,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateManager,setApprovalForAll,setApprovalForAll,setUpdateManager",
+    "count": 1
+  },
+  {
+    "variant": "setUpdateManager,setApprovalForAll,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,setApprovalForAll,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,updateLandData,updateLandData,updateLandData,updateLandData,setApprovalForAll,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,updateLandData,updateLandData,updateLandData,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,updateLandData,updateLandData,updateLandData,setApprovalForAll,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,updateLandData,updateLandData,updateLandData,setApprovalForAll,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,updateLandData,updateLandData,updateLandData,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,updateLandData,updateLandData,setUpdateOperator,setUpdateOperator,createEstateWithMetadata,setUpdateOperator,createEstateWithMetadata,transferManyLandToEstate,transferManyLandToEstate,updateLandData,setUpdateOperator,updateLandData,setUpdateOperator,setUpdateOperator,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,updateLandData,updateLandData,setUpdateOperator,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,updateLandData,updateLandData,setApprovalForAll,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,createEstateWithMetadata,createEstateWithMetadata,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,transferFrom,updateLandData,createEstateWithMetadata,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,createEstateWithMetadata,createEstateWithMetadata,updateLandData,transferFrom,updateLandData,updateLandData,transferFrom,safeTransferFrom,createEstateWithMetadata,createEstateWithMetadata,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,createEstateWithMetadata,updateLandData,updateLandData,updateLandData,updateLandData,createEstateWithMetadata,updateLandData,updateLandData,updateLandData,updateLandData,safeTransferFrom,updateLandData,updateLandData,updateLandData,createEstateWithMetadata,createEstateWithMetadata,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,safeTransferFrom,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,updateLandData,updateLandData,setApprovalForAll,updateLandData,updateLandData,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,updateLandData,updateLandData,setApprovalForAll,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,updateLandData,updateLandData,setApprovalForAll,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,updateLandData,updateLandData,setApprovalForAll,setApprovalForAll,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,updateLandData,updateLandData,setApprovalForAll,setApprovalForAll,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,updateLandData,updateLandData,setApprovalForAll,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,updateLandData,transferManyLandToEstate,transferFrom,transferFrom,transferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,updateLandData,transferManyLandToEstate",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,updateLandData,transferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,updateLandData,setUpdateOperator,updateLandData,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,updateLandData,setUpdateOperator,setUpdateOperator,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,updateLandData,setUpdateOperator,setApprovalForAll,updateLandData,updateLandData,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,updateLandData,setUpdateOperator,setApprovalForAll,updateLandData,approve,updateLandData,approve",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,updateLandData,setApprovalForAll,updateLandData,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,updateLandData,setApprovalForAll,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,updateLandData,setApprovalForAll,transferManyLandToEstate,createEstateWithMetadata,transferFrom,transferFrom,transferFrom,updateLandData,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,updateLandData,setApprovalForAll,transferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,updateLandData,setApprovalForAll,setApprovalForAll,updateLandData,updateLandData,setApprovalForAll,updateLandData,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,updateLandData,setApprovalForAll,safeTransferFrom,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,updateLandData,safeTransferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,updateLandData,approve",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,safeTransferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,transferFrom,transferFrom,transferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,transferFrom,transferFrom,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,transferFrom,transferFrom,createEstateWithMetadata,transferFrom,setApprovalForAll,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,transferFrom,setUpdateOperator,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,transferFrom,setApprovalForAll,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,transferFrom,setApprovalForAll,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,transferFrom,createEstateWithMetadata,updateLandData,transferManyLandToEstate,transferFrom,transferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,transferFrom,createEstateWithMetadata,createEstateWithMetadata",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,transferFrom,approve,updateLandData,updateLandData,setApprovalForAll,approve,setApprovalForAll,approve",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,setUpdateOperator,updateLandData,updateLandData,setUpdateOperator,setUpdateOperator,transferManyLandToEstate,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,setUpdateOperator,updateLandData,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,setUpdateOperator,transferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,setUpdateOperator,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,setUpdateOperator,setUpdateOperator,setApprovalForAll,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,setUpdateOperator,setUpdateOperator,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,setUpdateOperator,setUpdateOperator,safeTransferFrom,safeTransferFrom,safeTransferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,setUpdateOperator,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,setUpdateOperator,setApprovalForAll,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,setUpdateOperator,createEstateWithMetadata,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,setUpdateOperator,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,setUpdateManager,setUpdateManager",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,setUpdateManager,setApprovalForAll,setApprovalForAll,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll,updateLandData,updateLandData,updateLandData,setApprovalForAll,setApprovalForAll,setApprovalForAll,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll,updateLandData,updateLandData,updateLandData,createEstateWithMetadata",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll,updateLandData,transferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll,updateLandData,setApprovalForAll,updateLandData,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll,updateLandData,setApprovalForAll,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll,updateLandData,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll,updateLandData,createEstateWithMetadata,transferFrom,setApprovalForAll,setApprovalForAll,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll,transferManyLandToEstate,updateLandData,updateLandData,createEstateWithMetadata,updateLandData,createEstateWithMetadata,createEstateWithMetadata,transferManyLandToEstate,transferManyLandToEstate,updateLandData,updateLandData,updateLandData,createEstateWithMetadata,createEstateWithMetadata,updateLandData,updateLandData,transferManyLandToEstate,createEstateWithMetadata,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,createEstateWithMetadata,updateLandData,updateLandData,createEstateWithMetadata,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll,transferFrom,updateLandData,transferFrom,transferFrom,transferFrom,createEstateWithMetadata,updateLandData,updateLandData,updateLandData,safeTransferFrom,safeTransferFrom,safeTransferFrom,setApprovalForAll,createEstateWithMetadata,safeTransferFrom,safeTransferFrom,updateLandData,updateLandData,updateLandData,updateLandData,createEstateWithMetadata,createEstateWithMetadata,updateLandData,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll,transferFrom,transferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll,transferFrom,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll,transferFrom,createEstateWithMetadata,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll,setUpdateOperator,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll,setUpdateOperator,setUpdateOperator,transferFrom,setApprovalForAll,setApprovalForAll,setApprovalForAll,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll,setUpdateOperator,setUpdateOperator,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll,setUpdateOperator,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll,setApprovalForAll,updateLandData,updateLandData,setApprovalForAll,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll,setApprovalForAll,setApprovalForAll,setApprovalForAll,setApprovalForAll,transferFrom,transferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll,setApprovalForAll,setApprovalForAll,setApprovalForAll,setApprovalForAll,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll,setApprovalForAll,setApprovalForAll,setApprovalForAll,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll,setApprovalForAll,safeTransferFrom,safeTransferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll,setApprovalForAll,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,updateLandData,approve,createEstateWithMetadata,setApprovalForAll,setApprovalForAll,createEstateWithMetadata",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll,setApprovalForAll,createEstateWithMetadata",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll,safeTransferFrom,setApprovalForAll,setApprovalForAll,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll,safeTransferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll,createEstateWithMetadata,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,transferManyLandToEstate,setApprovalForAll,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll,createEstateWithMetadata,transferManyLandToEstate,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll,createEstateWithMetadata,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll,createEstateWithMetadata,createEstateWithMetadata,updateLandData,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,safeTransferFrom,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,transferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,updateLandData,createEstateWithMetadata,updateLandData,updateLandData,createEstateWithMetadata",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,setApprovalForAll,approve,transferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,safeTransferFrom,safeTransferFrom,safeTransferFrom,safeTransferFrom,safeTransferFrom,safeTransferFrom,safeTransferFrom,safeTransferFrom,safeTransferFrom,safeTransferFrom,safeTransferFrom,setUpdateOperator,setUpdateOperator,setUpdateOperator,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,safeTransferFrom,safeTransferFrom,safeTransferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,createEstateWithMetadata,updateLandData,updateLandData,updateLandData,updateLandData,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,createEstateWithMetadata,updateLandData,updateLandData,createEstateWithMetadata",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,createEstateWithMetadata,transferManyLandToEstate",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,createEstateWithMetadata,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,createEstateWithMetadata,setUpdateOperator,setUpdateOperator,createEstateWithMetadata",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,createEstateWithMetadata,setApprovalForAll,updateLandData,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,createEstateWithMetadata,setApprovalForAll,setApprovalForAll,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,createEstateWithMetadata,setApprovalForAll,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,createEstateWithMetadata,setApprovalForAll,createEstateWithMetadata,updateLandData,updateLandData,safeTransferFrom,updateLandData,createEstateWithMetadata,createEstateWithMetadata,transferManyLandToEstate,updateLandData,createEstateWithMetadata,safeTransferFrom,updateLandData,updateLandData,safeTransferFrom,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,createEstateWithMetadata,setApprovalForAll,createEstateWithMetadata,createEstateWithMetadata,transferFrom,createEstateWithMetadata,transferFrom,transferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,transferManyLandToEstate,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,safeTransferFrom,createEstateWithMetadata,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,approve,updateLandData,updateLandData,updateLandData,setUpdateManager,setUpdateOperator,setUpdateOperator,setUpdateManager,transferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,approve,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,approve,setApprovalForAll,updateLandData,approve",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,approve,setApprovalForAll,approve,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,approve,approve,setApprovalForAll,approve,approve,approve,approve,approve,approve",
+    "count": 1
+  },
+  {
+    "variant": "setApprovalForAll,approve,approve,approve,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "safeTransferFrom,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "safeTransferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "safeTransferFrom,setApprovalForAll,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "safeTransferFrom,setApprovalForAll,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "safeTransferFrom,safeTransferFrom,safeTransferFrom,safeTransferFrom,safeTransferFrom,safeTransferFrom,safeTransferFrom",
+    "count": 1
+  },
+  {
+    "variant": "safeTransferFrom,safeTransferFrom,safeTransferFrom,safeTransferFrom,safeTransferFrom",
+    "count": 1
+  },
+  {
+    "variant": "safeTransferFrom,safeTransferFrom,createEstateWithMetadata,safeTransferFrom,createEstateWithMetadata",
+    "count": 1
+  },
+  {
+    "variant": "safeTransferFrom,createEstateWithMetadata,setApprovalForAll,updateLandData,updateLandData,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,updateLandData,setUpdateOperator,setUpdateOperator,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "safeTransferFrom,createEstateWithMetadata,setApprovalForAll,setApprovalForAll,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,setApprovalForAll,createEstateWithMetadata,transferFrom,transferFrom,transferFrom,transferFrom,setApprovalForAll,setUpdateOperator,setUpdateOperator,transferFrom,createEstateWithMetadata,safeTransferFrom",
+    "count": 1
+  },
+  {
+    "variant": "safeTransferFrom,createEstateWithMetadata,safeTransferFrom,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "registerBalance,createEstateWithMetadata,transferFrom,createEstateWithMetadata,createEstateWithMetadata,transferManyLandToEstate,transferManyLandToEstate,createEstateWithMetadata",
+    "count": 1
+  },
+  {
+    "variant": "createEstateWithMetadata,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "createEstateWithMetadata,updateLandData,updateLandData,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "createEstateWithMetadata,updateLandData,setApprovalForAll,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "createEstateWithMetadata,updateLandData,createEstateWithMetadata,setApprovalForAll,approve",
+    "count": 1
+  },
+  {
+    "variant": "createEstateWithMetadata,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,setUpdateOperator,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "createEstateWithMetadata,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,createEstateWithMetadata,createEstateWithMetadata,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "createEstateWithMetadata,transferManyLandToEstate,transferManyLandToEstate",
+    "count": 1
+  },
+  {
+    "variant": "createEstateWithMetadata,transferManyLand,safeTransferFrom,safeTransferFrom,setUpdateOperator,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "createEstateWithMetadata,transferFrom,transferFrom,transferManyLandToEstate",
+    "count": 1
+  },
+  {
+    "variant": "createEstateWithMetadata,transferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "createEstateWithMetadata,transferFrom,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "createEstateWithMetadata,setUpdateOperator,updateLandData,setUpdateOperator,setUpdateOperator,setUpdateOperator,setApprovalForAll,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "createEstateWithMetadata,setUpdateOperator,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "createEstateWithMetadata,setUpdateOperator,createEstateWithMetadata,setApprovalForAll,transferManyLandToEstate,createEstateWithMetadata,createEstateWithMetadata,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "createEstateWithMetadata,setUpdateManager",
+    "count": 1
+  },
+  {
+    "variant": "createEstateWithMetadata,setApprovalForAll,updateLandData,updateLandData,updateLandData,transferManyLandToEstate,createEstateWithMetadata,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "createEstateWithMetadata,setApprovalForAll,transferManyLandToEstate,transferManyLandToEstate,updateLandData,updateLandData,createEstateWithMetadata,setApprovalForAll,transferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "createEstateWithMetadata,setApprovalForAll,transferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "createEstateWithMetadata,setApprovalForAll,setApprovalForAll,updateLandData,updateLandData,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "createEstateWithMetadata,setApprovalForAll,setApprovalForAll,approve,updateLandData,updateLandData,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "createEstateWithMetadata,setApprovalForAll,approve",
+    "count": 1
+  },
+  {
+    "variant": "createEstateWithMetadata,createEstateWithMetadata,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,updateLandData,setApprovalForAll,setApprovalForAll,setApprovalForAll,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "createEstateWithMetadata,createEstateWithMetadata,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate",
+    "count": 1
+  },
+  {
+    "variant": "createEstateWithMetadata,createEstateWithMetadata,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate",
+    "count": 1
+  },
+  {
+    "variant": "createEstateWithMetadata,createEstateWithMetadata,transferManyLandToEstate,transferManyLandToEstate",
+    "count": 1
+  },
+  {
+    "variant": "createEstateWithMetadata,createEstateWithMetadata,setUpdateOperator,setUpdateOperator,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "createEstateWithMetadata,createEstateWithMetadata,setApprovalForAll,createEstateWithMetadata,safeTransferFrom,createEstateWithMetadata",
+    "count": 1
+  },
+  {
+    "variant": "createEstateWithMetadata,createEstateWithMetadata,setApprovalForAll,createEstateWithMetadata,createEstateWithMetadata,transferManyLandToEstate",
+    "count": 1
+  },
+  {
+    "variant": "createEstateWithMetadata,createEstateWithMetadata,safeTransferFrom,safeTransferFrom,safeTransferFrom,safeTransferFrom,safeTransferFrom,safeTransferFrom,updateLandData,updateLandData,safeTransferFrom,updateLandData,updateLandData,updateLandData,updateLandData,createEstateWithMetadata,createEstateWithMetadata,safeTransferFrom",
+    "count": 1
+  },
+  {
+    "variant": "createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,transferManyLandToEstate,createEstateWithMetadata,transferManyLandToEstate,createEstateWithMetadata,transferManyLandToEstate,transferManyLandToEstate,createEstateWithMetadata,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,createEstateWithMetadata,createEstateWithMetadata,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,transferFrom,transferFrom,createEstateWithMetadata,createEstateWithMetadata,transferFrom,createEstateWithMetadata",
+    "count": 1
+  },
+  {
+    "variant": "createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,safeTransferFrom,safeTransferFrom,safeTransferFrom,safeTransferFrom,safeTransferFrom,safeTransferFrom,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,safeTransferFrom,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,safeTransferFrom,safeTransferFrom,safeTransferFrom,safeTransferFrom,safeTransferFrom,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,safeTransferFrom,createEstateWithMetadata,safeTransferFrom,createEstateWithMetadata,createEstateWithMetadata,safeTransferFrom,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata",
+    "count": 1
+  },
+  {
+    "variant": "createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,transferManyLandToEstate,setApprovalForAll,transferManyLandToEstate,transferManyLandToEstate,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,updateLandData,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,updateLandData,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata",
+    "count": 1
+  },
+  {
+    "variant": "createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,transferManyLandToEstate,createEstateWithMetadata,transferManyLandToEstate",
+    "count": 1
+  },
+  {
+    "variant": "createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,transferManyLandToEstate,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata",
+    "count": 1
+  },
+  {
+    "variant": "createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata",
+    "count": 1
+  },
+  {
+    "variant": "createEstateWithMetadata,createEstateWithMetadata,createEstateWithMetadata",
+    "count": 1
+  },
+  {
+    "variant": "approve,transferManyLandToEstate,createEstateWithMetadata,transferManyLandToEstate",
+    "count": 1
+  },
+  {
+    "variant": "approve,setApprovalForAll,setUpdateOperator,updateLandData,setUpdateOperator",
+    "count": 1
+  },
+  {
+    "variant": "approve,setApprovalForAll,setApprovalForAll,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "approve,setApprovalForAll,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "approve,createEstateWithMetadata,setApprovalForAll,transferManyLandToEstate,createEstateWithMetadata,updateLandData,updateLandData",
+    "count": 1
+  },
+  {
+    "variant": "approve,approve,updateLandData,updateLandData,setUpdateOperator,updateLandData,updateLandData,setUpdateOperator,setUpdateOperator,setUpdateOperator,setUpdateOperator,updateLandData,transferFrom,setUpdateOperator,updateLandData,updateLandData,setUpdateOperator,updateLandData,updateLandData,updateLandData,setUpdateOperator,setUpdateOperator,setUpdateOperator,updateLandData,transferFrom,setUpdateOperator,setUpdateOperator,updateLandData,createEstateWithMetadata,setUpdateOperator,setUpdateOperator,updateLandData,transferFrom,setUpdateOperator,setUpdateOperator,setUpdateOperator,transferManyLandToEstate,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "approve,approve,setApprovalForAll,approve,approve,approve,approve,approve,approve,approve,transferFrom,approve",
+    "count": 1
+  },
+  {
+    "variant": "approve,approve,setApprovalForAll",
+    "count": 1
+  },
+  {
+    "variant": "approve,approve,approve,transferFrom,transferFrom",
+    "count": 1
+  },
+  {
+    "variant": "approve,approve,approve,approve,approve,approve,approve,approve,approve,approve,approve,approve,approve,approve,approve,approve,approve,approve,setApprovalForAll,setApprovalForAll,approve",
+    "count": 1
+  },
+  {
+    "variant": "approve,approve,approve,approve,approve,approve,approve,approve,approve,approve,approve,approve,approve,approve,approve,approve",
+    "count": 1
+  },
+  {
+    "variant": "approve,approve,approve,approve,approve,approve,approve,approve,approve,approve",
+    "count": 1
+  },
+  {
+    "variant": "approve,approve,approve",
+    "count": 1
+  }
+]
