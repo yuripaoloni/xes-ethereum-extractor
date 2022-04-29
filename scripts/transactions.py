@@ -84,4 +84,4 @@ while True:
     land_proxy_transactions.extend(transactions)
 
 # export JSON file
-export_dictionary(land_proxy_transactions, sys.argv[1])
+export_dictionary(land_proxy_transactions, "data/transactions", sys.argv[1])

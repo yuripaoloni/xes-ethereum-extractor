@@ -9,7 +9,7 @@ def get_contract_address(ethereum_network: str, contract_name: str) -> str:
     return addresses_list[ethereum_network][contract_name]
 
 
-def export_dictionary(transactions: dict, filename: str) -> None:
-    os.makedirs("data", exist_ok=True)
-    with open(f"data/{filename}.json", "w", encoding="utf-8") as f:
+def export_dictionary(transactions: dict, dirname: str, filename: str) -> None:
+    os.makedirs(dirname, exist_ok=True)
+    with open(f"{dirname}/{filename}.json", "w", encoding="utf-8") as f:
         json.dump(transactions, f, ensure_ascii=False, indent=2)

@@ -37,4 +37,4 @@ log = log_converter.apply(transactions_df, parameters=parameters,
 
 # export generated events log in xes
 xes_exporter.apply(
-    log, f"data/{os.path.splitext(os.path.basename(file_path))[0]}.xes")
+    log, f"data/logs/{os.path.splitext(os.path.basename(file_path))[0]}.xes")
