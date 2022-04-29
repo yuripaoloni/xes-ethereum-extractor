@@ -1,0 +1,14 @@
+{
+  "setApprovalForAll": 2492,
+  "transferFrom": 720,
+  "updateLandData": 646,
+  "setUpdateOperator": 354,
+  "createEstateWithMetadata": 151,
+  "safeTransferFrom": 100,
+  "setUpdateManager": 39,
+  "approve": 34,
+  "transferManyLandToEstate": 28,
+  "registerBalance": 3,
+  "transferLand": 2,
+  "transferManyLand": 2
+}
