@@ -17,7 +17,8 @@ def get_variants_list(outputFileName):
     variants_count = case_statistics.get_variant_statistics(log)
     variants_count = sorted(
         variants_count, key=lambda x: x['count'], reverse=True)
-    export_dictionary(variants_count, "data/statistics",  outputFileName)
+    export_dictionary(
+        variants_count, "data/statistics/variants",  outputFileName)
 
 
 # get start activities list and their respective count
@@ -28,7 +29,7 @@ def get_start_activities(outputFileName):
         start_activities_count.items(), key=lambda x: x[1],  reverse=True)
     sorted_start_activities_count = {k: v for k, v in start_activities_count}
     export_dictionary(sorted_start_activities_count,
-                      "data/statistics", outputFileName)
+                      "data/statistics/start_activities", outputFileName)
 
 
 # get the distribution of events over time. it helps to understand in which time intervals the greatest number of events is recorded
@@ -61,8 +62,8 @@ def get_dotted_chart():
 
 
 if __name__ == "__main__":
-    # get_variants_list("one_year_land_proxy_variants")
-    # get_start_activities("one_year_land_proxy_start_activities")
+    # get_variants_list("one_year_land_estate_marketplace_variants")
+    # get_start_activities("one_year_land_estate_marketplace_start_activities")
     # get_plot_events_distribution_over_time()
     # get_chart_events_distribution_over_time("years")
     get_dotted_chart()
