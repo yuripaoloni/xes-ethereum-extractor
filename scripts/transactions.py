@@ -4,7 +4,6 @@ import sys
 from contextlib import suppress
 from dotenv import load_dotenv
 from etherscan import Etherscan
-from numpy import block
 from web3 import Web3
 from utils import get_contract_address, export_dictionary
 
