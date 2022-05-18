@@ -6,6 +6,7 @@ from pm4py.objects.conversion.log import converter as log_converter
 from pm4py.objects.log.exporter.xes import exporter as xes_exporter
 
 # ? params: input file
+# ? set the frequence value
 
 # transactions JSON file
 file_path = sys.argv[1]
@@ -25,7 +26,7 @@ transactions_df['datetime'] = pd.to_datetime(
 transactions_df.dropna(inplace=True)
 
 # reference values: https://bit.ly/3kY9FHi
-freq = '5D'
+freq = '20H'
 
 # group by week-month
 transactions_df['week_id'] = transactions_df.groupby(

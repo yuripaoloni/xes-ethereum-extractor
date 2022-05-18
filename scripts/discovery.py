@@ -13,9 +13,9 @@ file_path = sys.argv[1]
 # import xes log
 log = xes_importer.apply(file_path)
 
-# process tree - variants can be IM, IMf, IMd
+# process tree - variants can be IM, IMf (NOISE_THRESHOLD param can be setted), IMd
 tree = inductive_miner.apply_tree(
-    log, variant=inductive_miner.Variants.IMf)
+    log, variant=inductive_miner.Variants.IMd)
 
 # bpmn model
 bpmn_model = pt_converter.apply(tree, variant=pt_converter.Variants.TO_BPMN)
