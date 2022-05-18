@@ -26,7 +26,7 @@ transactions_df['datetime'] = pd.to_datetime(
 transactions_df.dropna(inplace=True)
 
 # reference values: https://bit.ly/3kY9FHi
-freq = '20H'
+freq = '30min'
 
 # group by week-month
 transactions_df['week_id'] = transactions_df.groupby(
@@ -45,11 +45,12 @@ transactions_df['tag'] = transactions_df['from'] + '_' + \
 # sort by 'timeStamp' value
 transactions_df = transactions_df.sort_values("timeStamp")
 
-# rename: from -> case: concept: name, inputFunctionName -> concept: name, timeStamp -> time: timestamp
+# rename: tag -> case:concept:name, inputFunctionName -> concept:name, timeStamp -> time:timestamp, from -> org:resource
 transactions_df.rename(columns={"tag": "case:concept:name"}, inplace=True)
 transactions_df.rename(columns={"timeStamp": "time:timestamp"}, inplace=True)
 transactions_df.rename(
     columns={"inputFunctionName": "concept:name"}, inplace=True)
+transactions_df.rename(columns={"from": "org:resource"}, inplace=True)
 
 
 # specify that the field identifying the case identifier attribute is the field with name 'case:concept:name'
