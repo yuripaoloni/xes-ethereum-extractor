@@ -1,5 +1,6 @@
 import sys
 
+from pathlib import Path
 from pm4py.objects.log.importer.xes import importer as xes_importer
 from pm4py.algo.filtering.log.attributes import attributes_filter
 from pm4py.algo.filtering.log.timestamp import timestamp_filter
@@ -10,15 +11,17 @@ from pm4py import view_dotted_chart, view_events_distribution_graph
 
 from utils import export_dictionary
 
+# ? params: input file
+
 
 # get variants list and their respective count
-def get_variants_list(outputFileName):
+def get_variants_list():
     log = xes_importer.apply(sys.argv[1])
     variants_count = case_statistics.get_variant_statistics(log)
     variants_count = sorted(
         variants_count, key=lambda x: x['count'], reverse=True)
     export_dictionary(
-        variants_count, "data/statistics/variants",  outputFileName)
+        variants_count, "data/statistics/variants",  f"{Path(sys.argv[1]).name}_variants")
 
 
 # get start activities list and their respective count
@@ -29,7 +32,7 @@ def get_start_activities(outputFileName):
         start_activities_count.items(), key=lambda x: x[1],  reverse=True)
     sorted_start_activities_count = {k: v for k, v in start_activities_count}
     export_dictionary(sorted_start_activities_count,
-                      "data/statistics/start_activities", outputFileName)
+                      "data/statistics/start_activities", f"{Path(sys.argv[1]).name}_start_activities")
 
 
 # get the distribution of events over time. it helps to understand in which time intervals the greatest number of events is recorded
@@ -62,8 +65,8 @@ def get_dotted_chart():
 
 
 if __name__ == "__main__":
-    # get_variants_list("one_year_land_estate_marketplace_variants")
-    # get_start_activities("one_year_land_estate_marketplace_start_activities")
+    get_variants_list()
+    # get_start_activities()
     # get_plot_events_distribution_over_time()
     # get_chart_events_distribution_over_time("years")
-    get_dotted_chart()
+    # get_dotted_chart()

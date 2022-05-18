@@ -23,6 +23,9 @@ transactions_df.drop(["nonce", "gas", "gasPrice", "isError", "txreceipt_status",
 # drop null values (in case any)
 transactions_df.dropna(inplace=True)
 
+# set the user as the resource that perform the transaction
+transactions_df["org:resource"] = transactions_df["from"]
+
 # rename: from -> case:concept:name, inputFunctionName -> concept:name, timeStamp -> time:timestamp
 transactions_df.rename(columns={"from": "case:concept:name"}, inplace=True)
 transactions_df.rename(columns={"timeStamp": "time:timestamp"}, inplace=True)
