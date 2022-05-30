@@ -14,7 +14,8 @@ file_path = sys.argv[1]
 transactions_df = pd.read_json(file_path)
 transactions_df = dataframe_utils.convert_timestamp_columns_in_df(
     transactions_df)
-transactions_df = transactions_df.sort_values("timeStamp")
+transactions_df = transactions_df.sort_values(
+    by=["timeStamp", "transactionIndex"])
 
 # remove unnecessary fields
 transactions_df.drop(["nonce", "gas", "gasPrice", "isError", "txreceipt_status",

@@ -43,7 +43,8 @@ transactions_df['tag'] = transactions_df['from'] + '_' + \
 
 
 # sort by 'timeStamp' value
-transactions_df = transactions_df.sort_values("timeStamp")
+transactions_df = transactions_df.sort_values(
+    by=["timeStamp", "transactionIndex"])
 
 # rename: tag -> case:concept:name, inputFunctionName -> concept:name, timeStamp -> time:timestamp, from -> org:resource
 transactions_df.rename(columns={"tag": "case:concept:name"}, inplace=True)

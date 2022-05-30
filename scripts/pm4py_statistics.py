@@ -25,7 +25,7 @@ def get_variants_list():
 
 
 # get start activities list and their respective count
-def get_start_activities(outputFileName):
+def get_start_activities():
     log = xes_importer.apply(sys.argv[1])
     start_activities_count = start_activities_filter.get_start_activities(log)
     start_activities_count = sorted(
@@ -65,8 +65,8 @@ def get_dotted_chart():
 
 
 if __name__ == "__main__":
-    get_variants_list()
-    # get_start_activities()
+    # get_variants_list()
+    get_start_activities()
     # get_plot_events_distribution_over_time()
     # get_chart_events_distribution_over_time("years")
     # get_dotted_chart()
