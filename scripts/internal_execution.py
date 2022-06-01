@@ -1,4 +1,5 @@
-import os, sys
+import os
+import sys
 
 import pandas as pd
 from dotenv import load_dotenv
@@ -12,7 +13,7 @@ load_dotenv()
 ETHERSCAN_API_KEY = os.getenv("ETHERSCAN_API_KEY")
 
 # getblock.io free node get only the last 64 blocks
-GETBLOCK_ENDPOINT = os.getenv("GETBLOCK_ENDPOINT")
+NODE_ENDPOINT = os.getenv("NODE_ENDPOINT")
 
 ethtx_config = EthTxConfig(
     mongo_connection_string="mongomock://localhost/ethtx",  # MongoDB connection string,
@@ -20,7 +21,7 @@ ethtx_config = EthTxConfig(
     web3nodes={
         "mainnet": {
             # multiple nodes supported, separate them with comma
-            "hook": GETBLOCK_ENDPOINT,
+            "hook": NODE_ENDPOINT,
             "poa": False  # represented by bool value
         }
     },
@@ -67,6 +68,7 @@ for row in transactions_df.itertuples(index=True, name='Pandas'):
     abi_decoded_calls.function_signature = row.inputFunction
     abi_decoded_calls.arguments = row.inputFunctionParams
 
-    internal_calls_df = internal_calls_df.append(abi_decoded_calls.dict(), ignore_index=True)
+    internal_calls_df = internal_calls_df.append(
+        abi_decoded_calls.dict(), ignore_index=True)
 
 internal_calls_df.to_json("exported.json", orient="records")
