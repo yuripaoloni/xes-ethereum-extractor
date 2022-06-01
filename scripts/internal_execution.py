@@ -13,7 +13,8 @@ load_dotenv()
 ETHERSCAN_API_KEY = os.getenv("ETHERSCAN_API_KEY")
 
 # getblock.io free node get only the last 64 blocks
-NODE_ENDPOINT = os.getenv("NODE_ENDPOINT")
+GETBLOCK_ENDPOINT = os.getenv("GETBLOCK_ENDPOINT")
+NODE_ENPOINT = os.getenv("NODE_ENDPOINT")
 
 ethtx_config = EthTxConfig(
     mongo_connection_string="mongomock://localhost/ethtx",  # MongoDB connection string,
@@ -21,7 +22,7 @@ ethtx_config = EthTxConfig(
     web3nodes={
         "mainnet": {
             # multiple nodes supported, separate them with comma
-            "hook": NODE_ENDPOINT,
+            "hook": [GETBLOCK_ENDPOINT, NODE_ENPOINT],
             "poa": False  # represented by bool value
         }
     },

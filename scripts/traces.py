@@ -24,14 +24,11 @@ transactions_df.drop(["nonce", "gas", "gasPrice", "isError", "txreceipt_status",
 # drop null values (in case any)
 transactions_df.dropna(inplace=True)
 
-# set the user as the resource that perform the transaction
+# create columns: from -> case:concept:name, inputFunctionName -> concept:name, timeStamp -> time:timestamp, from -> org:resource
 transactions_df["org:resource"] = transactions_df["from"]
-
-# rename: from -> case:concept:name, inputFunctionName -> concept:name, timeStamp -> time:timestamp
-transactions_df.rename(columns={"from": "case:concept:name"}, inplace=True)
-transactions_df.rename(columns={"timeStamp": "time:timestamp"}, inplace=True)
-transactions_df.rename(
-    columns={"inputFunctionName": "concept:name"}, inplace=True)
+transactions_df["case:concept:name"] = transactions_df["from"]
+transactions_df["time:timestamp"] = transactions_df["timeStamp"]
+transactions_df["concept:name"] = transactions_df["inputFunctionName"]
 
 # specify that the field identifying the case identifier attribute is the field with name 'case:concept:name'
 parameters = {
