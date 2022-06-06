@@ -1,3 +1,7 @@
+# too heavy files
+data/LAND_decoded_calls
+data/internal_trace
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
