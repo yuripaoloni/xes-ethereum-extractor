@@ -46,6 +46,23 @@ transactions_df['tag'] = transactions_df['from'] + '_' + \
 transactions_df = transactions_df.sort_values(
     by=["timeStamp", "transactionIndex"])
 
+# add 1 second to timestamp to make them different
+last_timestamp = ""
+counter = 1
+
+for index, row in transactions_df.iterrows():
+    if(row["timeStamp"] == last_timestamp):
+        counter = counter + 1
+        new_timestamp = pd.to_datetime(
+            row["timeStamp"] + pd.to_timedelta(counter, unit='s'))
+    else:
+        last_timestamp = row["timeStamp"]
+        counter = 1
+        new_timestamp = pd.to_datetime(
+            row["timeStamp"] + pd.to_timedelta(counter, unit='s'))
+
+    transactions_df.at[index, 'TIMESTAMP'] = new_timestamp
+
 # rename: tag -> case:concept:name, inputFunctionName -> concept:name, timeStamp -> time:timestamp, from -> org:resource
 transactions_df.rename(columns={"tag": "case:concept:name"}, inplace=True)
 transactions_df.rename(columns={"timeStamp": "time:timestamp"}, inplace=True)

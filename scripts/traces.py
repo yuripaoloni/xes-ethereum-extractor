@@ -17,12 +17,30 @@ transactions_df = dataframe_utils.convert_timestamp_columns_in_df(
 transactions_df = transactions_df.sort_values(
     by=["timeStamp", "transactionIndex"])
 
+# add 1 second to timestamp to make them different
+last_timestamp = ""
+counter = 1
+
+for index, row in transactions_df.iterrows():
+    if(row["timeStamp"] == last_timestamp):
+        counter = counter + 1
+        new_timestamp = pd.to_datetime(
+            row["timeStamp"] + pd.to_timedelta(counter, unit='s'))
+    else:
+        last_timestamp = row["timeStamp"]
+        counter = 1
+        new_timestamp = pd.to_datetime(
+            row["timeStamp"] + pd.to_timedelta(counter, unit='s'))
+
+    transactions_df.at[index, 'TIMESTAMP'] = new_timestamp
+
 # remove unnecessary fields
 transactions_df.drop(["nonce", "gas", "gasPrice", "isError", "txreceipt_status",
                      "contractAddress", "gasUsed", "cumulativeGasUsed", "confirmations"], axis=1, inplace=True)
 
 # drop null values (in case any)
 transactions_df.dropna(inplace=True)
+
 
 # create columns: from -> case:concept:name, inputFunctionName -> concept:name, timeStamp -> time:timestamp, from -> org:resource
 transactions_df["org:resource"] = transactions_df["from"]
