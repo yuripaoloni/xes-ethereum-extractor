@@ -13,3 +13,13 @@ def export_dictionary(transactions: dict, dirname: str, filename: str) -> None:
     os.makedirs(dirname, exist_ok=True)
     with open(f"{dirname}/{filename}.json", "w", encoding="utf-8") as f:
         json.dump(transactions, f, ensure_ascii=False, indent=2)
+
+
+def print_stats(log):
+    events = 0
+
+    for t in log:
+        events += len(t)
+
+    print(f"Traces: {len(log)}")
+    print(f"Events: {events}")
