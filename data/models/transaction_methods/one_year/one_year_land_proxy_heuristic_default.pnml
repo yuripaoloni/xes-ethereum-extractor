@@ -1,0 +1,856 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="net1" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <page id="n0">
+      <place id="intplace_setManyUpdateOperator">
+        <name>
+          <text>intplace_setManyUpdateOperator</text>
+        </name>
+      </place>
+      <place id="pre_setManyUpdateOperator">
+        <name>
+          <text>pre_setManyUpdateOperator</text>
+        </name>
+      </place>
+      <place id="intplace_updateLandData">
+        <name>
+          <text>intplace_updateLandData</text>
+        </name>
+      </place>
+      <place id="intplace_approve">
+        <name>
+          <text>intplace_approve</text>
+        </name>
+      </place>
+      <place id="pre_transferManyLand">
+        <name>
+          <text>pre_transferManyLand</text>
+        </name>
+      </place>
+      <place id="pre_updateLandData">
+        <name>
+          <text>pre_updateLandData</text>
+        </name>
+      </place>
+      <place id="pre_createEstateWithMetadata">
+        <name>
+          <text>pre_createEstateWithMetadata</text>
+        </name>
+      </place>
+      <place id="pre_transferManyLandToEstate">
+        <name>
+          <text>pre_transferManyLandToEstate</text>
+        </name>
+      </place>
+      <place id="intplace_registerBalance">
+        <name>
+          <text>intplace_registerBalance</text>
+        </name>
+      </place>
+      <place id="intplace_transferManyLand">
+        <name>
+          <text>intplace_transferManyLand</text>
+        </name>
+      </place>
+      <place id="pre_setUpdateManager">
+        <name>
+          <text>pre_setUpdateManager</text>
+        </name>
+      </place>
+      <place id="intplace_setApprovalForAll">
+        <name>
+          <text>intplace_setApprovalForAll</text>
+        </name>
+      </place>
+      <place id="pre_approve">
+        <name>
+          <text>pre_approve</text>
+        </name>
+      </place>
+      <place id="intplace_transferLandToEstate">
+        <name>
+          <text>intplace_transferLandToEstate</text>
+        </name>
+      </place>
+      <place id="pre_registerBalance">
+        <name>
+          <text>pre_registerBalance</text>
+        </name>
+      </place>
+      <place id="intplace_setUpdateManager">
+        <name>
+          <text>intplace_setUpdateManager</text>
+        </name>
+      </place>
+      <place id="intplace_safeTransferFrom">
+        <name>
+          <text>intplace_safeTransferFrom</text>
+        </name>
+      </place>
+      <place id="intplace_setUpdateOperator">
+        <name>
+          <text>intplace_setUpdateOperator</text>
+        </name>
+      </place>
+      <place id="pre_safeTransferFrom">
+        <name>
+          <text>pre_safeTransferFrom</text>
+        </name>
+      </place>
+      <place id="sink0">
+        <name>
+          <text>sink0</text>
+        </name>
+      </place>
+      <place id="intplace_transferFrom">
+        <name>
+          <text>intplace_transferFrom</text>
+        </name>
+      </place>
+      <place id="pre_transferFrom">
+        <name>
+          <text>pre_transferFrom</text>
+        </name>
+      </place>
+      <place id="pre_setUpdateOperator">
+        <name>
+          <text>pre_setUpdateOperator</text>
+        </name>
+      </place>
+      <place id="pre_setApprovalForAll">
+        <name>
+          <text>pre_setApprovalForAll</text>
+        </name>
+      </place>
+      <place id="intplace_createEstateWithMetadata">
+        <name>
+          <text>intplace_createEstateWithMetadata</text>
+        </name>
+      </place>
+      <place id="source0">
+        <name>
+          <text>source0</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="intplace_transferManyLandToEstate">
+        <name>
+          <text>intplace_transferManyLandToEstate</text>
+        </name>
+      </place>
+      <transition id="updateLandData">
+        <name>
+          <text>updateLandData</text>
+        </name>
+      </transition>
+      <transition id="hid_74">
+        <name>
+          <text>hid_74</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="da767871-6760-470e-8da5-7bb97ba646aa"/>
+      </transition>
+      <transition id="hid_131">
+        <name>
+          <text>hid_131</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="e69001f6-86cd-4e76-af3b-c994c7691bae"/>
+      </transition>
+      <transition id="hid_16">
+        <name>
+          <text>hid_16</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="b201e708-20c7-4918-9420-481810626033"/>
+      </transition>
+      <transition id="hid_75">
+        <name>
+          <text>hid_75</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="5e00ef6e-87c8-40e0-9560-7d4e8175831e"/>
+      </transition>
+      <transition id="hid_125">
+        <name>
+          <text>hid_125</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="56c8437d-9ef2-4314-9b1b-517539720c16"/>
+      </transition>
+      <transition id="createEstateWithMetadata">
+        <name>
+          <text>createEstateWithMetadata</text>
+        </name>
+      </transition>
+      <transition id="hid_36">
+        <name>
+          <text>hid_36</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="2ec0f6a2-12d7-486d-a5f4-3891acc2652f"/>
+      </transition>
+      <transition id="hid_39">
+        <name>
+          <text>hid_39</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="62e075b6-8739-499a-bf6e-c3005b257742"/>
+      </transition>
+      <transition id="hid_67">
+        <name>
+          <text>hid_67</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="666b4e19-4ef9-41c0-871f-4ae89d841cff"/>
+      </transition>
+      <transition id="hid_97">
+        <name>
+          <text>hid_97</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="610bd5e3-d24f-4182-946b-ca7b753d8e04"/>
+      </transition>
+      <transition id="hid_119">
+        <name>
+          <text>hid_119</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="405c8669-1e5d-46cd-8bf6-21bad02a9374"/>
+      </transition>
+      <transition id="hid_122">
+        <name>
+          <text>hid_122</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="b97780f8-3b6b-4a46-9d3a-2084cfe90738"/>
+      </transition>
+      <transition id="setManyUpdateOperator">
+        <name>
+          <text>setManyUpdateOperator</text>
+        </name>
+      </transition>
+      <transition id="hid_80">
+        <name>
+          <text>hid_80</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="09a31a6b-3c59-462c-bfee-0507e15a5398"/>
+      </transition>
+      <transition id="hid_129">
+        <name>
+          <text>hid_129</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="cff55a4d-e917-4f47-a24b-f7a7ea0cc6e4"/>
+      </transition>
+      <transition id="hid_77">
+        <name>
+          <text>hid_77</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="5f7fdc1a-dc82-4c04-bb2a-8ea2b1929bf1"/>
+      </transition>
+      <transition id="hid_123">
+        <name>
+          <text>hid_123</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="7f493f83-fab8-45cb-ac59-709bf77d857a"/>
+      </transition>
+      <transition id="hid_132">
+        <name>
+          <text>hid_132</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="9136b1ec-3777-488f-b06b-aa6acd24619c"/>
+      </transition>
+      <transition id="hid_48">
+        <name>
+          <text>hid_48</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="780c8e92-2e74-4d96-a1b5-565b759d5e46"/>
+      </transition>
+      <transition id="hid_65">
+        <name>
+          <text>hid_65</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="78431b76-0d61-4734-8d53-1635bb1f868f"/>
+      </transition>
+      <transition id="hid_69">
+        <name>
+          <text>hid_69</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="1dce1e68-a7d2-4e92-ae0d-b36ad50a7ef2"/>
+      </transition>
+      <transition id="hid_89">
+        <name>
+          <text>hid_89</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="d4a14686-0cee-4d35-9018-6cb9aaa38240"/>
+      </transition>
+      <transition id="hid_99">
+        <name>
+          <text>hid_99</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="b6f40b5e-a2ef-4d5a-b7b9-ec43e829130d"/>
+      </transition>
+      <transition id="hid_117">
+        <name>
+          <text>hid_117</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="47a5cae0-48c4-4556-adee-1c8011b9d82d"/>
+      </transition>
+      <transition id="setApprovalForAll">
+        <name>
+          <text>setApprovalForAll</text>
+        </name>
+      </transition>
+      <transition id="hid_82">
+        <name>
+          <text>hid_82</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="a2d68fd7-1964-4fb8-be4e-31ae7b687d3d"/>
+      </transition>
+      <transition id="hid_92">
+        <name>
+          <text>hid_92</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="b741e6b8-bbf3-49be-8950-87822094f859"/>
+      </transition>
+      <transition id="hid_102">
+        <name>
+          <text>hid_102</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="cc1d847c-8de9-4d9f-8ac7-c4f8768f28b7"/>
+      </transition>
+      <transition id="hid_127">
+        <name>
+          <text>hid_127</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="19c9c610-6400-4ad1-934e-5b506a4d335a"/>
+      </transition>
+      <transition id="hid_79">
+        <name>
+          <text>hid_79</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="d8f54f1b-3750-4344-b3fd-af603fccdc84"/>
+      </transition>
+      <transition id="hid_126">
+        <name>
+          <text>hid_126</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="9c6eecf7-1697-41e7-bd9a-03d6b7142aad"/>
+      </transition>
+      <transition id="approve">
+        <name>
+          <text>approve</text>
+        </name>
+      </transition>
+      <transition id="hid_71">
+        <name>
+          <text>hid_71</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="44e03d23-851b-413c-831b-acbca32c6ea0"/>
+      </transition>
+      <transition id="hid_105">
+        <name>
+          <text>hid_105</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="b5a1a9fc-7042-43b3-9769-d763a66cba9c"/>
+      </transition>
+      <transition id="hid_114">
+        <name>
+          <text>hid_114</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="5190351f-d566-4667-bf10-7152c6ccce0c"/>
+      </transition>
+      <transition id="transferLandToEstate">
+        <name>
+          <text>transferLandToEstate</text>
+        </name>
+      </transition>
+      <transition id="hid_52">
+        <name>
+          <text>hid_52</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="f0e49854-6171-459e-be7b-2bf2405a2c23"/>
+      </transition>
+      <transition id="hid_84">
+        <name>
+          <text>hid_84</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="ade41ecb-30bd-477f-a56f-4e59d322a002"/>
+      </transition>
+      <transition id="hid_94">
+        <name>
+          <text>hid_94</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="4f930ab2-244d-477c-b59a-1b4ffd901fec"/>
+      </transition>
+      <transition id="hid_104">
+        <name>
+          <text>hid_104</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="1fb50aa4-8b04-4dd9-9a9f-06629e2816ce"/>
+      </transition>
+      <transition id="hid_111">
+        <name>
+          <text>hid_111</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="67c3e28b-b755-46a0-a8ef-731ad974fbd5"/>
+      </transition>
+      <transition id="hid_58">
+        <name>
+          <text>hid_58</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="a7e81003-1618-46af-9aa2-e63d26925d92"/>
+      </transition>
+      <transition id="transferFrom">
+        <name>
+          <text>transferFrom</text>
+        </name>
+      </transition>
+      <transition id="hid_73">
+        <name>
+          <text>hid_73</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="ab879421-ac46-42c4-aa44-0cf0313e76ba"/>
+      </transition>
+      <transition id="hid_107">
+        <name>
+          <text>hid_107</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="a7dda3b4-b9cf-45e4-8169-1b3d92de3745"/>
+      </transition>
+      <transition id="registerBalance">
+        <name>
+          <text>registerBalance</text>
+        </name>
+      </transition>
+      <transition id="hid_66">
+        <name>
+          <text>hid_66</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="3ffdab45-ab5a-4de6-8b72-a8d0c37075c6"/>
+      </transition>
+      <transition id="hid_86">
+        <name>
+          <text>hid_86</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="203539bf-0b12-4075-ba75-4b92a5b835a4"/>
+      </transition>
+      <transition id="hid_96">
+        <name>
+          <text>hid_96</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="f7a95f89-5705-4c44-aea2-9b33d97f6fb1"/>
+      </transition>
+      <transition id="hid_120">
+        <name>
+          <text>hid_120</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="22ea45fb-b6de-4a14-9c0b-0b4a435a3750"/>
+      </transition>
+      <transition id="hid_11">
+        <name>
+          <text>hid_11</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="b4941345-6a4f-464e-b8f2-c1a01efcc81d"/>
+      </transition>
+      <transition id="hid_109">
+        <name>
+          <text>hid_109</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="4836dc0e-a187-4925-8721-68c14bbaf391"/>
+      </transition>
+      <transition id="transferManyLand">
+        <name>
+          <text>transferManyLand</text>
+        </name>
+      </transition>
+      <transition id="hid_130">
+        <name>
+          <text>hid_130</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="2a0d1b30-795f-46c8-96de-bf10deaed50d"/>
+      </transition>
+      <transition id="hid_63">
+        <name>
+          <text>hid_63</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="4949168f-4a19-4059-b2a2-969cf41abd6a"/>
+      </transition>
+      <transition id="hid_23">
+        <name>
+          <text>hid_23</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="8ad04e44-8d39-4534-bd96-6cc5352d644f"/>
+      </transition>
+      <transition id="hid_124">
+        <name>
+          <text>hid_124</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="c1d295ff-36a9-4b14-a95d-d1ffc5d04c4b"/>
+      </transition>
+      <transition id="hid_33">
+        <name>
+          <text>hid_33</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="6c291e6d-d4e9-46af-a580-80f347dedd40"/>
+      </transition>
+      <transition id="hid_68">
+        <name>
+          <text>hid_68</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="708a3b6b-d51e-46a7-9eaa-aea3fe2115d1"/>
+      </transition>
+      <transition id="hid_88">
+        <name>
+          <text>hid_88</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="50ba1531-59fa-4301-a657-a3607db35405"/>
+      </transition>
+      <transition id="hid_98">
+        <name>
+          <text>hid_98</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="0f56a20f-19ac-456d-88b6-fcb57bc93d8b"/>
+      </transition>
+      <transition id="hid_118">
+        <name>
+          <text>hid_118</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="e73df7d5-2cf1-42d0-881b-2c0d82524094"/>
+      </transition>
+      <transition id="hid_121">
+        <name>
+          <text>hid_121</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="198adbd4-42f9-46e7-83b3-bce151936786"/>
+      </transition>
+      <transition id="setUpdateOperator">
+        <name>
+          <text>setUpdateOperator</text>
+        </name>
+      </transition>
+      <transition id="hid_8">
+        <name>
+          <text>hid_8</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="bcb9e812-a471-4b24-a95b-6eddf77d18ab"/>
+      </transition>
+      <transition id="hid_81">
+        <name>
+          <text>hid_81</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="b36b753c-2f8f-4c1f-9713-b1fa6b95c772"/>
+      </transition>
+      <transition id="hid_91">
+        <name>
+          <text>hid_91</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="40c48755-46d4-400e-afe4-e88a68f27684"/>
+      </transition>
+      <transition id="hid_101">
+        <name>
+          <text>hid_101</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="f198c9d1-99f1-4c24-a112-8ec6ab726a45"/>
+      </transition>
+      <transition id="hid_128">
+        <name>
+          <text>hid_128</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="92f34acd-e950-42b7-a75a-96c1c7d15cca"/>
+      </transition>
+      <transition id="hid_78">
+        <name>
+          <text>hid_78</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="2025248d-297b-4bbb-8a86-7ff2584053fb"/>
+      </transition>
+      <transition id="setUpdateManager">
+        <name>
+          <text>setUpdateManager</text>
+        </name>
+      </transition>
+      <transition id="hid_70">
+        <name>
+          <text>hid_70</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="4eea6ced-457e-4900-bd51-083e3d1ff22d"/>
+      </transition>
+      <transition id="hid_90">
+        <name>
+          <text>hid_90</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="490fe99b-1ad9-48c4-afb7-2e8f183ffcc2"/>
+      </transition>
+      <transition id="hid_100">
+        <name>
+          <text>hid_100</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="4cd3bab4-f851-41bf-aa73-4e7256606fd7"/>
+      </transition>
+      <transition id="hid_116">
+        <name>
+          <text>hid_116</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="bb9c7a08-d745-4338-a155-e2b248dedc6c"/>
+      </transition>
+      <transition id="hid_115">
+        <name>
+          <text>hid_115</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="2563a088-0d19-43b1-842e-5a22d296e0b9"/>
+      </transition>
+      <transition id="hid_93">
+        <name>
+          <text>hid_93</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="88200ae3-f0af-48ac-b543-0f88e29e3e8c"/>
+      </transition>
+      <transition id="hid_103">
+        <name>
+          <text>hid_103</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="75995c09-e3f2-46b9-89aa-255814322ce6"/>
+      </transition>
+      <transition id="hid_45">
+        <name>
+          <text>hid_45</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="62c3e665-4fdc-49ec-9f4a-eb9b508ebb5f"/>
+      </transition>
+      <transition id="hid_112">
+        <name>
+          <text>hid_112</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="5c670204-c0f4-432c-a748-2ccf8afbb893"/>
+      </transition>
+      <transition id="hid_134">
+        <name>
+          <text>hid_134</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="b0116b94-cd53-4871-b2a5-e2d5227a9696"/>
+      </transition>
+      <transition id="safeTransferFrom">
+        <name>
+          <text>safeTransferFrom</text>
+        </name>
+      </transition>
+      <transition id="hid_113">
+        <name>
+          <text>hid_113</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="5e96e620-b847-4449-9a36-aa101074b3cc"/>
+      </transition>
+      <transition id="hid_135">
+        <name>
+          <text>hid_135</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="d9a725cc-22ec-4e50-915d-737f6eea7100"/>
+      </transition>
+      <transition id="transferManyLandToEstate">
+        <name>
+          <text>transferManyLandToEstate</text>
+        </name>
+      </transition>
+      <transition id="hid_85">
+        <name>
+          <text>hid_85</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="b4ae10cf-c2a9-451c-a03e-64e3c7c6c649"/>
+      </transition>
+      <transition id="hid_95">
+        <name>
+          <text>hid_95</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="548a586b-8b07-46df-b188-e5ff90142815"/>
+      </transition>
+      <transition id="hid_108">
+        <name>
+          <text>hid_108</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="ca8b27b8-0330-42f5-b5b0-07e52ac5215b"/>
+      </transition>
+      <arc id="2156413818896" source="hid_95" target="pre_setUpdateOperator"/>
+      <arc id="2156413816880" source="hid_132" target="pre_safeTransferFrom"/>
+      <arc id="2156413823024" source="intplace_transferManyLandToEstate" target="hid_126"/>
+      <arc id="2156413911104" source="pre_setUpdateManager" target="setUpdateManager"/>
+      <arc id="2156413923392" source="intplace_createEstateWithMetadata" target="hid_95"/>
+      <arc id="2156413825088" source="hid_120" target="sink0"/>
+      <arc id="2156413814864" source="hid_80" target="pre_approve"/>
+      <arc id="2156413978704" source="pre_createEstateWithMetadata" target="createEstateWithMetadata"/>
+      <arc id="2156413827152" source="intplace_registerBalance" target="hid_114"/>
+      <arc id="2156413894768" source="hid_23" target="pre_setApprovalForAll"/>
+      <arc id="2156413917296" source="intplace_transferFrom" target="hid_75"/>
+      <arc id="2156413818992" source="hid_107" target="pre_setApprovalForAll"/>
+      <arc id="2156413984896" source="source0" target="hid_39"/>
+      <arc id="2156413821056" source="transferManyLand" target="intplace_transferManyLand"/>
+      <arc id="2156413816976" source="hid_97" target="pre_transferManyLand"/>
+      <arc id="2156413825184" source="intplace_approve" target="hid_120"/>
+      <arc id="2156413913264" source="pre_transferManyLand" target="transferManyLand"/>
+      <arc id="2156413814960" source="hid_105" target="pre_createEstateWithMetadata"/>
+      <arc id="2156413915328" source="intplace_updateLandData" target="hid_69"/>
+      <arc id="2156413921472" source="intplace_setApprovalForAll" target="hid_89"/>
+      <arc id="2156413894864" source="source0" target="hid_23"/>
+      <arc id="2156413819088" source="hid_117" target="pre_setApprovalForAll"/>
+      <arc id="2156413984992" source="hid_39" target="pre_safeTransferFrom"/>
+      <arc id="2156413919456" source="intplace_setApprovalForAll" target="hid_82"/>
+      <arc id="2156413925600" source="intplace_safeTransferFrom" target="hid_102"/>
+      <arc id="2156413817072" source="hid_135" target="pre_createEstateWithMetadata"/>
+      <arc id="2156413454608" source="hid_8" target="pre_updateLandData"/>
+      <arc id="2156413815056" source="hid_86" target="pre_setUpdateOperator"/>
+      <arc id="2156413819184" source="hid_128" target="pre_setUpdateManager"/>
+      <arc id="2156413985088" source="pre_setUpdateOperator" target="setUpdateOperator"/>
+      <arc id="2156413821248" source="hid_131" target="sink0"/>
+      <arc id="2156413823312" source="intplace_transferManyLandToEstate" target="hid_125"/>
+      <arc id="2156413817168" source="hid_101" target="pre_createEstateWithMetadata"/>
+      <arc id="2156413923680" source="intplace_createEstateWithMetadata" target="hid_96"/>
+      <arc id="2156413827440" source="intplace_registerBalance" target="hid_113"/>
+      <arc id="2156413815152" source="hid_127" target="pre_setApprovalForAll"/>
+      <arc id="2156413819280" source="hid_77" target="pre_setManyUpdateOperator"/>
+      <arc id="2156413821344" source="intplace_setUpdateManager" target="hid_131"/>
+      <arc id="2156413817264" source="hid_70" target="pre_setApprovalForAll"/>
+      <arc id="2156413825472" source="intplace_approve" target="hid_119"/>
+      <arc id="2156413352400" source="pre_transferFrom" target="transferFrom"/>
+      <arc id="2156413991376" source="pre_transferManyLandToEstate" target="transferManyLandToEstate"/>
+      <arc id="2156413815248" source="hid_108" target="pre_setUpdateManager"/>
+      <arc id="2156413915616" source="intplace_updateLandData" target="hid_70"/>
+      <arc id="2156413921760" source="intplace_setApprovalForAll" target="hid_90"/>
+      <arc id="2156413592064" source="pre_updateLandData" target="updateLandData"/>
+      <arc id="2156413925888" source="intplace_safeTransferFrom" target="hid_103"/>
+      <arc id="2156413987344" source="source0" target="hid_45"/>
+      <arc id="2156413817360" source="hid_93" target="pre_setApprovalForAll"/>
+      <arc id="2156413815344" source="hid_91" target="pre_createEstateWithMetadata"/>
+      <arc id="2156413921856" source="hid_90" target="sink0"/>
+      <arc id="2156413827680" source="registerBalance" target="intplace_registerBalance"/>
+      <arc id="2156413987440" source="hid_45" target="pre_setUpdateOperator"/>
+      <arc id="2156413817456" source="hid_109" target="pre_setUpdateOperator"/>
+      <arc id="2156413983360" source="hid_36" target="pre_safeTransferFrom"/>
+      <arc id="2156413923968" source="intplace_createEstateWithMetadata" target="hid_97"/>
+      <arc id="2156413815440" source="hid_124" target="pre_transferFrom"/>
+      <arc id="2156413917872" source="intplace_transferFrom" target="hid_77"/>
+      <arc id="2156413897408" source="pre_setApprovalForAll" target="setApprovalForAll"/>
+      <arc id="2156413913792" source="source0" target="hid_65"/>
+      <arc id="2156413821632" source="intplace_setUpdateManager" target="hid_130"/>
+      <arc id="2156413922000" source="createEstateWithMetadata" target="intplace_createEstateWithMetadata"/>
+      <arc id="2156413823696" source="intplace_transferManyLandToEstate" target="hid_124"/>
+      <arc id="2156413817552" source="hid_85" target="pre_setUpdateManager"/>
+      <arc id="2156413825760" source="intplace_approve" target="hid_118"/>
+      <arc id="2156413827824" source="hid_112" target="sink0"/>
+      <arc id="2156413815536" source="hid_89" target="pre_updateLandData"/>
+      <arc id="2156413915904" source="intplace_updateLandData" target="hid_71"/>
+      <arc id="2156413913888" source="hid_65" target="pre_transferManyLand"/>
+      <arc id="2156413920032" source="intplace_setApprovalForAll" target="hid_84"/>
+      <arc id="2156413926176" source="intplace_safeTransferFrom" target="hid_104"/>
+      <arc id="2156413987632" source="pre_registerBalance" target="registerBalance"/>
+      <arc id="2156413817648" source="hid_121" target="pre_setManyUpdateOperator"/>
+      <arc id="2156413897552" source="hid_16" target="pre_transferFrom"/>
+      <arc id="2156413827920" source="intplace_setUpdateOperator" target="hid_112"/>
+      <arc id="2156413815632" source="hid_119" target="pre_updateLandData"/>
+      <arc id="2156413819760" source="intplace_transferLandToEstate" target="hid_135"/>
+      <arc id="2156413926272" source="hid_104" target="sink0"/>
+      <arc id="2156413817744" source="hid_69" target="pre_safeTransferFrom"/>
+      <arc id="2156413924256" source="intplace_createEstateWithMetadata" target="hid_98"/>
+      <arc id="2156413897648" source="source0" target="hid_16"/>
+      <arc id="2156413815728" source="hid_82" target="pre_registerBalance"/>
+      <arc id="2156413922240" source="intplace_createEstateWithMetadata" target="hid_91"/>
+      <arc id="2156413918160" source="intplace_transferFrom" target="hid_78"/>
+      <arc id="2156413821920" source="intplace_setUpdateManager" target="hid_129"/>
+      <arc id="2156413823984" source="intplace_transferManyLandToEstate" target="hid_123"/>
+      <arc id="2156413817840" source="hid_102" target="pre_safeTransferFrom"/>
+      <arc id="2156413826048" source="intplace_approve" target="hid_117"/>
+      <arc id="2156413926416" source="setUpdateOperator" target="intplace_setUpdateOperator"/>
+      <arc id="2156413815824" source="hid_125" target="pre_transferManyLandToEstate"/>
+      <arc id="2156413813808" source="intplace_setUpdateOperator" target="hid_36"/>
+      <arc id="2156413920320" source="intplace_setApprovalForAll" target="hid_85"/>
+      <arc id="2156413817936" source="hid_78" target="pre_transferFrom"/>
+      <arc id="2156413820000" source="transferLandToEstate" target="intplace_transferLandToEstate"/>
+      <arc id="2156413914224" source="updateLandData" target="intplace_updateLandData"/>
+      <arc id="2156413828208" source="intplace_setUpdateOperator" target="hid_111"/>
+      <arc id="2156413815920" source="hid_92" target="pre_safeTransferFrom"/>
+      <arc id="2156413813904" source="intplace_updateLandData" target="hid_11"/>
+      <arc id="2156413899952" source="hid_11" target="pre_transferFrom"/>
+      <arc id="2156413818032" source="hid_96" target="pre_transferFrom"/>
+      <arc id="2156413924544" source="intplace_createEstateWithMetadata" target="hid_99"/>
+      <arc id="2156413816016" source="hid_66" target="pre_approve"/>
+      <arc id="2156413922528" source="intplace_createEstateWithMetadata" target="hid_92"/>
+      <arc id="2156413824224" source="transferManyLandToEstate" target="intplace_transferManyLandToEstate"/>
+      <arc id="2156413814000" source="intplace_setApprovalForAll" target="hid_36"/>
+      <arc id="2156413918448" source="intplace_transferFrom" target="hid_79"/>
+      <arc id="2156413820144" source="hid_134" target="sink0"/>
+      <arc id="2156413926656" source="intplace_setUpdateOperator" target="hid_105"/>
+      <arc id="2156413822208" source="intplace_setUpdateManager" target="hid_128"/>
+      <arc id="2156413818128" source="hid_73" target="pre_updateLandData"/>
+      <arc id="2156413990176" source="source0" target="hid_52"/>
+      <arc id="2156413826336" source="intplace_approve" target="hid_116"/>
+      <arc id="2156413816112" source="hid_75" target="pre_createEstateWithMetadata"/>
+      <arc id="2156413916480" source="intplace_updateLandData" target="hid_73"/>
+      <arc id="2156413814096" source="intplace_transferFrom" target="hid_36"/>
+      <arc id="2156413918544" source="hid_79" target="sink0"/>
+      <arc id="2156413820240" source="intplace_transferManyLand" target="hid_134"/>
+      <arc id="2156413914464" source="intplace_updateLandData" target="hid_66"/>
+      <arc id="2156413920608" source="intplace_setApprovalForAll" target="hid_86"/>
+      <arc id="2156413824368" source="hid_122" target="sink0"/>
+      <arc id="2156413818224" source="hid_114" target="pre_updateLandData"/>
+      <arc id="2156413990272" source="hid_52" target="pre_approve"/>
+      <arc id="2156413816208" source="hid_113" target="pre_createEstateWithMetadata"/>
+      <arc id="2156413982112" source="source0" target="hid_33"/>
+      <arc id="2156413814192" source="intplace_transferLandToEstate" target="transferLandToEstate"/>
+      <arc id="2156413824464" source="intplace_setManyUpdateOperator" target="hid_122"/>
+      <arc id="2156413818320" source="hid_98" target="pre_transferManyLandToEstate"/>
+      <arc id="2156413924832" source="intplace_createEstateWithMetadata" target="hid_100"/>
+      <arc id="2156413816304" source="hid_94" target="pre_setUpdateManager"/>
+      <arc id="2156413982208" source="hid_33" target="pre_createEstateWithMetadata"/>
+      <arc id="2156413922816" source="intplace_createEstateWithMetadata" target="hid_93"/>
+      <arc id="2156413990416" source="pre_setManyUpdateOperator" target="setManyUpdateOperator"/>
+      <arc id="2156413814288" source="intplace_setApprovalForAll" target="hid_11"/>
+      <arc id="2156413918736" source="setApprovalForAll" target="intplace_setApprovalForAll"/>
+      <arc id="2156413822496" source="intplace_setUpdateManager" target="hid_127"/>
+      <arc id="2156413818416" source="hid_130" target="pre_transferFrom"/>
+      <arc id="2156413924928" source="hid_100" target="sink0"/>
+      <arc id="2156413816400" source="hid_129" target="pre_setUpdateOperator"/>
+      <arc id="2156413916768" source="intplace_updateLandData" target="hid_74"/>
+      <arc id="2156413826672" source="approve" target="intplace_approve"/>
+      <arc id="2156413814384" source="hid_111" target="pre_updateLandData"/>
+      <arc id="2156413914752" source="intplace_updateLandData" target="hid_67"/>
+      <arc id="2156413982352" source="pre_safeTransferFrom" target="safeTransferFrom"/>
+      <arc id="2156413818512" source="hid_116" target="pre_approve"/>
+      <arc id="2156413918880" source="intplace_setApprovalForAll" target="hid_80"/>
+      <arc id="2156413816496" source="hid_84" target="pre_setApprovalForAll"/>
+      <arc id="2156413828784" source="intplace_setUpdateOperator" target="hid_109"/>
+      <arc id="2156413988544" source="source0" target="hid_48"/>
+      <arc id="2156413916864" source="hid_74" target="sink0"/>
+      <arc id="2156413814480" source="hid_99" target="pre_updateLandData"/>
+      <arc id="2156413925072" source="safeTransferFrom" target="intplace_safeTransferFrom"/>
+      <arc id="2156413826768" source="hid_115" target="sink0"/>
+      <arc id="2156413824752" source="intplace_setManyUpdateOperator" target="hid_121"/>
+      <arc id="2156413818608" source="hid_123" target="pre_createEstateWithMetadata"/>
+      <arc id="2156413816592" source="hid_132" target="pre_transferFrom"/>
+      <arc id="2156413988640" source="hid_48" target="pre_registerBalance"/>
+      <arc id="2156413916960" source="transferFrom" target="intplace_transferFrom"/>
+      <arc id="2156413923104" source="intplace_createEstateWithMetadata" target="hid_94"/>
+      <arc id="2156413466416" source="source0" target="hid_8"/>
+      <arc id="2156413826864" source="intplace_registerBalance" target="hid_115"/>
+      <arc id="2156413814576" source="hid_118" target="pre_transferFrom"/>
+      <arc id="2156413992768" source="source0" target="hid_58"/>
+      <arc id="2156413927232" source="intplace_setUpdateOperator" target="hid_107"/>
+      <arc id="2156413818704" source="hid_81" target="pre_createEstateWithMetadata"/>
+      <arc id="2156413816688" source="hid_103" target="pre_updateLandData"/>
+      <arc id="2156413822832" source="setUpdateManager" target="intplace_setUpdateManager"/>
+      <arc id="2156413824896" source="setManyUpdateOperator" target="intplace_setManyUpdateOperator"/>
+      <arc id="2156413820816" source="intplace_setUpdateOperator" target="hid_11"/>
+      <arc id="2156413814672" source="hid_88" target="pre_transferManyLandToEstate"/>
+      <arc id="2156413912976" source="source0" target="hid_63"/>
+      <arc id="2156413992864" source="hid_58" target="pre_transferManyLandToEstate"/>
+      <arc id="2156413915040" source="intplace_updateLandData" target="hid_68"/>
+      <arc id="2156413921184" source="intplace_setApprovalForAll" target="hid_88"/>
+      <arc id="2156413988784" source="pre_approve" target="approve"/>
+      <arc id="2156413818800" source="hid_71" target="pre_setUpdateOperator"/>
+      <arc id="2156413925312" source="intplace_safeTransferFrom" target="hid_101"/>
+      <arc id="2156413919168" source="intplace_setApprovalForAll" target="hid_81"/>
+      <arc id="2156413822928" source="hid_126" target="sink0"/>
+      <arc id="2156413816784" source="hid_68" target="pre_registerBalance"/>
+      <arc id="2156413829072" source="intplace_setUpdateOperator" target="hid_108"/>
+      <arc id="2156413913072" source="hid_63" target="pre_setUpdateManager"/>
+      <arc id="2156413814768" source="hid_67" target="pre_createEstateWithMetadata"/>
+      <arc id="2156413820912" source="intplace_transferManyLand" target="hid_132"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink0">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="net1" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <page id="n0">
+      <place id="start">
+        <name>
+          <text>start</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="end">
+        <name>
+          <text>end</text>
+        </name>
+      </place>
+      <transition id="authorizeDeploy">
+        <name>
+          <text>authorizeDeploy</text>
+        </name>
+      </transition>
+      <transition id="createEstate">
+        <name>
+          <text>createEstate</text>
+        </name>
+      </transition>
+      <transition id="ping">
+        <name>
+          <text>ping</text>
+        </name>
+      </transition>
+      <transition id="setUpdateManager">
+        <name>
+          <text>setUpdateManager</text>
+        </name>
+      </transition>
+      <transition id="transferFrom">
+        <name>
+          <text>transferFrom</text>
+        </name>
+      </transition>
+      <transition id="assignMultipleParcels">
+        <name>
+          <text>assignMultipleParcels</text>
+        </name>
+      </transition>
+      <transition id="updateLandData">
+        <name>
+          <text>updateLandData</text>
+        </name>
+      </transition>
+      <transition id="safeTransferFrom">
+        <name>
+          <text>safeTransferFrom</text>
+        </name>
+      </transition>
+      <transition id="setApprovalForAll">
+        <name>
+          <text>setApprovalForAll</text>
+        </name>
+      </transition>
+      <transition id="createEstateWithMetadata">
+        <name>
+          <text>createEstateWithMetadata</text>
+        </name>
+      </transition>
+      <transition id="transferLandToEstate">
+        <name>
+          <text>transferLandToEstate</text>
+        </name>
+      </transition>
+      <transition id="initialize">
+        <name>
+          <text>initialize</text>
+        </name>
+      </transition>
+      <transition id="setUpdateOperator">
+        <name>
+          <text>setUpdateOperator</text>
+        </name>
+      </transition>
+      <transition id="transferLand">
+        <name>
+          <text>transferLand</text>
+        </name>
+      </transition>
+      <transition id="unregisterBalance">
+        <name>
+          <text>unregisterBalance</text>
+        </name>
+      </transition>
+      <transition id="updateManyLandData">
+        <name>
+          <text>updateManyLandData</text>
+        </name>
+      </transition>
+      <transition id="registerBalance">
+        <name>
+          <text>registerBalance</text>
+        </name>
+      </transition>
+      <transition id="transferManyLand">
+        <name>
+          <text>transferManyLand</text>
+        </name>
+      </transition>
+      <transition id="transferOwnership">
+        <name>
+          <text>transferOwnership</text>
+        </name>
+      </transition>
+      <transition id="approve">
+        <name>
+          <text>approve</text>
+        </name>
+      </transition>
+      <transition id="assignNewParcel">
+        <name>
+          <text>assignNewParcel</text>
+        </name>
+      </transition>
+      <transition id="transferManyLandToEstate">
+        <name>
+          <text>transferManyLandToEstate</text>
+        </name>
+      </transition>
+      <transition id="setManyUpdateOperator">
+        <name>
+          <text>setManyUpdateOperator</text>
+        </name>
+      </transition>
+      <transition id="forbidDeploy">
+        <name>
+          <text>forbidDeploy</text>
+        </name>
+      </transition>
+      <arc id="2156365173888" source="start" target="assignMultipleParcels"/>
+      <arc id="2156365174272" source="start" target="registerBalance"/>
+      <arc id="2156365174656" source="start" target="authorizeDeploy"/>
+      <arc id="2156365175040" source="start" target="setUpdateOperator"/>
+      <arc id="2156365175424" source="start" target="createEstate"/>
+      <arc id="2156365175808" source="setUpdateManager" target="end"/>
+      <arc id="2156365176192" source="updateLandData" target="end"/>
+      <arc id="2156365176576" source="updateManyLandData" target="end"/>
+      <arc id="2156365176960" source="setUpdateOperator" target="end"/>
+      <arc id="2156365174176" source="start" target="updateLandData"/>
+      <arc id="2156365174560" source="start" target="safeTransferFrom"/>
+      <arc id="2156365174944" source="start" target="setApprovalForAll"/>
+      <arc id="2156365175328" source="start" target="transferFrom"/>
+      <arc id="2156365175712" source="transferLand" target="end"/>
+      <arc id="2156365176096" source="registerBalance" target="end"/>
+      <arc id="2156365176480" source="safeTransferFrom" target="end"/>
+      <arc id="2156365176864" source="assignNewParcel" target="end"/>
+      <arc id="2156365177248" source="setManyUpdateOperator" target="end"/>
+      <arc id="2156365174080" source="start" target="setUpdateManager"/>
+      <arc id="2156365174464" source="start" target="approve"/>
+      <arc id="2156365174848" source="start" target="createEstateWithMetadata"/>
+      <arc id="2156365175232" source="start" target="transferManyLand"/>
+      <arc id="2156365175616" source="assignMultipleParcels" target="end"/>
+      <arc id="2156365176000" source="transferOwnership" target="end"/>
+      <arc id="2156365176384" source="createEstateWithMetadata" target="end"/>
+      <arc id="2156365176768" source="setApprovalForAll" target="end"/>
+      <arc id="2156365177152" source="transferManyLand" target="end"/>
+      <arc id="2156365173984" source="start" target="transferLand"/>
+      <arc id="2156365174368" source="start" target="initialize"/>
+      <arc id="2156365174752" source="start" target="updateManyLandData"/>
+      <arc id="2156365175136" source="start" target="transferManyLandToEstate"/>
+      <arc id="2156365175904" source="unregisterBalance" target="end"/>
+      <arc id="2156365176288" source="approve" target="end"/>
+      <arc id="2156365176672" source="transferManyLandToEstate" target="end"/>
+      <arc id="2156365177056" source="transferFrom" target="end"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="end">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

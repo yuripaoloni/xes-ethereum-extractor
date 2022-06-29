@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="net1" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <page id="n0">
+      <place id="start">
+        <name>
+          <text>start</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="end">
+        <name>
+          <text>end</text>
+        </name>
+      </place>
+      <transition id="setUpdateManager">
+        <name>
+          <text>setUpdateManager</text>
+        </name>
+      </transition>
+      <transition id="createEstateWithMetadata">
+        <name>
+          <text>createEstateWithMetadata</text>
+        </name>
+      </transition>
+      <transition id="safeTransferFrom">
+        <name>
+          <text>safeTransferFrom</text>
+        </name>
+      </transition>
+      <transition id="approve">
+        <name>
+          <text>approve</text>
+        </name>
+      </transition>
+      <transition id="setApprovalForAll">
+        <name>
+          <text>setApprovalForAll</text>
+        </name>
+      </transition>
+      <transition id="setUpdateOperator">
+        <name>
+          <text>setUpdateOperator</text>
+        </name>
+      </transition>
+      <transition id="transferLand">
+        <name>
+          <text>transferLand</text>
+        </name>
+      </transition>
+      <transition id="updateLandData">
+        <name>
+          <text>updateLandData</text>
+        </name>
+      </transition>
+      <transition id="registerBalance">
+        <name>
+          <text>registerBalance</text>
+        </name>
+      </transition>
+      <transition id="transferManyLandToEstate">
+        <name>
+          <text>transferManyLandToEstate</text>
+        </name>
+      </transition>
+      <transition id="transferFrom">
+        <name>
+          <text>transferFrom</text>
+        </name>
+      </transition>
+      <transition id="transferManyLand">
+        <name>
+          <text>transferManyLand</text>
+        </name>
+      </transition>
+      <transition id="setManyUpdateOperator">
+        <name>
+          <text>setManyUpdateOperator</text>
+        </name>
+      </transition>
+      <transition id="transferLandToEstate">
+        <name>
+          <text>transferLandToEstate</text>
+        </name>
+      </transition>
+      <arc id="2156413927680" source="start" target="approve"/>
+      <arc id="2156413928064" source="start" target="setUpdateOperator"/>
+      <arc id="2156413928832" source="updateLandData" target="end"/>
+      <arc id="2156413929216" source="setApprovalForAll" target="end"/>
+      <arc id="2156413929600" source="transferManyLand" target="end"/>
+      <arc id="2156413927584" source="start" target="updateLandData"/>
+      <arc id="2156413927968" source="start" target="setApprovalForAll"/>
+      <arc id="2156413928352" source="start" target="transferManyLand"/>
+      <arc id="2156413928736" source="registerBalance" target="end"/>
+      <arc id="2156413929120" source="approve" target="end"/>
+      <arc id="2156413929504" source="transferFrom" target="end"/>
+      <arc id="2156413927488" source="start" target="registerBalance"/>
+      <arc id="2156413927872" source="start" target="createEstateWithMetadata"/>
+      <arc id="2156413928256" source="start" target="transferFrom"/>
+      <arc id="2156413928640" source="setUpdateManager" target="end"/>
+      <arc id="2156413929024" source="safeTransferFrom" target="end"/>
+      <arc id="2156413929408" source="transferManyLandToEstate" target="end"/>
+      <arc id="2156413812944" source="start" target="transferLand"/>
+      <arc id="2156413927776" source="start" target="safeTransferFrom"/>
+      <arc id="2156413928160" source="start" target="transferManyLandToEstate"/>
+      <arc id="2156413928544" source="transferLand" target="end"/>
+      <arc id="2156413928928" source="createEstateWithMetadata" target="end"/>
+      <arc id="2156413929312" source="setUpdateOperator" target="end"/>
+      <arc id="2156413929696" source="setManyUpdateOperator" target="end"/>
+      <arc id="2156413812848" source="start" target="setUpdateManager"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="end">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

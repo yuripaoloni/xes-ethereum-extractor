@@ -1,6 +1,6 @@
 # too heavy files
 data/LAND_decoded_calls
-data/internal_trace
+data/logs/subcalls
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
