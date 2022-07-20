@@ -1,0 +1,677 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="net1" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <page id="n0">
+      <place id="pre_createSaleAuction">
+        <name>
+          <text>pre_createSaleAuction</text>
+        </name>
+      </place>
+      <place id="pre_breedWithAuto">
+        <name>
+          <text>pre_breedWithAuto</text>
+        </name>
+      </place>
+      <place id="pre_transfer">
+        <name>
+          <text>pre_transfer</text>
+        </name>
+      </place>
+      <place id="intplace_transfer">
+        <name>
+          <text>intplace_transfer</text>
+        </name>
+      </place>
+      <place id="source0">
+        <name>
+          <text>source0</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="intplace_bid">
+        <name>
+          <text>intplace_bid</text>
+        </name>
+      </place>
+      <place id="intplace_approve">
+        <name>
+          <text>intplace_approve</text>
+        </name>
+      </place>
+      <place id="sink0">
+        <name>
+          <text>sink0</text>
+        </name>
+      </place>
+      <place id="pre_cancelAuction">
+        <name>
+          <text>pre_cancelAuction</text>
+        </name>
+      </place>
+      <place id="pre_createSiringAuction">
+        <name>
+          <text>pre_createSiringAuction</text>
+        </name>
+      </place>
+      <place id="pre_approve">
+        <name>
+          <text>pre_approve</text>
+        </name>
+      </place>
+      <place id="intplace_cancelAuction">
+        <name>
+          <text>intplace_cancelAuction</text>
+        </name>
+      </place>
+      <place id="intplace_createSiringAuction">
+        <name>
+          <text>intplace_createSiringAuction</text>
+        </name>
+      </place>
+      <place id="pre_bidOnSiringAuction">
+        <name>
+          <text>pre_bidOnSiringAuction</text>
+        </name>
+      </place>
+      <place id="intplace_breedWithAuto">
+        <name>
+          <text>intplace_breedWithAuto</text>
+        </name>
+      </place>
+      <place id="pre_bid">
+        <name>
+          <text>pre_bid</text>
+        </name>
+      </place>
+      <place id="intplace_bidOnSiringAuction">
+        <name>
+          <text>intplace_bidOnSiringAuction</text>
+        </name>
+      </place>
+      <place id="pre_createGen0Auction">
+        <name>
+          <text>pre_createGen0Auction</text>
+        </name>
+      </place>
+      <place id="intplace_createSaleAuction">
+        <name>
+          <text>intplace_createSaleAuction</text>
+        </name>
+      </place>
+      <place id="intplace_createGen0Auction">
+        <name>
+          <text>intplace_createGen0Auction</text>
+        </name>
+      </place>
+      <transition id="hid_61">
+        <name>
+          <text>hid_61</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="7466bce8-20bd-4870-bc36-7203278f7528"/>
+      </transition>
+      <transition id="hid_85">
+        <name>
+          <text>hid_85</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="32aab30b-19cd-4f30-9b75-5bc8ee115b21"/>
+      </transition>
+      <transition id="hid_62">
+        <name>
+          <text>hid_62</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="5181abda-7237-4bb2-af6b-a42779395135"/>
+      </transition>
+      <transition id="hid_103">
+        <name>
+          <text>hid_103</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="a524d0b3-6166-4b36-b563-b97b576923b8"/>
+      </transition>
+      <transition id="hid_107">
+        <name>
+          <text>hid_107</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="c09c6547-38aa-4569-ba63-7dfffe210123"/>
+      </transition>
+      <transition id="cancelAuction">
+        <name>
+          <text>cancelAuction</text>
+        </name>
+      </transition>
+      <transition id="hid_54">
+        <name>
+          <text>hid_54</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="bfea87a4-0e90-4e35-9b24-8ac79847529e"/>
+      </transition>
+      <transition id="hid_74">
+        <name>
+          <text>hid_74</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="e59c22c4-1b44-4536-bf8c-0d3c8eac925d"/>
+      </transition>
+      <transition id="hid_28">
+        <name>
+          <text>hid_28</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="59c5e383-e06c-410b-8b7b-a1097480c557"/>
+      </transition>
+      <transition id="hid_104">
+        <name>
+          <text>hid_104</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="c94c0c04-db9c-493e-94a4-bf077eb0b53e"/>
+      </transition>
+      <transition id="hid_53">
+        <name>
+          <text>hid_53</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="6ad4430e-3934-43f5-992f-56587edc06c3"/>
+      </transition>
+      <transition id="bidOnSiringAuction">
+        <name>
+          <text>bidOnSiringAuction</text>
+        </name>
+      </transition>
+      <transition id="hid_77">
+        <name>
+          <text>hid_77</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="ef93da5a-402e-40ae-91a6-c47bed79b7be"/>
+      </transition>
+      <transition id="hid_93">
+        <name>
+          <text>hid_93</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="eff34459-7814-4cf0-81e5-9a485c002c85"/>
+      </transition>
+      <transition id="hid_64">
+        <name>
+          <text>hid_64</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="3e4151a0-752c-4313-9e06-6406916411d4"/>
+      </transition>
+      <transition id="hid_82">
+        <name>
+          <text>hid_82</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="96d005f0-8a11-45c3-90d7-81af18e295d3"/>
+      </transition>
+      <transition id="hid_101">
+        <name>
+          <text>hid_101</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="e73f2566-97c9-4508-b40e-ef4cafe91737"/>
+      </transition>
+      <transition id="hid_56">
+        <name>
+          <text>hid_56</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="845d9ae5-e86f-4d0b-958c-35bb5bab1b58"/>
+      </transition>
+      <transition id="hid_69">
+        <name>
+          <text>hid_69</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="8ca0546a-0661-4c7b-bd57-d3ac40e5b6db"/>
+      </transition>
+      <transition id="hid_79">
+        <name>
+          <text>hid_79</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="68345690-d72e-466a-80a4-d7603c6708a3"/>
+      </transition>
+      <transition id="hid_91">
+        <name>
+          <text>hid_91</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="a2c8481e-c879-4c28-885f-83774d4e72b3"/>
+      </transition>
+      <transition id="hid_66">
+        <name>
+          <text>hid_66</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="bc25dd74-25a8-4cf6-8768-5693a3fa3d8a"/>
+      </transition>
+      <transition id="hid_99">
+        <name>
+          <text>hid_99</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="5420dab2-8f05-437d-8091-992001142fa7"/>
+      </transition>
+      <transition id="transfer">
+        <name>
+          <text>transfer</text>
+        </name>
+      </transition>
+      <transition id="hid_34">
+        <name>
+          <text>hid_34</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="fb8891bc-993b-457b-8921-e80fee7237ad"/>
+      </transition>
+      <transition id="hid_58">
+        <name>
+          <text>hid_58</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="3cbeecc9-e078-49fc-986a-0b2e0d783b07"/>
+      </transition>
+      <transition id="hid_50">
+        <name>
+          <text>hid_50</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="2c07cefd-22d9-41ba-bff9-5024e47d4d7e"/>
+      </transition>
+      <transition id="hid_88">
+        <name>
+          <text>hid_88</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="7001c9c4-a239-4660-bd73-9ee3ea2cd5f7"/>
+      </transition>
+      <transition id="hid_71">
+        <name>
+          <text>hid_71</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="7d47ac07-867f-45c2-b051-90dc90cd72af"/>
+      </transition>
+      <transition id="hid_97">
+        <name>
+          <text>hid_97</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="6f5e5b7c-5624-4313-9284-8764acba764f"/>
+      </transition>
+      <transition id="hid_60">
+        <name>
+          <text>hid_60</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="9fa73555-7b59-4f7f-ac3d-f27bf8a8771b"/>
+      </transition>
+      <transition id="hid_86">
+        <name>
+          <text>hid_86</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="612626c5-e8f3-4788-869e-7fa6e6505bfa"/>
+      </transition>
+      <transition id="hid_20">
+        <name>
+          <text>hid_20</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="db81b03e-330e-4a2a-b419-6e732da21bd6"/>
+      </transition>
+      <transition id="createSiringAuction">
+        <name>
+          <text>createSiringAuction</text>
+        </name>
+      </transition>
+      <transition id="hid_73">
+        <name>
+          <text>hid_73</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="be09b2b6-48fc-4235-97b7-e9955b036790"/>
+      </transition>
+      <transition id="hid_40">
+        <name>
+          <text>hid_40</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="e9cf729f-4a43-4aa0-a5b2-6b6e2f1d255c"/>
+      </transition>
+      <transition id="hid_105">
+        <name>
+          <text>hid_105</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="7fc69cc9-07af-4efd-822b-01de7e4c6eba"/>
+      </transition>
+      <transition id="hid_76">
+        <name>
+          <text>hid_76</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="efa4e9c1-b65e-4593-97b5-853ba6a7a511"/>
+      </transition>
+      <transition id="hid_84">
+        <name>
+          <text>hid_84</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="6346fdd4-2f55-410b-8a21-f3a5cd14f793"/>
+      </transition>
+      <transition id="hid_94">
+        <name>
+          <text>hid_94</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="8945f205-2c32-44d7-8665-ae4a0b9ad68b"/>
+      </transition>
+      <transition id="hid_7">
+        <name>
+          <text>hid_7</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="d381107d-40c2-4a68-ac97-85236f3c8ad2"/>
+      </transition>
+      <transition id="hid_63">
+        <name>
+          <text>hid_63</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="e1fb9ba1-51b3-4f1b-a8a7-307fe3c5024d"/>
+      </transition>
+      <transition id="hid_83">
+        <name>
+          <text>hid_83</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="e52321c4-9cac-4b1c-aef5-922b3761dd71"/>
+      </transition>
+      <transition id="hid_102">
+        <name>
+          <text>hid_102</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="0adc91db-7623-4a92-bbc6-0dc034b920d1"/>
+      </transition>
+      <transition id="hid_106">
+        <name>
+          <text>hid_106</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="1beb7e90-46f3-4339-b526-2f543a98cd78"/>
+      </transition>
+      <transition id="bid">
+        <name>
+          <text>bid</text>
+        </name>
+      </transition>
+      <transition id="hid_55">
+        <name>
+          <text>hid_55</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="78636f41-544a-4f81-a567-143aa34b5f40"/>
+      </transition>
+      <transition id="hid_48">
+        <name>
+          <text>hid_48</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="c71f5e9f-63b9-4cb9-95c4-002f13bd37ed"/>
+      </transition>
+      <transition id="hid_75">
+        <name>
+          <text>hid_75</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="b497ee49-2113-4edf-9df8-1c6f7881700c"/>
+      </transition>
+      <transition id="breedWithAuto">
+        <name>
+          <text>breedWithAuto</text>
+        </name>
+      </transition>
+      <transition id="hid_51">
+        <name>
+          <text>hid_51</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="da5f7f50-be41-4eb1-a08a-bcffb08781c6"/>
+      </transition>
+      <transition id="hid_78">
+        <name>
+          <text>hid_78</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="a739a62a-ea5e-48be-826a-f09bdfebad8d"/>
+      </transition>
+      <transition id="hid_92">
+        <name>
+          <text>hid_92</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="a183f6fa-5059-41a1-8033-25c9ab659e9b"/>
+      </transition>
+      <transition id="hid_65">
+        <name>
+          <text>hid_65</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="16bc89e8-493a-4935-81ab-4e46a8f64f00"/>
+      </transition>
+      <transition id="hid_81">
+        <name>
+          <text>hid_81</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="367b54b5-94c9-4913-8548-410f7e9fc6aa"/>
+      </transition>
+      <transition id="hid_100">
+        <name>
+          <text>hid_100</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="23f70478-de92-4f3c-b93f-d3dd361634f0"/>
+      </transition>
+      <transition id="createGen0Auction">
+        <name>
+          <text>createGen0Auction</text>
+        </name>
+      </transition>
+      <transition id="hid_57">
+        <name>
+          <text>hid_57</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="2bbf8553-7a5b-4278-a585-8b8c7bc1e8a6"/>
+      </transition>
+      <transition id="hid_89">
+        <name>
+          <text>hid_89</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="90cd0db0-c236-4079-befe-e463b5476a35"/>
+      </transition>
+      <transition id="hid_13">
+        <name>
+          <text>hid_13</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="e965f920-145f-4bdc-8598-5ae63707dbdb"/>
+      </transition>
+      <transition id="hid_70">
+        <name>
+          <text>hid_70</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="7f1f3770-d63a-4271-acca-e4d913187694"/>
+      </transition>
+      <transition id="hid_80">
+        <name>
+          <text>hid_80</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="237c7c60-df18-4483-a418-2a58faf62059"/>
+      </transition>
+      <transition id="hid_90">
+        <name>
+          <text>hid_90</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="d1906836-7de8-47bb-91c1-e48cfd4956b4"/>
+      </transition>
+      <transition id="hid_67">
+        <name>
+          <text>hid_67</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="19671814-bf51-4ac4-84c1-89db80e39508"/>
+      </transition>
+      <transition id="hid_98">
+        <name>
+          <text>hid_98</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="777b0e82-35bf-4665-8c18-cb095d94ad54"/>
+      </transition>
+      <transition id="createSaleAuction">
+        <name>
+          <text>createSaleAuction</text>
+        </name>
+      </transition>
+      <transition id="hid_59">
+        <name>
+          <text>hid_59</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="d99678d4-8d8c-4241-a9ae-e8f9740a1bd3"/>
+      </transition>
+      <transition id="hid_87">
+        <name>
+          <text>hid_87</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="8f2916d1-40d8-4977-ab50-0e4e0ee7c2b9"/>
+      </transition>
+      <transition id="approve">
+        <name>
+          <text>approve</text>
+        </name>
+      </transition>
+      <transition id="hid_72">
+        <name>
+          <text>hid_72</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="a19fbe1c-c366-4ad8-aada-aa11598eff98"/>
+      </transition>
+      <transition id="hid_96">
+        <name>
+          <text>hid_96</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="3b68866b-bf8d-4ba6-ac71-c6ab52bd6c8c"/>
+      </transition>
+      <arc id="2381937563136" source="hid_48" target="pre_bidOnSiringAuction"/>
+      <arc id="2381937570816" source="intplace_createSaleAuction" target="hid_70"/>
+      <arc id="2381937572352" source="hid_75" target="sink0"/>
+      <arc id="2381937470976" source="hid_94" target="sink0"/>
+      <arc id="2381937633808" source="pre_cancelAuction" target="cancelAuction"/>
+      <arc id="2381937463824" source="hid_65" target="pre_createSaleAuction"/>
+      <arc id="2381937569808" source="intplace_cancelAuction" target="hid_67"/>
+      <arc id="2381937474576" source="createSiringAuction" target="intplace_createSiringAuction"/>
+      <arc id="2381937465360" source="hid_56" target="pre_breedWithAuto"/>
+      <arc id="2381937631264" source="pre_createSaleAuction" target="createSaleAuction"/>
+      <arc id="2381937567264" source="intplace_bid" target="hid_59"/>
+      <arc id="2381937472032" source="intplace_transfer" target="hid_91"/>
+      <arc id="2381937628720" source="hid_20" target="pre_createSaleAuction"/>
+      <arc id="2381937564720" source="pre_createGen0Auction" target="createGen0Auction"/>
+      <arc id="2381937463344" source="hid_74" target="pre_createSiringAuction"/>
+      <arc id="2381937472560" source="transfer" target="intplace_transfer"/>
+      <arc id="2381937469488" source="intplace_bidOnSiringAuction" target="hid_99"/>
+      <arc id="2381937466416" source="hid_59" target="pre_createSiringAuction"/>
+      <arc id="2381937464880" source="hid_96" target="pre_bid"/>
+      <arc id="2381937623104" source="source0" target="hid_34"/>
+      <arc id="2381937571392" source="intplace_createSaleAuction" target="hid_72"/>
+      <arc id="2381937473088" source="intplace_createSiringAuction" target="hid_88"/>
+      <arc id="2381937464400" source="hid_72" target="pre_cancelAuction"/>
+      <arc id="2381937462864" source="hid_54" target="pre_bid"/>
+      <arc id="2381937467472" source="hid_105" target="sink0"/>
+      <arc id="2381937465936" source="hid_76" target="pre_bid"/>
+      <arc id="2381937567840" source="intplace_bid" target="hid_61"/>
+      <arc id="2381937471072" source="intplace_breedWithAuto" target="hid_80"/>
+      <arc id="2381937633904" source="hid_7" target="pre_bid"/>
+      <arc id="2381937557616" source="hid_34" target="pre_createSiringAuction"/>
+      <arc id="2381937465456" source="hid_101" target="pre_createSiringAuction"/>
+      <arc id="2381937568368" source="intplace_cancelAuction" target="hid_62"/>
+      <arc id="2381937569904" source="hid_67" target="sink0"/>
+      <arc id="2381937474672" source="hid_83" target="sink0"/>
+      <arc id="2381937470064" source="intplace_bidOnSiringAuction" target="hid_97"/>
+      <arc id="2381937462480" source="intplace_bidOnSiringAuction" target="hid_50"/>
+      <arc id="2381937463920" source="hid_62" target="pre_bidOnSiringAuction"/>
+      <arc id="2381937462384" source="intplace_createSaleAuction" target="hid_50"/>
+      <arc id="2381937565824" source="intplace_bid" target="hid_54"/>
+      <arc id="2381937571968" source="intplace_createSaleAuction" target="hid_74"/>
+      <arc id="2381937473664" source="intplace_createSiringAuction" target="hid_86"/>
+      <arc id="2381937628816" source="source0" target="hid_20"/>
+      <arc id="2381937463440" source="hid_99" target="pre_cancelAuction"/>
+      <arc id="2381937560208" source="pre_bidOnSiringAuction" target="bidOnSiringAuction"/>
+      <arc id="2381937563280" source="pre_approve" target="approve"/>
+      <arc id="2381937572496" source="breedWithAuto" target="intplace_breedWithAuto"/>
+      <arc id="2381937466512" source="hid_79" target="pre_cancelAuction"/>
+      <arc id="2381937464976" source="hid_70" target="pre_bidOnSiringAuction"/>
+      <arc id="2381937565344" source="source0" target="hid_53"/>
+      <arc id="2381937573024" source="intplace_breedWithAuto" target="hid_77"/>
+      <arc id="2381937568944" source="intplace_cancelAuction" target="hid_64"/>
+      <arc id="2381937462960" source="hid_91" target="pre_bidOnSiringAuction"/>
+      <arc id="2381937464496" source="hid_57" target="pre_cancelAuction"/>
+      <arc id="2381937467568" source="intplace_approve" target="hid_105"/>
+      <arc id="2381937466032" source="hid_85" target="pre_bidOnSiringAuction"/>
+      <arc id="2381937566400" source="intplace_bid" target="hid_56"/>
+      <arc id="2381937567936" source="hid_61" target="sink0"/>
+      <arc id="2381937474240" source="intplace_createSiringAuction" target="hid_84"/>
+      <arc id="2381937472704" source="hid_89" target="sink0"/>
+      <arc id="2381937471168" source="intplace_transfer" target="hid_94"/>
+      <arc id="2381937468096" source="approve" target="intplace_approve"/>
+      <arc id="2381937634000" source="source0" target="hid_7"/>
+      <arc id="2381937465552" source="hid_64" target="pre_cancelAuction"/>
+      <arc id="2381937464016" source="hid_86" target="pre_breedWithAuto"/>
+      <arc id="2381937474768" source="intplace_breedWithAuto" target="hid_83"/>
+      <arc id="2381937468624" source="intplace_bidOnSiringAuction" target="hid_102"/>
+      <arc id="2381937467088" source="intplace_createGen0Auction" target="hid_106"/>
+      <arc id="2381937631456" source="hid_13" target="pre_cancelAuction"/>
+      <arc id="2381937570528" source="intplace_createSaleAuction" target="hid_69"/>
+      <arc id="2381937573600" source="intplace_breedWithAuto" target="hid_79"/>
+      <arc id="2381937465072" source="hid_55" target="pre_bidOnSiringAuction"/>
+      <arc id="2381937569520" source="intplace_cancelAuction" target="hid_66"/>
+      <arc id="2381937463536" source="hid_93" target="pre_transfer"/>
+      <arc id="2381937466608" source="hid_66" target="pre_transfer"/>
+      <arc id="2381937557760" source="pre_transfer" target="transfer"/>
+      <arc id="2381937563904" source="hid_50" target="pre_approve"/>
+      <arc id="2381937565440" source="hid_53" target="pre_createGen0Auction"/>
+      <arc id="2381937566976" source="intplace_bid" target="hid_58"/>
+      <arc id="2381937471744" source="intplace_transfer" target="hid_92"/>
+      <arc id="2381937463056" source="hid_77" target="pre_bidOnSiringAuction"/>
+      <arc id="2381937625360" source="pre_createSiringAuction" target="createSiringAuction"/>
+      <arc id="2381937466128" source="hid_97" target="pre_bidOnSiringAuction"/>
+      <arc id="2381937464592" source="hid_102" target="pre_transfer"/>
+      <arc id="2381937475344" source="intplace_breedWithAuto" target="hid_81"/>
+      <arc id="2381937469200" source="intplace_bidOnSiringAuction" target="hid_100"/>
+      <arc id="2381937568032" source="cancelAuction" target="intplace_cancelAuction"/>
+      <arc id="2381937571104" source="intplace_createSaleAuction" target="hid_71"/>
+      <arc id="2381937472800" source="intplace_createSiringAuction" target="hid_89"/>
+      <arc id="2381937465648" source="hid_82" target="pre_transfer"/>
+      <arc id="2381937570096" source="createSaleAuction" target="intplace_createSaleAuction"/>
+      <arc id="2381937464112" source="hid_98" target="pre_breedWithAuto"/>
+      <arc id="2381937462576" source="hid_73" target="pre_createSaleAuction"/>
+      <arc id="2381937631552" source="source0" target="hid_13"/>
+      <arc id="2381937628480" source="pre_breedWithAuto" target="breedWithAuto"/>
+      <arc id="2381937564480" source="source0" target="hid_51"/>
+      <arc id="2381937567552" source="intplace_bid" target="hid_60"/>
+      <arc id="2381937463632" source="hid_60" target="pre_transfer"/>
+      <arc id="2381937465168" source="hid_106" target="pre_createGen0Auction"/>
+      <arc id="2381937469776" source="intplace_bidOnSiringAuction" target="hid_98"/>
+      <arc id="2381937468240" source="hid_103" target="sink0"/>
+      <arc id="2381937466704" source="hid_107" target="sink0"/>
+      <arc id="2381937571680" source="intplace_createSaleAuction" target="hid_73"/>
+      <arc id="2381937473376" source="intplace_createSiringAuction" target="hid_87"/>
+      <arc id="2381937625456" source="hid_28" target="pre_breedWithAuto"/>
+      <arc id="2381937559920" source="source0" target="hid_40"/>
+      <arc id="2381937463152" source="hid_92" target="pre_breedWithAuto"/>
+      <arc id="2381937466224" source="hid_63" target="pre_breedWithAuto"/>
+      <arc id="2381937464688" source="hid_84" target="pre_bid"/>
+      <arc id="2381937572736" source="intplace_breedWithAuto" target="hid_76"/>
+      <arc id="2381938073488" source="pre_bid" target="bid"/>
+      <arc id="2381937465744" source="hid_87" target="pre_createSaleAuction"/>
+      <arc id="2381937462672" source="hid_58" target="pre_createSaleAuction"/>
+      <arc id="2381937565584" source="bid" target="intplace_bid"/>
+      <arc id="2381937568656" source="intplace_cancelAuction" target="hid_63"/>
+      <arc id="2381937464208" source="hid_104" target="pre_approve"/>
+      <arc id="2381937470352" source="intplace_bidOnSiringAuction" target="hid_96"/>
+      <arc id="2381937563040" source="source0" target="hid_48"/>
+      <arc id="2381937564576" source="hid_51" target="pre_approve"/>
+      <arc id="2381937566112" source="intplace_bid" target="hid_55"/>
+      <arc id="2381937572256" source="intplace_createSaleAuction" target="hid_75"/>
+      <arc id="2381937473952" source="intplace_createSiringAuction" target="hid_85"/>
+      <arc id="2381937470784" source="bidOnSiringAuction" target="intplace_bidOnSiringAuction"/>
+      <arc id="2381937465264" source="hid_71" target="pre_breedWithAuto"/>
+      <arc id="2381937468336" source="intplace_bidOnSiringAuction" target="hid_103"/>
+      <arc id="2381937466800" source="intplace_createGen0Auction" target="hid_107"/>
+      <arc id="2381937463728" source="hid_90" target="pre_bid"/>
+      <arc id="2381937573312" source="intplace_breedWithAuto" target="hid_78"/>
+      <arc id="2381937467328" source="createGen0Auction" target="intplace_createGen0Auction"/>
+      <arc id="2381937625552" source="source0" target="hid_28"/>
+      <arc id="2381937560016" source="hid_40" target="pre_transfer"/>
+      <arc id="2381937569232" source="intplace_cancelAuction" target="hid_65"/>
+      <arc id="2381937464784" source="hid_80" target="pre_createSaleAuction"/>
+      <arc id="2381937463248" source="hid_78" target="pre_breedWithAuto"/>
+      <arc id="2381937467856" source="intplace_approve" target="hid_104"/>
+      <arc id="2381937466320" source="hid_88" target="pre_createSiringAuction"/>
+      <arc id="2381937472320" source="intplace_transfer" target="hid_90"/>
+      <arc id="2381937566688" source="intplace_bid" target="hid_57"/>
+      <arc id="2381937471456" source="intplace_transfer" target="hid_93"/>
+      <arc id="2381937464304" source="hid_81" target="pre_createSiringAuction"/>
+      <arc id="2381937462768" source="hid_69" target="pre_bid"/>
+      <arc id="2381937465840" source="hid_100" target="pre_createSaleAuction"/>
+      <arc id="2381937475056" source="intplace_breedWithAuto" target="hid_82"/>
+      <arc id="2381937468912" source="intplace_bidOnSiringAuction" target="hid_101"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink0">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

@@ -70,7 +70,7 @@ def get_transactions(contracts, start_block, end_block):
                                 function_params[key] = function_params[key].decode(
                                     "utf-8", "ignore")
 
-                            transaction[f"{contract['name']}_{key}"] = str(
+                            transaction[f"{contract['name']}_{key}" if len(contracts) > 1 else f"{key}"] = str(
                                 value)
 
                         transaction["inputFunctionParams"] = str(
