@@ -2,21 +2,11 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="text-center lg:text-left bg-gray-300 text-gray-600">
+    <footer className="text-center lg:text-left bg-gray-200 shadow-md">
       <div className="mx-6 py-10 text-center md:text-left">
         <div className="grid grid-cols-12 gap-8">
           <div className="md:col-span-4 col-span-12">
-            <h6
-              className="
-            uppercase
-            font-semibold
-            mb-4
-            flex
-            items-center
-            justify-center
-            md:justify-start
-          "
-            >
+            <h6 className="uppercase font-semibold mb-4 flex items-center justify-center md:justify-start">
               <svg
                 aria-hidden="true"
                 focusable="false"
@@ -36,9 +26,7 @@ const Footer = () => {
             </h6>
           </div>
           <div className="md:col-span-4 sm:col-span-6 col-span-12">
-            <h6 className="uppercase font-semibold mb-4 flex justify-center md:justify-start">
-              Useful links
-            </h6>
+            <h6 className="uppercase font-semibold mb-4 flex justify-center md:justify-start">Useful links</h6>
             <p className="mb-4">
               <a href="" target="_blank" rel="noopener noreferrer">
                 GitHub
@@ -51,9 +39,7 @@ const Footer = () => {
             </p>
           </div>
           <div className="md:col-span-4 sm:col-span-6 col-span-12">
-            <h6 className="uppercase font-semibold mb-4 flex justify-center md:justify-start">
-              Contact
-            </h6>
+            <h6 className="uppercase font-semibold mb-4 flex justify-center md:justify-start">Contact</h6>
             <p className="mb-4">info@example.com</p>
           </div>
         </div>

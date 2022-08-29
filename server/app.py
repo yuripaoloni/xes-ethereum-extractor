@@ -7,12 +7,16 @@ from etherscan import Etherscan
 from web3 import Web3
 from io import BytesIO
 
+from flask_cors import CORS, cross_origin
+
 app = Flask(__name__)
+cors = CORS(app, resources={"/*": {"origins": "*"}})
 
 
 # download file. file_name should be {contract_name}_{start_block}_{end_block}
 # e.g. LAND_15429981_999999999 or LAND_ESTATE_0_999999999
 @app.route("/download_txs/<file_name>", methods=['GET'])
+@cross_origin()
 def download_file(file_name):
     try:
         f = open(f'txs/{file_name}.json')
@@ -50,8 +54,8 @@ def fetch_transactions():
 
         # name, txs_contract, abi_contract
         contracts = data['contracts']
-        start_block = data['start_block']
-        end_block = data['end_block']
+        start_block = data['startBlock']
+        end_block = data['endBlock']
 
         filename = ""
 
@@ -63,11 +67,11 @@ def fetch_transactions():
             block_number = start_block
 
             # get contracts ABI
-            contract_abi = eth.get_contract_abi(contract["abi_contract"])
+            contract_abi = eth.get_contract_abi(contract["abiAddress"])
 
             # create a contract instance to decode transactions input
             contract_instance = w3.eth.contract(
-                w3.toChecksumAddress(contract["abi_contract"]), abi=contract_abi)
+                w3.toChecksumAddress(contract["abiAddress"]), abi=contract_abi)
 
             # the Etherscan APIs returns max 10000 results. The "while true" loop allows to get all the transactions from an address
             # Retrieve 10000 a time and append them on 'results'. Stop when the length of the retrieved transactions is 1
@@ -77,7 +81,7 @@ def fetch_transactions():
 
                 # retrieve transactions within the specified block range (max 10000 transactions)
                 transactions = eth.get_normal_txs_by_address(
-                    contract["txs_contract"], block_number, end_block, "asc")
+                    contract["txsAddress"], block_number, end_block, "asc")
 
                 print(f"\t{len(transactions)} transactions retrieved")
 
