@@ -8,11 +8,12 @@ import AddIcon from "../components/Icons/AddIcon";
 import RemoveIcon from "../components/Icons/RemoveIcon";
 import { useAlert } from "../contexts/AlertContext";
 import Link from "next/link";
+import Spinner from "../components/layout/Spinner";
 
 // 0xf87e31492faf9a91b02ee0deaad50d51d56d5d4d, 0xa57e126b341b18c262ad25b86bb4f65b5e2ade45
 // 15429981, 99999999
 
-const Play: NextPage = () => {
+const Transactions: NextPage = () => {
   const [contracts, setContracts] = useState<Contract[]>([{ name: "", txsAddress: "", abiAddress: "" }]);
   const [startBlock, setStartBlock] = useState(0);
   const [endBlock, setEndBlock] = useState(99999999);
@@ -74,7 +75,7 @@ const Play: NextPage = () => {
       <Head>
         <title>XES Ethereum Extractor</title>
       </Head>
-      <div className="w-11/12 bg-gray-200 grid grid-cols-12 p-3 gap-y-6 gap-x-4 rounded-md shadow-md">
+      <div className="w-11/12 bg-gray-200 grid grid-cols-12 p-3 gap-4 rounded-md shadow-md">
         <h4 className="col-span-12 text-xl text-center font-semibold">
           Insert the smart contracts you want to collect data from
         </h4>
@@ -148,7 +149,7 @@ const Play: NextPage = () => {
             onChange={(e) => handleChangeEndBlock(e.target.valueAsNumber)}
           />
         </div>
-        <div className="col-span-12">
+        <div className="col-span-12 mt-2">
           <button
             className="bg-indigo-500 hover:bg-indigo-700 text-white p-2 rounded-md shadow-md self-end"
             onClick={() => fetchTxs()}
@@ -159,22 +160,12 @@ const Play: NextPage = () => {
       </div>
       <div className="w-11/12 mt-16 max-h-[650px]">
         {loading ? (
-          <div className="flex flex-col items-center justify-center">
-            <svg className="w-20 h-20  animate-spin" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-              <path
-                d="M8.175 7.377l-3.042-5.27 1.732-1 3.045 5.273c-.635.238-1.222.573-1.735.997zm-.799.8l-5.27-3.042-1 1.732 5.274 3.045c.237-.635.572-1.223.996-1.735zm-1.376 3.823c0-.341.035-.673.09-.999h-6.09v1.999h6.09c-.055-.326-.09-.659-.09-1zm11.351-2.705l5.208-3.007-.333-.577-5.206 3.007c.121.185.23.379.331.577zm-5.351-3.295c.341 0 .673.035.999.09v-6.09h-1.999v6.09c.326-.055.659-.09 1-.09zm3.14.894l3.004-5.204-.288-.166-3 5.197.284.173zm1.685 8.662l5.234 3.022.666-1.154-5.229-3.019c-.181.41-.408.794-.671 1.151zm-10.444-1.467l-5.274 3.046 1 1.732 5.27-3.042c-.424-.513-.759-1.1-.996-1.736zm11.594-2.589l.025.5-.025.5h6.025v-1h-6.025zm-3.727 6.061l3.03 5.249 1.442-.833-3.031-5.25c-.437.34-.92.623-1.441.834zm-2.248.439c-.341 0-.674-.035-1-.09v6.09h1.999v-6.09c-.326.055-.658.09-.999.09zm-3.824-1.376l-3.042 5.27 1.732 1 3.045-5.274c-.635-.237-1.222-.572-1.735-.996z"
-                fill="#6B7280"
-              />
-            </svg>
-            <p className="text-xl italic text-gray-500 font-semibold mt-3">
-              Large block intervals may take several minutes...
-            </p>
-          </div>
+          <Spinner text="Large block intervals may take several minutes..." />
         ) : (
           result.length > 0 && (
             <>
               <p className="text-center text-xl font-semibold mb-2">
-                Preview results for {contracts.map((contract, index) => `${index != 0 ? ", " : ""}${contract.name} `)}
+                Preview results for {contracts.map((contract, index) => `${index != 0 ? ", " : ""}${contract.name}`)}
               </p>
               <div className="scrollbar overflow-auto max-h-[550px] border rounded-md w-full">
                 <pre>{JSON.stringify(result, null, 2)}</pre>
@@ -201,4 +192,4 @@ const Play: NextPage = () => {
   );
 };
 
-export default Play;
+export default Transactions;

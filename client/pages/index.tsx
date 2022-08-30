@@ -21,7 +21,7 @@ const Home: NextPage = () => {
           <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
             <div className="rounded-md drop-shadow-md">
               <button className="px-8 py-3 bg-indigo-500 text-white rounded-md shadow-md">
-                <Link href="play">Play</Link>
+                <Link href="/transactions">Start here</Link>
               </button>
             </div>
             <div className="mt-3 sm:mt-0 sm:ml-3 drop-shadow-md">
