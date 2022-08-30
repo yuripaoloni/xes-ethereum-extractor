@@ -19,4 +19,23 @@ a {
   box-sizing: border-box;
 }
 
+.scrollbar::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  background: #e2e8f0;
+  border-radius: 50vh;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background: #6B7280;
+  border-radius: 100vh;
+}
+
+.scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
 
