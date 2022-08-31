@@ -1,4 +1,5 @@
 import json
+import pm4py
 from flask import Flask, request, send_file
 import os
 from contextlib import suppress
@@ -6,31 +7,32 @@ from dotenv import load_dotenv
 from etherscan import Etherscan
 from web3 import Web3
 from io import BytesIO
-
-from flask_cors import CORS, cross_origin
+from flask_cors import CORS
+import pandas as pd
+from pm4py.objects.log.util import dataframe_utils
+from pm4py.objects.conversion.log import converter as log_converter
+from pm4py.objects.log.exporter.xes import exporter as xes_exporter
 
 app = Flask(__name__)
 cors = CORS(app, resources={"/*": {"origins": "*"}})
 
 
-# download file. file_name should be {contract_name}_{start_block}_{end_block}
+# download txs. file_name should be {contract_name}_{start_block}_{end_block}
 # e.g. LAND_15429981_999999999 or LAND_ESTATE_0_999999999
 @app.route("/download_txs/<file_name>", methods=['GET'])
-@cross_origin()
-def download_file(file_name):
+def download_txs(file_name):
     try:
-        f = open(f'txs/{file_name}.json')
-        data = json.load(f)
+        return send_file(f"txs/{file_name}.json", as_attachment=True)
+    except Exception as e:
+        return e, 400
 
-        jsonData = json.dumps(data)
-        binaryData = jsonData.encode()
-        buffer = BytesIO(binaryData)
-        return send_file(
-            buffer,
-            as_attachment=True,
-            download_name=f'{file_name}.json',
-            mimetype='application/json'
-        )
+
+# download xes. file_name should be {contract_name}_{start_block}_{end_block}
+# e.g. LAND_15429981_999999999 or LAND_ESTATE_0_999999999
+@app.route("/download_xes/<file_name>", methods=['GET'])
+def download_xes(file_name):
+    try:
+        return send_file(f"xes/{file_name}.xes", as_attachment=True)
     except Exception as e:
         return e, 400
 
@@ -141,3 +143,73 @@ def fetch_transactions():
     except Exception as e:
         print(e)
         return str(e), 400
+
+
+# get all the keys in the extracted transactions
+@app.route("/keys/<file_name>", methods=['GET'])
+def get_txs_keys(file_name):
+    try:
+        f = open(f'txs/{file_name}.json')
+        data = json.load(f)
+
+        all_keys = set().union(*(d.keys() for d in data))
+
+        return sorted(list(all_keys)), 200
+
+    except Exception as e:
+        return e, 400
+
+
+# generate XES log
+@app.route("/xes/<file_name>", methods=['POST'])
+def generate_xes(file_name):
+    try:
+        data = request.get_json()
+        columns = data['columns']
+        case_concept_name = data['caseID']
+        concept_name = data['conceptName']
+
+        df = pd.read_json(f'txs/{file_name}.json')
+        df.drop(["blockNumber", "nonce", "blockHash", "value", "gas", "gasPrice", "isError", "txreceipt_status", "input",
+                 "contractAddress", "cumulativeGasUsed", "gasUsed",  "confirmations", "methodId"], axis=1, inplace=True)
+        df = dataframe_utils.convert_timestamp_columns_in_df(df)
+        df = df.sort_values(by=['timeStamp', 'transactionIndex'])
+
+        df = df.sort_values(by=columns)
+        df.reset_index(drop=True, inplace=True)
+
+        # create columns: from -> case:concept:name, inputFunctionName -> concept:name, timeStamp -> time:timestamp, from -> org:resource
+        df["org:resource"] = df["from"]
+        df["case:concept:name"] = df[case_concept_name]
+        df["time:timestamp"] = df["timeStamp"]
+        df["concept:name"] = df[concept_name]
+
+        # specify that the field identifying the case identifier attribute is the field with name 'case:concept:name'
+        parameters = {
+            log_converter.Variants.TO_EVENT_LOG.value.Parameters.CASE_ID_KEY: 'case:concept:name'}
+        log = log_converter.apply(df, parameters=parameters,
+                                  variant=log_converter.Variants.TO_EVENT_LOG)
+
+        pd.options.mode.use_inf_as_na = True  # consider NA also "" or '' during notna()
+
+        # print(log)
+        # print(type(log))
+
+        # remove "nan" attributes from events
+        for t in log:
+            for i, e in enumerate(t):
+                t[i] = {k: v for k, v in e.items() if pd.Series(
+                    v).notna().all()}
+
+        os.makedirs("xes", exist_ok=True)
+        xes_exporter.apply(
+            log, f"./xes/{file_name}.xes")
+
+        df = pm4py.convert_to_dataframe(log)
+        json_log = df.to_json(orient="records")
+
+        return json_log
+
+    except Exception as e:
+        print(e)
+        return e, 400
