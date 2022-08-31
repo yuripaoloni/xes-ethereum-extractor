@@ -160,7 +160,7 @@ def get_txs_keys(file_name):
         return e, 400
 
 
-# generate XES log
+# generate XES log and return first 400 lines
 @app.route("/xes/<file_name>", methods=['POST'])
 def generate_xes(file_name):
     try:
@@ -192,9 +192,6 @@ def generate_xes(file_name):
 
         pd.options.mode.use_inf_as_na = True  # consider NA also "" or '' during notna()
 
-        # print(log)
-        # print(type(log))
-
         # remove "nan" attributes from events
         for t in log:
             for i, e in enumerate(t):
@@ -205,10 +202,10 @@ def generate_xes(file_name):
         xes_exporter.apply(
             log, f"./xes/{file_name}.xes")
 
-        df = pm4py.convert_to_dataframe(log)
-        json_log = df.to_json(orient="records")
+        with open("../data/logs/cryptokitties_everyday.xes") as myfile:
+            lines = [next(myfile) for x in range(400)]
 
-        return json_log
+        return lines
 
     except Exception as e:
         print(e)

@@ -151,10 +151,14 @@ const Log: NextPage = () => {
           result.length > 0 && (
             <>
               <p className="text-center text-xl font-semibold mb-2">
-                Preview results for {contracts.map((contract, index) => `${index != 0 ? ", " : ""}${contract.name}`)}
+                First 400 lines of XES log for{" "}
+                {contracts.map((contract, index) => `${index != 0 ? ", " : ""}${contract.name}`)}
               </p>
               <div className="scrollbar overflow-auto max-h-[550px] border rounded-md w-full">
-                <pre>{JSON.stringify(result, null, 2)}</pre>
+                <pre>{result}</pre>
+                <pre>{"\n\t\t\t...\n\n"}</pre>
+                <pre>{"\t</trace>"}</pre>
+                <pre>{"</log>"}</pre>
               </div>
               <button>
                 <a

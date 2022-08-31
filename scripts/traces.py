@@ -42,7 +42,6 @@ def generate_xes(df, filename, case_concept_name, concept_name):
 
     # remove "nan" attributes from events
     for t in log:
-        events += len(t)
         for i, e in enumerate(t):
             t[i] = {k: v for k, v in e.items() if pd.Series(
                 v).notna().all()}
