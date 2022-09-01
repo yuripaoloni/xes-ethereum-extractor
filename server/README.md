@@ -1,6 +1,6 @@
 # XES Ethereum Extractor server
 
-The server is built with Flask.
+The server is built with [Flask](https://flask.palletsprojects.com/en/2.2.x/).
 
 To run the server execute: `flask run`
 To restart on save: `flask --debug run`
