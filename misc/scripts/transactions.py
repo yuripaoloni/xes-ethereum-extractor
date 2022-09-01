@@ -6,6 +6,7 @@ from etherscan import Etherscan
 from web3 import Web3
 
 
+# contracts are in the form: {"name": "LAND", "txs_contract": "0xf87e31492faf9a91b02ee0deaad50d51d56d5d4d","abi_contract": "0xa57e126b341b18c262ad25b86bb4f65b5e2ade45"}
 def get_transactions(contracts, start_block, end_block):
 
     # initialize etherscan-python and web3.py with respective API keys
