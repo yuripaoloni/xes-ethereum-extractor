@@ -4,6 +4,7 @@ txs/
 # xes folder
 xes/
 
+.env
 
 venv/
 

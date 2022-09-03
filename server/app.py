@@ -1,14 +1,14 @@
 import json
-import pm4py
-from flask import Flask, request, send_file
 import os
+import pandas as pd
+
+from flask import Flask, request, send_file
+from flask_cors import CORS
+
 from contextlib import suppress
 from dotenv import load_dotenv
 from etherscan import Etherscan
 from web3 import Web3
-from io import BytesIO
-from flask_cors import CORS
-import pandas as pd
 from pm4py.objects.log.util import dataframe_utils
 from pm4py.objects.conversion.log import converter as log_converter
 from pm4py.objects.log.exporter.xes import exporter as xes_exporter
@@ -17,8 +17,18 @@ app = Flask(__name__)
 cors = CORS(app, resources={"/*": {"origins": "*"}})
 
 
+# download paper
+@app.route("/download_paper", methods=['GET'])
+def download_paper():
+    try:
+        return send_file("paper/xes_ethereum_extractor.pdf", as_attachment=True)
+    except Exception as e:
+        return e, 400
+
 # download txs. file_name should be {contract_name}_{start_block}_{end_block}
 # e.g. LAND_15429981_999999999 or LAND_ESTATE_0_999999999
+
+
 @app.route("/download_txs/<file_name>", methods=['GET'])
 def download_txs(file_name):
     try:

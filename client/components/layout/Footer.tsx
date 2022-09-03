@@ -29,19 +29,25 @@ const Footer = () => {
             <div className="md:col-span-4 sm:col-span-6 col-span-12">
               <h6 className="uppercase font-semibold mb-4 flex justify-center md:justify-start">Useful links</h6>
               <p className="mb-4">
-                <a href="" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://github.com/yuripaoloni/xes-ethereum-extractor"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   GitHub
                 </a>
               </p>
               <p className="mb-4">
-                <a href="" target="_blank" rel="noopener noreferrer">
+                <a href={`${process.env.NEXT_PUBLIC_SERVER_URL}/download_paper`} download>
                   Paper
                 </a>
               </p>
             </div>
             <div className="md:col-span-4 sm:col-span-6 col-span-12">
               <h6 className="uppercase font-semibold mb-4 flex justify-center md:justify-start">Contact</h6>
-              <p className="mb-4">info@example.com</p>
+              <p className="mb-4">
+                <a href="mailto:yuri.paoloni3@gmail.com">yuri.paoloni3@gmail.com</a>
+              </p>
             </div>
           </div>
         </div>
