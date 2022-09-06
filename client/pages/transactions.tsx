@@ -10,9 +10,6 @@ import { useAlert } from "../contexts/AlertContext";
 import Link from "next/link";
 import Spinner from "../components/layout/Spinner";
 
-// 0xf87e31492faf9a91b02ee0deaad50d51d56d5d4d, 0xa57e126b341b18c262ad25b86bb4f65b5e2ade45
-// 15429981, 99999999
-
 const Transactions: NextPage = () => {
   const [contracts, setContracts] = useState<Contract[]>([{ name: "", txsAddress: "", abiAddress: "" }]);
   const [startBlock, setStartBlock] = useState(0);
@@ -25,7 +22,7 @@ const Transactions: NextPage = () => {
 
   useEffect(() => {
     const contracts = localStorage.getItem("contracts");
-    setContracts(JSON.parse(contracts ? contracts : "[]"));
+    setContracts(JSON.parse(contracts ? contracts : '[{"name":"","txsAddress":"","abiAddress":""}]'));
 
     const startBlock = localStorage.getItem("startBlock");
     setStartBlock(startBlock ? parseInt(startBlock) : 0);
