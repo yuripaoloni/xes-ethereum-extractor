@@ -24,10 +24,9 @@ def download_paper():
     except Exception as e:
         return e, 400
 
+
 # download txs. file_name should be {contract_name}_{start_block}_{end_block}
 # e.g. LAND_15429981_999999999 or LAND_ESTATE_0_999999999
-
-
 @app.route("/download_txs/<file_name>", methods=['GET'])
 def download_txs(file_name):
     try:
@@ -163,7 +162,7 @@ def get_txs_keys(file_name):
 
         all_keys = set().union(*(d.keys() for d in data))
 
-        return sorted(list(all_keys)), 200
+        return sorted(list(filter(None, all_keys))), 200
 
     except Exception as e:
         return e, 400
@@ -211,8 +210,8 @@ def generate_xes(file_name):
         xes_exporter.apply(
             log, f"./xes/{file_name}.xes")
 
-        with open("../data/logs/cryptokitties_everyday.xes") as myfile:
-            lines = [next(myfile) for x in range(400)]
+        with open(f"./xes/{file_name}.xes") as f:
+            lines = [next(f) for x in range(400)]
 
         return lines
 
