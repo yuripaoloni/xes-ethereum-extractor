@@ -1,5 +1,6 @@
 import json
 import os
+import glob
 import pandas as pd
 
 from flask import Flask, request, send_file
@@ -11,9 +12,28 @@ from web3 import Web3
 from pm4py.objects.log.util import dataframe_utils
 from pm4py.objects.conversion.log import converter as log_converter
 from pm4py.objects.log.exporter.xes import exporter as xes_exporter
+from apscheduler.schedulers.background import BackgroundScheduler
 
 app = Flask(__name__)
 cors = CORS(app, resources={"/*": {"origins": "*"}})
+
+
+# delete contents of txs/ and xes/
+def delete_txs_xes():
+    txs = glob.glob('txs/*')
+    for f in txs:
+        os.remove(f)
+
+    xes = glob.glob('xes/*')
+    for f in xes:
+        os.remove(f)
+
+
+# runs delete_txs_xes every 2 days (i.e., 172800 seconds)
+scheduler = BackgroundScheduler()
+scheduler.add_job(func=delete_txs_xes, trigger="interval",
+                  seconds=172800)  # 2 days
+scheduler.start()
 
 
 # download paper
