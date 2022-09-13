@@ -19,4 +19,8 @@ flask run
 flask --debug run
 ```
 
-To push updates to Heroku execute from the project root folder: `git subtree push --prefix server heroku-server main`
+## Deploy
+
+The deployment is automatically done by the GitHub actions [server_deploy.yaml](../.github/workflows/server_deploy.yaml) on every push in the `/server` folder.
+
+To manually push updates to Heroku execute from the project root folder: `git subtree push --prefix server heroku-server main`
