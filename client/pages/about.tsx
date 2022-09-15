@@ -1,5 +1,6 @@
 import { NextPage } from "next";
 import Head from "next/head";
+import Image from "next/image";
 import Link from "next/link";
 
 const About: NextPage = () => {
@@ -40,7 +41,9 @@ const About: NextPage = () => {
           contract code. On the generated XES logs, we successfully applied several Process Mining techniques like
           Simulation, Social Network Analysis, and Process discovery.
         </p>
-        <h4 className="text-2xl font-semibold mt-5 mb-3 pt-5 border-t border-gray-300">How to use</h4>
+        <h4 id="usage" className="text-2xl font-semibold mt-5 mb-3 pt-5 border-t border-gray-300">
+          How to use
+        </h4>
         <p className="text-justify text-lg">
           To start using the methodology, head over to the{" "}
           <span className="underline text-indigo-600">
@@ -92,14 +95,25 @@ const About: NextPage = () => {
           In addition, you can specify a <span className="font-semibold">start block</span> and an{" "}
           <span className="font-semibold">end block</span> to scope the research to a precise time interval. If not, you
           can stick with the default parameters: <span className="italic">0</span> and{" "}
-          <span className="italic">99999999</span>. Now you are set to fetch the transactions according to the select
-          parameters. The output is a downloadable JSON of the fetched transactions.
+          <span className="italic">99999999</span>.
+          <div className="my-4">
+            <Image
+              src="/trasanctions_form_example.png"
+              alt="transactions form example"
+              layout="responsive"
+              width={1715}
+              height={436}
+            />
+          </div>
+          At this point, you can search for transactions based on the selected parameters by clicking the SEARCH button.
+          You will see a preview of the results, a download button to get the complete data set, and a button to proceed
+          to the next step
           <br />
           The next step is the generation of the XES log. This second step starts from the transactions fetched earlier.
           The parameters you need to specify here are:
           <ul className="list-disc ml-10 my-3 space-y-2">
             <li>
-              <span className="font-semibold">Sort by:</span> is the parameter by which the sorting is done.
+              <span className="font-semibold">Sort by:</span> the parameter by which the sorting is done.
             </li>
             <li>
               <span className="font-semibold">Case ID:</span> the parameter selected to built trace. For instance, if
@@ -112,8 +126,16 @@ const About: NextPage = () => {
               in the output model.
             </li>
           </ul>
-          Also in this step, the output is a downloadable XES file representing the generated log. Such a log can be
-          successfully used as input for every Process Mining technique accepting XES logs.
+          These parameters can be selected through a dropdown containing the standard Ethereum transactions fields plus
+          the parameters extracted from the smart contract function executed in the transactions. For instance, from{" "}
+          <code>updateLandData(int256 x, int256 y, string data)</code> the framework extracted <code>x</code>,{" "}
+          <code>y</code>, and <code>data</code>.
+          <div className="my-4">
+            <Image src="/log_form_example.png" alt="log form example" layout="responsive" width={1715} height={436} />
+          </div>
+          Clicking on the &#34;Generate XES&#34; button will show a preview of the generated XES log and a button to
+          download the full XES log. The generated log can be successfully used as input for every Process Mining
+          technique accepting XES logs.
         </p>
         <h4 className="text-2xl font-semibold mt-5 mb-3 pt-5 border-t border-gray-300">Contact</h4>
         <p className="text-justify text-lg">

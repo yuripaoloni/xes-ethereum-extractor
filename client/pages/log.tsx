@@ -1,6 +1,7 @@
 import axios from "axios";
 import { NextPage } from "next";
 import Head from "next/head";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import Spinner from "../components/layout/Spinner";
 import { useAlert } from "../contexts/AlertContext";
@@ -73,6 +74,12 @@ const Log: NextPage = () => {
       <div className="w-11/12 bg-gray-200 grid grid-cols-12 p-3 gap-y-3 gap-x-2 rounded-md shadow-md">
         <h4 className="col-span-12 text-xl text-center font-semibold">
           Generate a XES log according to the following parameters
+          <p className="text-sm text-center font-light">
+            For more information on how to use the tool check the{" "}
+            <span className="underline font-normal">
+              <Link href="/about#usage">About page</Link>
+            </span>
+          </p>
         </h4>
         {contracts.map(({ name, abiAddress, txsAddress }, index) => (
           <div key={index} className="col-span-12 grid grid-cols-12 gap-x-2 mt-2 first:mt-0">

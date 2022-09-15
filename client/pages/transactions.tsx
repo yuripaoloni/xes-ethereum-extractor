@@ -75,6 +75,12 @@ const Transactions: NextPage = () => {
       <div className="w-11/12 bg-gray-200 grid grid-cols-12 p-3 gap-4 rounded-md shadow-md">
         <h4 className="col-span-12 text-xl text-center font-semibold">
           Insert the smart contracts you want to collect data from
+          <p className="text-sm text-center font-light">
+            For more information on how to use the tool check the{" "}
+            <span className="underline font-normal">
+              <Link href="/about#usage">About page</Link>
+            </span>
+          </p>
         </h4>
         <div className="col-span-12 grid grid-cols-12 gap-x-4">
           {contracts.map(({ name, abiAddress, txsAddress }, index) => (
@@ -86,7 +92,7 @@ const Transactions: NextPage = () => {
                 <label className="block text-sm font-medium p-2">Name</label>
                 <input
                   type="text"
-                  placeholder="e.g. UniswapV2Factory"
+                  placeholder="e.g. LANDRegistry"
                   className="w-full rounded-md p-2 shadow-md"
                   value={name}
                   onChange={(e) => handleChangeContract(index, e.target.value, txsAddress, abiAddress)}
@@ -96,7 +102,7 @@ const Transactions: NextPage = () => {
                 <label className="block text-sm font-medium p-2">Transactions address</label>
                 <input
                   type="text"
-                  placeholder="0x...123"
+                  placeholder="0xf87e31492faf9a91b02ee0deaad50d51d56d5d4d"
                   className="w-full rounded-md p-2 shadow-md"
                   value={txsAddress}
                   onChange={(e) => handleChangeContract(index, name, e.target.value, abiAddress)}
@@ -106,7 +112,7 @@ const Transactions: NextPage = () => {
                 <label className="block text-sm font-medium p-2">ABI address</label>
                 <input
                   type="text"
-                  placeholder="0x...123"
+                  placeholder="0xa57e126b341b18c262ad25b86bb4f65b5e2ade45"
                   className="w-full rounded-md p-2 shadow-md"
                   value={abiAddress}
                   onChange={(e) => handleChangeContract(index, name, txsAddress, e.target.value)}
