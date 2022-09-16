@@ -177,12 +177,8 @@ def fetch_transactions():
 @app.route("/keys/<file_name>", methods=['GET'])
 def get_txs_keys(file_name):
     try:
-        f = open(f'txs/{file_name}.json')
-        data = json.load(f)
-
-        all_keys = set().union(*(d.keys() for d in data))
-
-        return sorted(list(filter(None, all_keys))), 200
+        df = pd.read_json(f'txs/{file_name}.json')
+        return sorted(list(filter(None, df.columns))), 200
 
     except Exception as e:
         return e, 400
@@ -230,11 +226,14 @@ def generate_xes(file_name):
         xes_exporter.apply(
             log, f"./xes/{file_name}.xes")
 
-        with open(f"./xes/{file_name}.xes") as f:
-            lines = [next(f) for x in range(400)]
+        num_lines = sum(1 for line in open(
+            f"./xes/{file_name}.xes", encoding="utf8"))
+
+        with open(f"./xes/{file_name}.xes", encoding="utf8") as f:
+            lines = [next(f)
+                     for x in range(400 if num_lines >= 400 else num_lines)]
 
         return lines
 
     except Exception as e:
-        print(e)
         return e, 400
