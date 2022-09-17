@@ -107,8 +107,16 @@ const About: NextPage = () => {
           </div>
           At this point, you can search for transactions based on the selected parameters by clicking the SEARCH button.
           You will see a preview of the results, a download button to get the complete data set, and a button to proceed
-          to the next step
-          <br />
+          to the next step.
+          <div className="my-4">
+            <Image
+              src="/transactions_preview.png"
+              alt="transactions preview"
+              layout="responsive"
+              width={1710}
+              height={812}
+            />
+          </div>
           The next step is the generation of the XES log. This second step starts from the transactions fetched earlier.
           The parameters you need to specify here are:
           <ul className="list-disc ml-10 my-3 space-y-2">
@@ -131,12 +139,15 @@ const About: NextPage = () => {
           <code>updateLandData(int256 x, int256 y, string data)</code> the framework extracted <code>x</code>,{" "}
           <code>y</code>, and <code>data</code>.
           <div className="my-4">
-            <Image src="/log_form_example.png" alt="log form example" layout="responsive" width={1715} height={436} />
+            <Image src="/log_form_example.png" alt="log form example" layout="responsive" width={1715} height={415} />
           </div>
           Clicking on the &#34;Generate XES&#34; button will show a preview of the generated XES log and a button to
           download the full XES log. The generated log can be successfully used as input for every Process Mining
           technique accepting XES logs.
         </p>
+        <div className="my-4">
+          <Image src="/log_preview.png" alt="log preview" layout="responsive" width={1710} height={806} />
+        </div>
         <h4 className="text-2xl font-semibold mt-5 mb-3 pt-5 border-t border-gray-300">Contact</h4>
         <p className="text-justify text-lg">
           <ul className="list-disc ml-10 my-3 space-y-2">
