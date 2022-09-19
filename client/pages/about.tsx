@@ -20,26 +20,27 @@ const About: NextPage = () => {
         </h1>
         <h4 className="text-2xl font-semibold mt-5 mb-3 pt-5 border-t border-gray-300">Abstract</h4>
         <p className="text-justify text-lg">
-          Through smart contracts, blockchain has become a technology for managing trustless peer-to-peer exchanges of
-          digital assets, paving the way for new forms of trade and business. In such a scenario, the application of
-          Process Mining can help understand processes and their actual execution in ways other strategies cannot.
-          However, due to the structure of blockchain data, applying Process Mining in such a context is challenging.
-          The techniques created so far by researchers have limitations when applied to smart contracts. Some are
-          tailored to specific use cases like blockchain-based Business Process Management Systems. Others require the
-          data under analysis to be in a precise format which is uncommon for a significant portion of the existing
-          smart contracts. To solve this challenge, we propose an application-agnostic extraction methodology to collect
-          data from every EVM-compatible smart contract and enable the application of Process Mining techniques. The
-          proposed methodology focuses on blockchain transations and their internal execution. The former, unlike
-          events, have standard parameters that ensure a common ground of operations. The latter represents the
-          execution flow of transactions, which is the invocations of the functions of smart contracts involved in the
-          process. The methodology comprises five steps: (i) extraction of data from smart contracts, (ii) cleaning of
-          raw data, (iii) selecting and defining sorting criteria, (iv) trace construction, and, finally, (v) XES log
-          generation. An in-depth case study of Decentraland, a metaverse and digital assets marketplace developed on
-          the Ethereum blockchain, has been carried out to demonstrate the validity of the proposed methodology. We were
-          able to generate XES logs from different block ranges and one or more Decentraland smart contracts combined.
-          Unlike event data collection, a plain execution with transactions does not require prior knowledge of smart
-          contract code. On the generated XES logs, we successfully applied several Process Mining techniques like
-          Simulation, Social Network Analysis, and Process discovery.
+          With the introduction of smart contracts, blockchain has become a technology for managing trustless
+          peer-to-peer exchanges of digital assets, paving the way for new forms of trade and business. In such a
+          scenario, the application of process mining can help understand processes and their actual execution in ways
+          other data analysis strategies cannot. However, applying process mining to blockchain data is challenging. The
+          techniques created so far by researchers to address the challenge have limitations when applied to data
+          produced by smart contracts. Some are tailored to specific use cases like blockchain-based Business Process
+          Management Systems. Others focus on blockchain events, which lack a standard format and are difficult to use
+          without additional processing steps. To solve this challenge, we propose an application-agnostic extraction
+          methodology to collect data from every EVM-compatible smart contract and enable the application of process
+          mining techniques. The proposed methodology aims to extract XES logs from blockchain transactions and their
+          internal execution. The former, unlike events, have standard parameters that ensure a common ground of
+          operations. The latter represents the execution flow of transactions, which is the invocations of the
+          functions of smart contracts involved in the process. The methodology comprises five steps: (i) extraction of
+          data from smart contracts, (ii) cleaning of raw data, (iii) selecting sorting criteria, (iv) trace
+          construction, and, finally, (v) XES log generation. An in-depth case study of Decentraland, a metaverse and
+          digital assets marketplace developed on the Ethereum blockchain, has been carried out to demonstrate the
+          validity of the proposed methodology. We were able to generate XES logs considering one or more Decentraland
+          smart contracts combined, e.g., LANDRegistry, ESTATERegisty, and Marketplace. Unlike event data collection,
+          extracting logs from transactions does not require prior knowledge of smart contract code. On the generated
+          XES logs, we successfully applied several process mining techniques like Process discovery and Conformance
+          Checking demonstrating the validity of the methodology.
         </p>
         <h4 id="usage" className="text-2xl font-semibold mt-5 mb-3 pt-5 border-t border-gray-300">
           How to use
