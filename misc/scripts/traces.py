@@ -8,8 +8,8 @@ from pm4py.objects.log.exporter.xes import exporter as xes_exporter
 
 def clean_df(df):
     # remove unnecessary fields
-    df.drop(["blockNumber", "nonce", "blockHash", "value", "gas", "gasPrice", "isError", "txreceipt_status", "input",
-             "contractAddress", "cumulativeGasUsed", "gasUsed",  "confirmations", "methodId"], axis=1, inplace=True)
+    df.drop(["nonce", "value", "isError", "txreceipt_status", "input",
+             "contractAddress",   "confirmations", "methodId"], axis=1, inplace=True)
 
     df = dataframe_utils.convert_timestamp_columns_in_df(df)
     df = df.sort_values(by=['timeStamp', 'transactionIndex'])
