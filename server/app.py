@@ -35,6 +35,9 @@ scheduler.add_job(func=delete_txs_xes, trigger="interval",
                   seconds=172800)  # 2 days
 scheduler.start()
 
+columnsToDrop = ["nonce", "value", "isError", "txreceipt_status", "input",
+                 "contractAddress",   "confirmations", "methodId"]
+
 
 # download paper
 @app.route("/download_paper", methods=['GET'])
@@ -178,6 +181,7 @@ def fetch_transactions():
 def get_txs_keys(file_name):
     try:
         df = pd.read_json(f'txs/{file_name}.json')
+        df.drop(columnsToDrop, axis=1, inplace=True)
         return sorted(list(filter(None, df.columns))), 200
 
     except Exception as e:
@@ -194,8 +198,7 @@ def generate_xes(file_name):
         concept_name = data['conceptName']
 
         df = pd.read_json(f'txs/{file_name}.json')
-        df.drop(["blockNumber", "nonce", "blockHash", "value", "gas", "gasPrice", "isError", "txreceipt_status", "input",
-                 "contractAddress", "cumulativeGasUsed", "gasUsed",  "confirmations", "methodId"], axis=1, inplace=True)
+        df.drop(columnsToDrop, axis=1, inplace=True)
         df = dataframe_utils.convert_timestamp_columns_in_df(df)
         df = df.sort_values(by=['timeStamp', 'transactionIndex'])
 

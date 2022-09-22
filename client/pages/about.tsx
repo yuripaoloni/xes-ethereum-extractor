@@ -27,20 +27,20 @@ const About: NextPage = () => {
           techniques created so far by researchers to address the challenge have limitations when applied to data
           produced by smart contracts. Some are tailored to specific use cases like blockchain-based Business Process
           Management Systems. Others focus on blockchain events, which lack a standard format and are difficult to use
-          without additional processing steps. To solve this challenge, we propose an application-agnostic extraction
-          methodology to collect data from every EVM-compatible smart contract and enable the application of process
+          without additional processing steps. To solve this challenge, an application-agnostic extraction methodology
+          is proposed to collect data from every EVM-compatible smart contract and enable the application of process
           mining techniques. The proposed methodology aims to extract XES logs from blockchain transactions and their
           internal execution. The former, unlike events, have standard parameters that ensure a common ground of
           operations. The latter represents the execution flow of transactions, which is the invocations of the
-          functions of smart contracts involved in the process. The methodology comprises five steps: (i) extraction of
-          data from smart contracts, (ii) cleaning of raw data, (iii) selecting sorting criteria, (iv) trace
-          construction, and, finally, (v) XES log generation. An in-depth case study of Decentraland, a metaverse and
-          digital assets marketplace developed on the Ethereum blockchain, has been carried out to demonstrate the
+          functions of smart contracts involved in the process. The methodology includes five steps: (i) extraction of
+          data from smart contracts, (ii) cleaning of raw data, (iii) selection of sorting criteria, (iv) construction
+          of traces, and, finally, (v) generation of the XES log. An in-depth case study of Decentraland, a metaverse
+          and digital assets marketplace developed on the Ethereum blockchain, has been carried out to demonstrate the
           validity of the proposed methodology. We were able to generate XES logs considering one or more Decentraland
           smart contracts combined, e.g., LANDRegistry, ESTATERegisty, and Marketplace. Unlike event data collection,
-          extracting logs from transactions does not require prior knowledge of smart contract code. On the generated
-          XES logs, we successfully applied several process mining techniques like Process discovery and Conformance
-          Checking demonstrating the validity of the methodology.
+          extracting logs from transactions does not require prior knowledge of smart contract code. Several process
+          mining techniques, such as process discovery and conformance checking, were applied to the generated XES logs
+          to demonstrate the validity of the methodology.
         </p>
         <h4 id="usage" className="text-2xl font-semibold mt-5 mb-3 pt-5 border-t border-gray-300">
           How to use
@@ -54,7 +54,7 @@ const About: NextPage = () => {
           <ul className="list-disc ml-10 my-3 space-y-2">
             <li>
               <span className="font-semibold">Name: </span> the name of the smart contract. It is not mandatory to use
-              the actual smart contract name (e.g., UniswapV2Factory). Use a name that can help you identify it.
+              the actual smart contract name (e.g., LANDRegistry). Use a name that can help you identify it.
             </li>
             <li>
               <span className="font-semibold">Transaction address: </span> this is the address from which transactions
@@ -104,6 +104,7 @@ const About: NextPage = () => {
               layout="responsive"
               width={1715}
               height={436}
+              priority
             />
           </div>
           At this point, you can search for transactions based on the selected parameters by clicking the SEARCH button.
@@ -116,13 +117,15 @@ const About: NextPage = () => {
               layout="responsive"
               width={1710}
               height={812}
+              priority
             />
           </div>
           The next step is the generation of the XES log. This second step starts from the transactions fetched earlier.
           The parameters you need to specify here are:
           <ul className="list-disc ml-10 my-3 space-y-2">
             <li>
-              <span className="font-semibold">Sort by:</span> the parameter by which the sorting is done.
+              <span className="font-semibold">Sort by:</span> the fields by which the sorting is done. More than one
+              fields can be selected. The order of selection is also the order of the sorting.
             </li>
             <li>
               <span className="font-semibold">Case ID:</span> the parameter selected to built trace. For instance, if
@@ -140,14 +143,21 @@ const About: NextPage = () => {
           <code>updateLandData(int256 x, int256 y, string data)</code> the framework extracted <code>x</code>,{" "}
           <code>y</code>, and <code>data</code>.
           <div className="my-4">
-            <Image src="/log_form_example.png" alt="log form example" layout="responsive" width={1715} height={415} />
+            <Image
+              src="/log_form_example.png"
+              alt="log form example"
+              layout="responsive"
+              width={1382}
+              height={375}
+              priority
+            />
           </div>
           Clicking on the &#34;Generate XES&#34; button will show a preview of the generated XES log and a button to
           download the full XES log. The generated log can be successfully used as input for every Process Mining
           technique accepting XES logs.
         </p>
         <div className="my-4">
-          <Image src="/log_preview.png" alt="log preview" layout="responsive" width={1710} height={806} />
+          <Image src="/log_preview.png" alt="log preview" layout="responsive" width={1378} height={650} priority />
         </div>
         <h4 className="text-2xl font-semibold mt-5 mb-3 pt-5 border-t border-gray-300">Contact</h4>
         <p className="text-justify text-lg">

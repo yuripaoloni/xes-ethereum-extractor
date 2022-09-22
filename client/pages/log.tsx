@@ -16,7 +16,7 @@ const Log: NextPage = () => {
   const [keys, setKeys] = useState([""]);
   const [result, setResult] = useState([]);
 
-  const [sortBy, setSortBy] = useState("");
+  const [sortBy, setSortBy] = useState<string[]>([]);
   const [caseID, setCaseID] = useState("");
   const [conceptName, setConceptName] = useState("");
 
@@ -38,7 +38,6 @@ const Log: NextPage = () => {
       const res = await axios.get(`/keys/${contracts.map((contract) => `${contract.name}_`)}${startBlock}_${endBlock}`);
 
       setKeys(res.data);
-      setSortBy(res.data[0]);
       setCaseID(res.data[0]);
       setConceptName(res.data[0]);
     };
@@ -52,7 +51,7 @@ const Log: NextPage = () => {
       const res = await axios.post(
         `/xes/${contracts.map((contract) => `${contract.name}_`)}${startBlock}_${endBlock}`,
         {
-          columns: [sortBy],
+          columns: sortBy,
           caseID,
           conceptName,
         }
@@ -64,6 +63,13 @@ const Log: NextPage = () => {
     } finally {
       setLoading(false);
     }
+  };
+
+  const handleChangeSortBy = (value: string) => {
+    let updatedSortBy = sortBy.slice();
+    const index = updatedSortBy.indexOf(value);
+    index === -1 ? updatedSortBy.push(value) : updatedSortBy.splice(index, 1);
+    setSortBy(updatedSortBy);
   };
 
   return (
@@ -102,20 +108,35 @@ const Log: NextPage = () => {
           End block: <span className="font-semibold">{endBlock}</span>
         </p>
         <div className="col-span-12 grid grid-cols-12 gap-x-6 gap-y-6 mt-2 pt-2 border-t border-gray-300">
-          <div className="sm:col-span-4 col-span-12">
-            <label className="block text-sm font-medium p-2">Sort by</label>
+          <div className="md:col-span-4 col-span-12">
+            <label className="block text-sm font-medium p-2">
+              Sort by
+              <span className="text-xs font-light"> (Select one or more fields)</span>
+            </label>
             <select
               placeholder="e.g. hash"
               className="scrollbar w-full rounded-md p-2 shadow-md border-transparent"
-              value={sortBy}
-              onChange={(e) => setSortBy(e.target.value)}
+              onChange={(e) => handleChangeSortBy(e.target.value)}
             >
               {keys.map((key, index) => (
-                <option key={index}>{key}</option>
+                <option
+                  value={key}
+                  key={index}
+                  className={sortBy.indexOf(key) !== -1 ? "bg-indigo-700 text-white font-bold" : ""}
+                >
+                  {key}
+                  {"  "}
+                  <span>{sortBy.indexOf(key) !== -1 ? `(${sortBy.indexOf(key) + 1}°) ` : ""}</span>
+                </option>
               ))}
             </select>
+            {sortBy.length > 0 && (
+              <label className="block text-sm font-semibold p-2">
+                Selected fields: <span className="font-normal">{sortBy.join(", ")}</span>
+              </label>
+            )}
           </div>
-          <div className="sm:col-span-4 col-span-12">
+          <div className="md:col-span-4 col-span-12">
             <label className="block text-sm font-medium p-2">Case ID</label>
             <select
               placeholder="e.g. from"
@@ -128,7 +149,7 @@ const Log: NextPage = () => {
               ))}
             </select>
           </div>
-          <div className="sm:col-span-4 col-span-12">
+          <div className="md:col-span-4 col-span-12">
             <label className="block text-sm font-medium p-2">Concept name</label>
             <select
               placeholder="e.g. inputFunctionName"
