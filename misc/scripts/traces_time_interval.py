@@ -63,13 +63,11 @@ for index, row in transactions_df.iterrows():
 
     transactions_df.at[index, 'TIMESTAMP'] = new_timestamp
 
-# rename: tag -> case:concept:name, inputFunctionName -> concept:name, timeStamp -> time:timestamp, from -> org:resource
+# rename: tag -> case:concept:name, inputFunctionName -> concept:name, timeStamp -> time:timestamp
 transactions_df.rename(columns={"tag": "case:concept:name"}, inplace=True)
 transactions_df.rename(columns={"timeStamp": "time:timestamp"}, inplace=True)
 transactions_df.rename(
     columns={"inputFunctionName": "concept:name"}, inplace=True)
-transactions_df.rename(columns={"from": "org:resource"}, inplace=True)
-
 
 # specify that the field identifying the case identifier attribute is the field with name 'case:concept:name'
 parameters = {

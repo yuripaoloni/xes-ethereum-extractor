@@ -26,8 +26,7 @@ def sort_df(df, columns: list[str]):
 
 def generate_xes(df, filename, case_concept_name, concept_name):
 
-    # create columns: from -> case:concept:name, inputFunctionName -> concept:name, timeStamp -> time:timestamp, from -> org:resource
-    df["org:resource"] = df["from"]
+    # create columns: from -> case:concept:name, inputFunctionName -> concept:name, timeStamp -> time:timestamp
     df["case:concept:name"] = df[case_concept_name]
     df["time:timestamp"] = df["timeStamp"]
     df["concept:name"] = df[concept_name]

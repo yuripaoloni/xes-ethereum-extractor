@@ -205,8 +205,7 @@ def generate_xes(file_name):
         df = df.sort_values(by=columns)
         df.reset_index(drop=True, inplace=True)
 
-        # create columns: from -> case:concept:name, inputFunctionName -> concept:name, timeStamp -> time:timestamp, from -> org:resource
-        df["org:resource"] = df["from"]
+        # create columns: from -> case:concept:name, inputFunctionName -> concept:name, timeStamp -> time:timestamp
         df["case:concept:name"] = df[case_concept_name]
         df["time:timestamp"] = df["timeStamp"]
         df["concept:name"] = df[concept_name]
