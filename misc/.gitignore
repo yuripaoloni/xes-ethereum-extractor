@@ -1,6 +1,8 @@
 # too heavy files
 data/LAND_decoded_calls
 data/logs/subcalls
+data/cryptokitties_subcalls
+data/cryptokitties_decoded_calls
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
