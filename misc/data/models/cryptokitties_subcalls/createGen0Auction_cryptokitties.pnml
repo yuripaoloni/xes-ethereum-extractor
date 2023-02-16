@@ -40,12 +40,12 @@
           <text>transferFrom</text>
         </name>
       </transition>
-      <arc id="2199350670528" source="source0" target="averageGen0SalePrice"/>
-      <arc id="2199350671200" source="transferFrom" target="sink0"/>
-      <arc id="2199350670864" source="averageGen0SalePrice" target="pre_createAuction"/>
-      <arc id="2199350670960" source="createAuction" target="pre_transferFrom"/>
-      <arc id="2199350670768" source="pre_transferFrom" target="transferFrom"/>
-      <arc id="2199350670576" source="pre_createAuction" target="createAuction"/>
+      <arc id="2407633287872" source="source0" target="averageGen0SalePrice"/>
+      <arc id="2407633288544" source="transferFrom" target="sink0"/>
+      <arc id="2407633288208" source="averageGen0SalePrice" target="pre_createAuction"/>
+      <arc id="2407633288304" source="createAuction" target="pre_transferFrom"/>
+      <arc id="2407633288112" source="pre_transferFrom" target="transferFrom"/>
+      <arc id="2407633287920" source="pre_createAuction" target="createAuction"/>
     </page>
     <finalmarkings>
       <marking>

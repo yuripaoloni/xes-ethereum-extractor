@@ -10,14 +10,14 @@
           <text>1</text>
         </initialMarking>
       </place>
-      <place id="pre_transferFrom">
-        <name>
-          <text>pre_transferFrom</text>
-        </name>
-      </place>
       <place id="sink0">
         <name>
           <text>sink0</text>
+        </name>
+      </place>
+      <place id="pre_transferFrom">
+        <name>
+          <text>pre_transferFrom</text>
         </name>
       </place>
       <transition id="createAuction">
@@ -30,10 +30,10 @@
           <text>transferFrom</text>
         </name>
       </transition>
-      <arc id="2199350162480" source="source0" target="createAuction"/>
-      <arc id="2199350162432" source="pre_transferFrom" target="transferFrom"/>
-      <arc id="2199350162288" source="createAuction" target="pre_transferFrom"/>
-      <arc id="2199350162144" source="transferFrom" target="sink0"/>
+      <arc id="2407621759216" source="source0" target="createAuction"/>
+      <arc id="2407621759312" source="pre_transferFrom" target="transferFrom"/>
+      <arc id="2407621542000" source="transferFrom" target="sink0"/>
+      <arc id="2407621759456" source="createAuction" target="pre_transferFrom"/>
     </page>
     <finalmarkings>
       <marking>

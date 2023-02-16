@@ -25,23 +25,23 @@
           <text>createAuction</text>
         </name>
       </transition>
+      <transition id="hid_2">
+        <name>
+          <text>hid_2</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="abc55aea-08a3-4ac6-b6e2-952ab9b76bf5"/>
+      </transition>
       <transition id="transferFrom">
         <name>
           <text>transferFrom</text>
         </name>
       </transition>
-      <transition id="hid_2">
-        <name>
-          <text>hid_2</text>
-        </name>
-        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="87acf4aa-0996-4cd6-ad13-ed5b495e0136"/>
-      </transition>
-      <arc id="2199361786624" source="source0" target="createAuction"/>
-      <arc id="2199361787584" source="intplace_createAuction" target="transferFrom"/>
-      <arc id="2199361787392" source="intplace_createAuction" target="hid_2"/>
-      <arc id="2199361787488" source="hid_2" target="sink0"/>
-      <arc id="2199361787680" source="transferFrom" target="sink0"/>
-      <arc id="2199361786864" source="createAuction" target="intplace_createAuction"/>
+      <arc id="2407620541792" source="source0" target="createAuction"/>
+      <arc id="2407620540832" source="intplace_createAuction" target="transferFrom"/>
+      <arc id="2407620541024" source="intplace_createAuction" target="hid_2"/>
+      <arc id="2407620540928" source="hid_2" target="sink0"/>
+      <arc id="2407620540736" source="transferFrom" target="sink0"/>
+      <arc id="2407620541552" source="createAuction" target="intplace_createAuction"/>
     </page>
     <finalmarkings>
       <marking>

@@ -2,6 +2,21 @@
 <pnml>
   <net id="net1" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
     <page id="n0">
+      <place id="pre_fallback">
+        <name>
+          <text>pre_fallback</text>
+        </name>
+      </place>
+      <place id="intplace_getCurrentPrice">
+        <name>
+          <text>intplace_getCurrentPrice</text>
+        </name>
+      </place>
+      <place id="intplace_fallback">
+        <name>
+          <text>intplace_fallback</text>
+        </name>
+      </place>
       <place id="source0">
         <name>
           <text>source0</text>
@@ -10,24 +25,9 @@
           <text>1</text>
         </initialMarking>
       </place>
-      <place id="pre_nan">
-        <name>
-          <text>pre_nan</text>
-        </name>
-      </place>
       <place id="sink0">
         <name>
           <text>sink0</text>
-        </name>
-      </place>
-      <place id="intplace_nan">
-        <name>
-          <text>intplace_nan</text>
-        </name>
-      </place>
-      <place id="intplace_getCurrentPrice">
-        <name>
-          <text>intplace_getCurrentPrice</text>
         </name>
       </place>
       <transition id="getCurrentPrice">
@@ -35,14 +35,14 @@
           <text>getCurrentPrice</text>
         </name>
       </transition>
+      <transition id="fallback">
+        <name>
+          <text>fallback</text>
+        </name>
+      </transition>
       <transition id="bid">
         <name>
           <text>bid</text>
-        </name>
-      </transition>
-      <transition id="nan">
-        <name>
-          <text>nan</text>
         </name>
       </transition>
       <transition id="transfer">
@@ -54,26 +54,26 @@
         <name>
           <text>hid_4</text>
         </name>
-        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="809158af-0ea4-4f02-a59b-626f375a8fc5"/>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="12ce100f-711b-4686-b97a-7d10250cb9d3"/>
       </transition>
       <transition id="hid_5">
         <name>
           <text>hid_5</text>
         </name>
-        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="80eabb2f-2e91-4c7c-9fd3-a2c9387c77e6"/>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="79739403-ce28-4267-af47-d4b0f4354b2e"/>
       </transition>
-      <arc id="2199353499776" source="bid" target="pre_nan"/>
-      <arc id="2199010171664" source="pre_nan" target="nan"/>
-      <arc id="2199010172816" source="intplace_nan" target="hid_5"/>
-      <arc id="2199009651600" source="transfer" target="sink0"/>
-      <arc id="2199353500064" source="source0" target="getCurrentPrice"/>
-      <arc id="2199010172576" source="nan" target="intplace_nan"/>
-      <arc id="2199010172336" source="hid_4" target="sink0"/>
-      <arc id="2199010173392" source="intplace_nan" target="transfer"/>
-      <arc id="2199010172240" source="intplace_getCurrentPrice" target="hid_4"/>
-      <arc id="2199353501408" source="hid_5" target="pre_nan"/>
-      <arc id="2199010170464" source="getCurrentPrice" target="intplace_getCurrentPrice"/>
-      <arc id="2199010173296" source="intplace_getCurrentPrice" target="bid"/>
+      <arc id="2407620693392" source="intplace_getCurrentPrice" target="bid"/>
+      <arc id="2407620692624" source="intplace_fallback" target="hid_5"/>
+      <arc id="2407620692384" source="fallback" target="intplace_fallback"/>
+      <arc id="2407620693296" source="hid_5" target="pre_fallback"/>
+      <arc id="2407620692144" source="hid_4" target="sink0"/>
+      <arc id="2407620690368" source="pre_fallback" target="fallback"/>
+      <arc id="2407620691520" source="getCurrentPrice" target="intplace_getCurrentPrice"/>
+      <arc id="2407620690128" source="source0" target="getCurrentPrice"/>
+      <arc id="2407620692048" source="intplace_getCurrentPrice" target="hid_4"/>
+      <arc id="2407620693200" source="transfer" target="sink0"/>
+      <arc id="2407620693104" source="bid" target="pre_fallback"/>
+      <arc id="2407620693488" source="intplace_fallback" target="transfer"/>
     </page>
     <finalmarkings>
       <marking>

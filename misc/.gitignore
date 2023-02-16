@@ -1,7 +1,7 @@
 # too heavy files
 data/LAND_decoded_calls
-data/logs/subcalls
-data/cryptokitties_subcalls
+data/logs/decentraland_subcalls
+data/logs/cryptokitties_subcalls
 data/cryptokitties_decoded_calls
 
 # Byte-compiled / optimized / DLL files
