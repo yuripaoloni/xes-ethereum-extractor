@@ -43,7 +43,7 @@ columnsToDrop = ["nonce", "value", "isError", "txreceipt_status", "input",
 @app.route("/download_paper", methods=['GET'])
 def download_paper():
     try:
-        return send_file("paper/xes_ethereum_extractor.pdf", as_attachment=True)
+        return send_file("paper/paper.pdf", as_attachment=True)
     except Exception as e:
         return e, 400
 
@@ -95,7 +95,7 @@ def fetch_transactions():
         for contract in contracts:
             print(f"Contract: {contract['name']}")
 
-            filename += f"{contract['name']}"
+            filename += f"{contract['name']}_"
 
             block_number = start_block
 
@@ -163,7 +163,7 @@ def fetch_transactions():
                 results.extend(transactions)
 
         dirname = "txs"
-        filename += f"_{start_block}_{end_block}"
+        filename += f"{start_block}_{end_block}"
 
         os.makedirs(dirname, exist_ok=True)
         with open(f"{dirname}/{filename}.json", "w", encoding="utf-8") as f:

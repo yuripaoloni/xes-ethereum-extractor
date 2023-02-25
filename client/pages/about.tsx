@@ -7,7 +7,7 @@ const About: NextPage = () => {
   return (
     <div className="flex flex-col items-center my-5">
       <Head>
-        <title>XES Ethereum Extractor</title>
+        <title>EveLog</title>
       </Head>
       <div className="w-9/12">
         <h1 className="text-center text-4xl tracking-tight font-bold sm:text-5xl">

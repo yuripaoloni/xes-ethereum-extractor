@@ -1,6 +1,6 @@
-# XES Ethereum Extractor
+# EveLog
 
-Application-agnostic methodology to enable the application of Process Mining techniques on the Ethereum blockchain. Read the paper on [/server/paper](/server/paper/xes_ethereum_extractor.pdf).
+Application-agnostic methodology to enable the application of Process Mining techniques on the Ethereum blockchain. Read the paper on [/server/paper](/server/paper/paper.pdf).
 
 ## Client
 

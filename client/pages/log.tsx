@@ -35,7 +35,9 @@ const Log: NextPage = () => {
 
   useEffect(() => {
     const fetchKeys = async () => {
-      const res = await axios.get(`/keys/${contracts.map((contract) => `${contract.name}_`)}${startBlock}_${endBlock}`);
+      const res = await axios.get(
+        `/keys/${contracts.map((contract) => `${contract.name}`).join("_")}_${startBlock}_${endBlock}`
+      );
 
       setKeys(res.data);
       setCaseID(res.data[0]);
@@ -49,7 +51,7 @@ const Log: NextPage = () => {
     setLoading(true);
     try {
       const res = await axios.post(
-        `/xes/${contracts.map((contract) => `${contract.name}_`)}${startBlock}_${endBlock}`,
+        `/xes/${contracts.map((contract) => `${contract.name}`).join("_")}_${startBlock}_${endBlock}`,
         {
           columns: sortBy,
           caseID,
@@ -75,7 +77,7 @@ const Log: NextPage = () => {
   return (
     <div className="flex flex-col items-center my-5">
       <Head>
-        <title>XES Ethereum Extractor</title>
+        <title>EveLog</title>
       </Head>
       <div className="w-11/12 bg-gray-200 grid grid-cols-12 p-3 gap-y-3 gap-x-2 rounded-md shadow-md">
         <h4 className="col-span-12 text-xl text-center font-semibold">

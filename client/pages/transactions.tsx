@@ -70,7 +70,7 @@ const Transactions: NextPage = () => {
   return (
     <div className="flex flex-col items-center my-5">
       <Head>
-        <title>XES Ethereum Extractor</title>
+        <title>EveLog</title>
       </Head>
       <div className="w-11/12 bg-gray-200 grid grid-cols-12 p-3 gap-4 rounded-md shadow-md">
         <h4 className="col-span-12 text-xl text-center font-semibold">

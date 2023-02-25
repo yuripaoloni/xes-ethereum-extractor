@@ -6,14 +6,12 @@ const Home: NextPage = () => {
   return (
     <div className="max-w-7xl mx-auto h-screen">
       <Head>
-        <title>XES Ethereum Extractor</title>
+        <title>EveLog</title>
       </Head>
       <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
         <div className="sm:text-center lg:text-left">
           <h1 className="text-4xl tracking-tight font-extrabold sm:text-5xl">
-            <span className="block sm:inline">XES</span>{" "}
-            <span className="block text-indigo-500 sm:inline">Ethereum</span>{" "}
-            <span className="block sm:inline">Extractor</span>
+            <span className="block sm:inline">Eve</span> <span className="block text-indigo-500 sm:inline">Log</span>{" "}
           </h1>
           <p className="mt-3 text-gray-500 sm:mt-5 sm:text-lg sm:max-w-3xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
             Application-agnostic methodology to enable the application of Process Mining techniques on blockchain
