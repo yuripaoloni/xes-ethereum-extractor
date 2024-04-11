@@ -104,7 +104,7 @@ def fetch_transactions():
 
             # create a contract instance to decode transactions input
             contract_instance = w3.eth.contract(
-                w3.toChecksumAddress(contract["abiAddress"]), abi=contract_abi)
+                w3.to_checksum_address(contract["abiAddress"]), abi=contract_abi)
 
             # the Etherscan APIs returns max 10000 results. The "while true" loop allows to get all the transactions from an address
             # Retrieve 10000 a time and append them on 'results'. Stop when the length of the retrieved transactions is 1
