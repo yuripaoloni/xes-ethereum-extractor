@@ -26,7 +26,3 @@ flask --debug run
 ## Manual deploy
 
 To manually deploy the server add a `.env` file with the same format as above, install the dependencies with `pip install -r requirements.txt` and run `waitress-serve --port=<port> wsgi:app`. The port should be the same used in `.env.production.local` for the client.
-
-## Heroku deploy
-
-The deployment is automatically done by the GitHub actions [server_deploy.yaml](../.github/workflows/server_deploy.yaml) on every push in the `/server` folder. To manually push updates to Heroku execute from the project root folder: `git subtree push --prefix server heroku-server main`
