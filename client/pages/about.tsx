@@ -2,6 +2,7 @@ import { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
+import { PAPER_DOI_URL } from "../const/url";
 
 const About: NextPage = () => {
   return (
@@ -11,8 +12,7 @@ const About: NextPage = () => {
       </Head>
       <div className="w-9/12">
         <h1 className="text-center text-4xl tracking-tight font-bold sm:text-5xl">
-          <span className="block sm:inline">XES</span> <span className="block text-indigo-500 sm:inline">Ethereum</span>{" "}
-          <span className="block sm:inline">Extractor</span>
+          <span className="block sm:inline">Eve</span> <span className="block text-indigo-500 sm:inline">Log</span>
           <h4 className="text-xl font-medium text-gray-500 mt-2">
             Application-agnostic methodology to enable the application of Process Mining techniques on the Ethereum
             blockchain
@@ -173,11 +173,7 @@ const About: NextPage = () => {
               </a>
             </li>
             <li>
-              <a
-                href={`${process.env.NEXT_PUBLIC_SERVER_URL}/download_paper`}
-                download
-                className="underline text-indigo-500"
-              >
+              <a href={PAPER_DOI_URL} className="underline text-indigo-500">
                 Read the paper
               </a>
             </li>

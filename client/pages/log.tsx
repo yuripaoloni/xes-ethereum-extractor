@@ -192,9 +192,9 @@ const Log: NextPage = () => {
               </div>
               <button>
                 <a
-                  href={`${process.env.NEXT_PUBLIC_SERVER_URL}/download_xes/${contracts.map(
-                    (contract) => `${contract.name}_`
-                  )}${startBlock}_${endBlock}`}
+                  href={`${process.env.NEXT_PUBLIC_SERVER_URL}/download_xes/${contracts
+                    .map((contract) => `${contract.name}`)
+                    .join("_")}_${startBlock}_${endBlock}`}
                   download
                   className="block bg-gray-500 hover:bg-gray-600 text-white p-2 rounded-md shadow-md mt-4"
                 >
