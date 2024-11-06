@@ -15,6 +15,10 @@ To start the server in development run:
 ```bash
 flask run
 
+or
+
+py -m flask run
+
 # restart on save
 flask --debug run
 ```
